@@ -1,0 +1,57 @@
+=== 1. HEADLINE COUNTS vs README claims ===
+finest_2016: 125,828 rows, 32 countries, 258 election events, 254 country-years, years 1983-2025
+national_all rows: 506,163 (README claims 506,163)
+national_all election events: 258
+nuts3_2016: 26 countries, 208 elections (README claims 26 / 208)
+
+=== 2. CSV/PARQUET AGREEMENT (spot: finest_2016, nuts3_2024) ===
+finest_2016: shape match=True, partyvote total match=True
+nuts3_2024: shape match=True, partyvote total match=True
+
+=== 3. CONSOLIDATED FILE vs SLICE FILES ===
+consolidated == slices: PASS
+
+=== 4. NATIONAL TOTAL INVARIANCE across all 12 tables ===
+worst national-total deviation across tables: 0.00 votes PASS
+
+=== 5. KEYS, NUTS VALIDITY, PARTITION INTEGRITY ===
+key/code/level checks: PASS
+
+=== 6. nuts3 TABLE == finest RESTRICTED (2016) ===
+eligible all-NUTS3 elections in finest: 208; in nuts3 table: 208
+eligible-but-missing: []
+in-table-but-not-eligible: []
+vote-total match finest-restricted vs nuts3: max dev 0.00
+
+=== 7. PARTY CLASSIFICATION COVERAGE ===
+vote-weighted family coverage: 96.67% (README claims 96.7%)
+countries below 92% coverage: none
+
+=== 8. FRESH EXTERNAL SPOT CHECKS (parties NOT in 30_validate.py) ===
+  OK  DE 2025: 22.55% vs 22.6% (tol 0.5) [^CDU$|Christlich Demokratische Unio]
+  OK  DE 2021: 18.90% vs 18.9% (tol 0.5) [^CDU$|Christlich Demokratische Unio]
+  OK  AT 2024: 21.14% vs 21.1% (tol 0.5) [^SPÖ$|Sozialdemokratische Partei Ös]
+  OK  ES 2023: 31.71% vs 31.7% (tol 0.9) [SOCIALIST]
+  OK  IT 2022: 19.26% vs 19.1% (tol 0.7) [PARTITO DEMOCRATICO]
+  OK  NL 2023: 15.24% vs 15.2% (tol 0.5) [^VVD$]
+  OK  PL 2023: 30.70% vs 30.7% (tol 0.7) [Koalicja Obywatelska|KOALICYJNY.*OB]
+  OK  SE 2022: 30.05% vs 30.3% (tol 0.7) [Arbetarepartiet-Socialdemokraterna|]
+  OK  DK 2022: 13.32% vs 13.3% (tol 0.5) [V\. Venstre]
+  OK  FI 2023: 20.82% vs 20.8% (tol 0.5) [Kansallinen Kokoomus|^KOK]
+  OK  PT 2024-3: 29.41% vs 29.4% (tol 1.0) [^PS$|Partido Socialista]
+  OK  FR 2024-6: 19.57% vs 20.0% (tol 1.5) [^Ensemble]
+  OK  GB 2024-7: 23.70% vs 23.7% (tol 0.5) [Conservative]
+  OK  HU 2022: 34.59% vs 34.5% (tol 1.5) [Egységben Magyarországért|United fo]
+  OK  BE 2024: 16.71% vs 16.7% (tol 0.7) [^N-VA$]
+  OK  CH 2023: 20.07% vs 20.1% (tol 1.0) [Sozialdemokratische Partei]
+  OK  GR 2023-6: 17.74% vs 17.8% (tol 1.0) [SYNASPISMOS RIZOSPASTIKIS]
+  OK  CZ 2021: 27.88% vs 27.8% (tol 1.0) [SPOLU|Občanská demokratická]
+  OK  RO 2020: 28.90% vs 28.9% (tol 1.0) [^PARTIDUL SOCIAL DEMOCRAT$|^PSD$]
+  OK  IS 2021: 24.39% vs 24.4% (tol 0.7) [Sjálfstæðisflokkur]
+fresh spot checks: 20/20 pass
+
+=== 9. VINTAGE CONVERSION SANITY ===
+finest_2021 conversion mix: {'exact': 0.96, 'weighted': 0.04}
+finest_2024 conversion mix: {'exact': 0.951, 'weighted': 0.049}
+GB in 2024 vintage (should be absent): 0 rows
+GB in 2016 vintage: 1751 rows

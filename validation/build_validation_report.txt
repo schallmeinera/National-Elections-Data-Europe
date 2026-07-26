@@ -1,0 +1,68 @@
+======================================================================
+A. STRUCTURAL
+structural checks done
+======================================================================
+B. VOTE LOGIC
+ISSUE: party sums exceed validvote in 7 regions ({'FR': 4, 'GR': 1, 'IT': 1, 'SE': 1})
+      country_code  year  month nuts_code      psum     valid
+6882            FR  2024      6     FRZZZ  818501.0  812856.0
+6851            FR  2024      6     FRJ23  687129.0  686238.0
+10673           SE  2022     12     SE332  163361.0  163093.0
+6742            FR  2022      6     FRJ11  144668.0  143668.0
+6820            FR  2024      6     FRF32  106007.0   88558.0
+regions where party sum < 85% of validvote: 1 ({'BG': 1})
+ISSUE: validvote > totalvote
+      country_code  year  month nuts_code      valid      total
+8962            IT  2022      9     ITC33   381796.0   218848.0
+9008            IT  2022      9     ITG19   148911.0   112094.0
+10262           RO  2004      0     RO321  1048747.0  1029741.0
+10972           TR  2015      0     TR100  9237196.0  9093756.0
+10973           TR  2015      0     TR211   601641.0   592644.0
+turnout < 25% (non-extra-regio): 8 -> [['CH' 1991 0 'CH065']
+ ['CH' 1995 0 'CH051']
+ ['CH' 1995 0 'CH054']
+ ['CH' 2007 0 'CH054']
+ ['CH' 2007 0 'CH062']]
+======================================================================
+C. PARTITION STABILITY (regions per election vs country mode, finest 2016)
+  GB: mode 41 regions; deviating elections: [{'year': 2024, 'month': 7, 'n': 12}]
+======================================================================
+D. CROSS-TABLE AGREEMENT (finest->NUTS1 vs nuts1 table, 2016 vintage)
+regional cross-check done — exact agreement
+======================================================================
+E. EXTERNAL SPOT CHECKS (national shares vs official reference)
+  OK  DE 2021: 25.75% vs official 25.7% (tol 0.5)  [^SPD|Sozialdemokratische Parte]
+  OK  DE 2025: 20.80% vs official 20.8% (tol 0.3)  [^AfD|Alternative für Deutschla]
+  OK  ES 2023: 33.06% vs official 33.1% (tol 0.7)  [PARTIDO POPULAR|^PP$]
+  OK  FR 2022-6: 18.39% vs official 18.7% (tol 0.7)  [Rassemblement National]
+  OK  IT 2022: 26.22% vs official 26.0% (tol 0.5)  [FRATELLI D'ITALIA]
+  OK  NL 2023: 23.50% vs official 23.5% (tol 0.5)  [PVV]
+  OK  NL 2025: 16.94% vs official 16.9% (tol 0.5)  [Democraten 66|D66]
+  OK  SE 2022: 20.50% vs official 20.5% (tol 0.5)  [Sverigedemokraterna]
+  OK  PL 2023: 35.38% vs official 35.4% (tol 0.7)  [Prawo i Sprawiedliwo]
+  OK  AT 2024: 29.04% vs official 28.8% (tol 0.5)  [^FPÖ$]
+  OK  PT 2024-3: 18.53% vs official 18.1% (tol 1.0)  [^CH$|^CHEGA$]
+  OK  FI 2023: 20.06% vs official 20.1% (tol 0.5)  [^PS$|Perussuomalaiset]
+  OK  DK 2022: 27.50% vs official 27.5% (tol 0.5)  [A\. Socialdemokratiet]
+  OK  BG 2024-10: 26.39% vs official 26.4% (tol 1.0)  [ГЕРБ]
+  OK  RO 2024-12: 18.02% vs official 18.0% (tol 1.5)  [UNIREA ROM]
+  OK  RO 2020-12:  9.08% vs official 9.08% (tol 0.5)  [UNIREA ROM]
+  OK  RO 2020-12: 28.90% vs official 28.9% (tol 0.5)  [^PARTIDUL SOCIAL DEMOCRAT$]
+  OK  CZ 2025-10: 34.52% vs official 34.5% (tol 0.7)  [ANO]
+  OK  NO 2025-9: 28.02% vs official 28.2% (tol 0.5)  [Arbeiderpartiet]
+  OK  GB 2024-7: 33.70% vs official 33.7% (tol 0.5)  [^Labour$]
+  OK  HU 2022: 53.36% vs official 54.1% (tol 1.0)  [FIDESZ]
+  OK  GR 2023-6: 40.36% vs official 40.6% (tol 1.0)  [ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ|NEA DIMOKRATIA|]
+  OK  CH 2023: 27.48% vs official 27.9% (tol 1.0)  [Schweizerische Volkspartei|Uni]
+  OK  EE 2023: 31.24% vs official 31.2% (tol 0.7)  [Eesti Reformierakond]
+  OK  LV 2022: 19.19% vs official 18.97% (tol 0.5)  [Jaunā VIENOTĪBA]
+  OK  LT 2024: 19.70% vs official 19.4% (tol 1.5)  [socialdemokratų]
+  OK  SK 2023: 22.95% vs official 22.9% (tol 0.7)  [SMER]
+  OK  SI 2022: 34.45% vs official 34.5% (tol 0.7)  [GIBANJE SVOBODA]
+  OK  BE 2024: 13.77% vs official 13.8% (tol 0.7)  [VLAAMS BELANG]
+  OK  IS 2024: 20.75% vs official 20.8% (tol 0.7)  [Samfylkingin]
+  OK  CY 2021: 27.77% vs official 27.8% (tol 0.5)  [ΔΗΜΟΚΡΑΤΙΚΟΣ ΣΥΝΑΓΕΡΜΟΣ]
+  OK  LU 2023: 29.21% vs official 29.2% (tol 0.7)  [^CSV]
+  OK  RO 2024-12: 21.97% vs official 21.9% (tol 1.0)  [^PARTIDUL SOCIAL DEMOCRAT$]
+======================================================================
+TOTAL ISSUES FLAGGED: 2

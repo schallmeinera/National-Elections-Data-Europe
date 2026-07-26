@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: >-
+  If you use this database, please cite it together with its upstream
+  sources (EU-NED, CLEA, and — if you use the flags — PopuList).
+title: "European National Elections at NUTS Level, 1983-2025"
+type: dataset
+version: "1.0"
+date-released: "2026-07-26"
+abstract: >-
+  Party-level results of national parliamentary (lower-chamber) elections
+  for 32 European countries, 254 elections, 1983-2025, harmonised to NUTS
+  territorial units in three NUTS vintages (2016, 2021, 2024) with
+  party-family classification and time-aware PopuList flags.
+references:
+  - type: article
+    authors:
+      - family-names: Schraff
+        given-names: Dominik
+      - family-names: Vergioglou
+        given-names: Ioannis
+      - family-names: Demirci
+        given-names: Buket Buse
+    title: "The European NUTS-level election dataset: A tool to map European electoral geography"
+    journal: "Party Politics"
+    year: 2022
+    doi: "10.7910/DVN/IQRYP5"
+  - type: data
+    authors:
+      - family-names: Kollman
+        given-names: Ken
+      - family-names: Hicken
+        given-names: Allen
+      - family-names: Caramani
+        given-names: Daniele
+      - family-names: Backer
+        given-names: David
+      - family-names: Lublin
+        given-names: David
+    title: "Constituency-Level Elections Archive (CLEA), release 2025-10-15"
+    year: 2025
+  - type: data
+    authors:
+      - family-names: Rooduijn
+        given-names: Matthijs
+    title: "The PopuList 3.0"
+    year: 2023
+    url: "https://popu-list.org"

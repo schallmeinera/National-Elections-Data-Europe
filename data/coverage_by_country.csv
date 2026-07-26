@@ -1,0 +1,33 @@
+country_code,country,first_year,last_year,n_elections,base_levels,sources
+AT,Austria,1990,2024,10,3,AT Gemeinde dataset (eu-municipal-elections) via LAU2024 + EU-NED v1.1
+BE,Belgium,1991,2024,9,2,EU-NED v1.1 + IBZ api.electionresults.belgium.be (Chamber)
+BG,Bulgaria,2005,2024,12,3,CIK results.cik.bg open data (section votes) + CLEA 2025-10 + EU-NED v1.1
+CH,Switzerland,1991,2023,9,3,CLEA 2025-10 + EU-NED v1.1
+CY,Cyprus,1991,2021,7,3,EU-NED v1.1 + results.elections.moi.gov.cy
+CZ,Czech Republic,2002,2025,7,3,CLEA 2025-10 + EU-NED v1.1 + volby.cz PS2025 open data
+DE,Germany,1990,2025,10,3,"EU-NED v1.1 + federal_cty_harm (Kreis-harmonized, Mating Markets package)"
+DK,Denmark,1990,2022,10,3,DST valg XML (Valg1968094) + EU-NED v1.1
+EE,Estonia,2003,2023,6,3,EU-NED v1.1 + opendata.valimised.ee RK_2023
+ES,Spain,1993,2023,10,3,CLEA 2025-10 + EU-NED v1.1
+FI,Finland,1983,2023,11,3,EU-NED v1.1 + Statistics Finland PxWeb 13sw
+FR,France,1993,2024,8,3,CLEA 2025-10 + EU-NED v1.1
+GB,United Kingdom,1992,2024,9,"1,2",EU-NED v1.1 + House of Commons Library CBP-10009
+GR,Greece,1990,2023,12,"2,3",CLEA 2025-10 + EU-NED v1.1
+HR,Croatia,2011,2020,4,3,EU-NED v1.1
+HU,Hungary,1990,2022,9,3,CLEA 2025-10 + EU-NED v1.1
+IE,Ireland,1992,2020,7,2,EU-NED v1.1
+IS,Iceland,2021,2024,2,3,Statistics Iceland PxWeb
+IT,Italy,1992,2022,9,3,"EU-NED v1.1 + Eligendo via onData (Camera, proportional list votes)"
+LT,Lithuania,2000,2024,7,3,"EU-NED v1.1 + VRK open data (proportional vote, polling districts -> NUTS3)"
+LU,Luxembourg,1994,2023,7,3,EU-NED v1.1 + data.public.lu élections législatives 2023
+LV,Latvia,2002,2022,7,3,CVK via data.gov.lv (municipality results) + EU-NED v1.1
+MT,Malta,2003,2022,5,3,CLEA 2025-10 + EU-NED v1.1
+NL,Netherlands,1994,2025,11,3,Kiesraad open data (data.overheid.nl) + Kiesraad verkiezingsuitslagen.nl (gemeente CSV)
+NO,Norway,1993,2025,9,3,CLEA 2025-10 + EU-NED v1.1 + valgresultat.no API
+PL,Poland,2001,2023,7,2,CLEA 2025-10 + EU-NED v1.1
+PT,Portugal,1991,2025,12,3,EU-NED v1.1 + MAI legislativas (RuiNelson/EleicoesPortuguesas mirror)
+RO,Romania,2004,2024,6,3,AEP prezenta.roaep.ro (Chamber of Deputies) + EU-NED v1.1
+SE,Sweden,1991,2022,9,3,CLEA 2025-10 + EU-NED v1.1
+SI,Slovenia,2004,2022,6,1,DVK dz2022 archive + EU-NED v1.1
+SK,Slovakia,2006,2023,6,3,EU-NED v1.1 + SUSR volby.statistics.sk open data
+TR,Turkey,2002,2018,5,3,EU-NED v1.1
