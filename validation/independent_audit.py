@@ -1,9 +1,18 @@
-# Independent audit of the national elections NUTS panel (run 2026-07-26).
+# Independent audit of the national elections NUTS panel.
+# Sections 10-11 cover party-label integrity and the strict PopuList flags.
 # Written from scratch against the released files; shares no code with the
 # build-time validator (code/30_validate.py). Run from anywhere:
 #   python validation/independent_audit.py
 import os
+import sys
 import pandas as pd
+
+# Party names carry Czech/Icelandic/Greek characters; a legacy console codepage
+# would otherwise abort the run part-way through section 8.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "data")
@@ -93,13 +102,14 @@ log(f"vote-total match finest-restricted vs nuts3: max dev {d:.2f}")
 log("\n=== 7. PARTY CLASSIFICATION COVERAGE ===")
 cl = f16[f16.party_family.notna() & (f16.party_family != "")]
 log(f"vote-weighted family coverage: {cl.partyvote.sum() / f16.partyvote.sum() * 100:.2f}% "
-    f"(README claims 96.7%)")
+    f"(README claims 99.1%)")
 bycc = (f16.assign(c=f16.party_family.notna() & (f16.party_family != ""))
         .groupby("country_code")
         .apply(lambda g: g.loc[g.c, "partyvote"].sum() / g.partyvote.sum() * 100,
                include_groups=False))
-low = bycc[bycc < 92]
-log(f"countries below 92% coverage: {dict(low.round(1)) if len(low) else 'none'}")
+low = bycc[bycc < 97.8]
+log(f"countries below 97.8% coverage: {dict(low.round(1)) if len(low) else 'none'}")
+log(f"weakest country: {bycc.idxmin()} at {bycc.min():.2f}%")
 
 log("\n=== 8. FRESH EXTERNAL SPOT CHECKS (parties NOT in 30_validate.py) ===")
 # (cc, year, month|None, regex over 3 name cols, official %, tol pp)
@@ -153,6 +163,84 @@ for v in (2021, 2024):
 g24 = tables[("finest", 2024)]
 log(f"GB in 2024 vintage (should be absent): {(g24.country_code == 'GB').sum()} rows")
 log(f"GB in 2016 vintage: {(f16.country_code == 'GB').sum()} rows")
+
+log("\n=== 10. PARTY LABEL INTEGRITY ===")
+lab_ok = True
+for (t, v), df in tables.items():
+    if "party_abbreviation" not in df or df.party_abbreviation.isna().any():
+        lab_ok = False
+        log(f"{t}_{v}: {df.party_abbreviation.isna().sum()} null party_abbreviation")
+    if "party_label_source" not in df:
+        lab_ok = False; log(f"{t}_{v}: party_label_source column missing")
+log("party_abbreviation never null in any table: " + ("PASS" if lab_ok else "FAIL"))
+log(f"label provenance (finest_2016): "
+    f"{f16.party_label_source.value_counts(dropna=False).to_dict()}")
+# the fill must be additive: rows labelled 'source' must equal party_native only
+# by coincidence, rows labelled 'native' must equal it exactly
+nat = f16[f16.party_label_source == "native"]
+log(f"'native'-sourced labels identical to party_native: "
+    f"{(nat.party_abbreviation == nat.party_native).all()}")
+log(f"pf_name_short populated on {f16.pf_name_short.notna().mean() * 100:.0f}% of rows "
+    f"(exposed separately, never merged into party_abbreviation)")
+
+log("\n=== 11. STRICT vs INCLUSIVE POPULIST FLAGS + PARTY-IDENTITY CHECKS ===")
+strict_ok = True
+# One upstream inconsistency is known and documented (CODEBOOK § Caveats):
+# PopuList gives LT Tvarka ir teisingumas an empty inclusive eurosceptic window
+# (2100-2100 = never) but an open strict one (1900-2100 = always). Left as
+# delivered; the audit asserts it is the ONLY such case.
+KNOWN = {("LT", "eurosceptic")}
+for c in ("populist", "farright", "farleft", "eurosceptic"):
+    s = c + "_strict"
+    if s not in allf.columns:
+        strict_ok = False; log(f"{s} missing"); continue
+    # strict must be a subset of inclusive: no row strict=1 where inclusive=0,
+    # and the two must share their NaN pattern (same set of identified parties)
+    v = allf[(allf[s] == 1) & (allf[c] == 0)]
+    unexpected = {cc for cc in v.country_code.unique() if (cc, c) not in KNOWN}
+    nan_mismatch = (allf[c].isna() != allf[s].isna()).sum()
+    n_ident = allf.loc[allf[c].fillna(-1) != allf[s].fillna(-1)].drop_duplicates(
+        subset=["country_code", "party_native", "party_abbreviation"]).shape[0]
+    if unexpected or nan_mismatch:
+        strict_ok = False
+    log(f"  {c}: strict-not-subset rows={len(v)} "
+        f"(undocumented countries: {sorted(unexpected) if unexpected else 'none'}), "
+        f"NaN-pattern mismatches={nan_mismatch}, "
+        f"borderline party identities={n_ident}")
+log("strict flags well-formed (known upstream case excepted): "
+    + ("PASS" if strict_ok else "FAIL"))
+
+# party-identity checks on labels that are ambiguous or collision-prone
+def share(cc, yr, flag="farright", mo=None):
+    s = f16[(f16.country_code == cc) & (f16.year == yr)]
+    if mo is not None:
+        s = s[s.month == mo]
+    return s.loc[s[flag] == 1, "partyvote"].sum() / s.partyvote.sum() * 100
+
+def flagof(cc, yr, pat, col="farright"):
+    s = f16[(f16.country_code == cc) & (f16.year == yr)]
+    m = (s[["party_native", "party_english", "party_abbreviation"]].astype(str)
+         .apply(lambda r: r.str.contains(pat, case=False, regex=True)).any(axis=1))
+    return sorted(set(s.loc[m, col].dropna())), sorted(set(s.loc[m, "party_family"].dropna()))
+
+reg = []
+reg.append(("BE 2024 N-VA flagged far right", flagof("BE", 2024, r"^N-VA$")[0] == [1.0]))
+reg.append(("BE 2019 CD&V not far right, Christian democratic",
+            flagof("BE", 2019, r"^CD&V")[0] == [0.0]
+            and "Christian democratic" in flagof("BE", 2019, r"^CD&V")[1]))
+reg.append(("BE 2024 far-right share ~30.5%", abs(share("BE", 2024) - 30.48) < 0.3))
+reg.append(("DK 2022 letter A = Socialdemokratiet, Social democratic",
+            "Social democratic" in flagof("DK", 2022, r"^A$")[1]))
+reg.append(("SI 2014 Zdruzena levica not far right",
+            flagof("SI", 2014, r"levica")[0] in ([0.0], [])))
+reg.append(("IT 2022 Lega classified Radical right",
+            "Radical right" in flagof("IT", 2022, r"^LEGA")[1]))
+reg.append(("NL 2021 SP classified Radical left",
+            flagof("NL", 2021, r"^SP \(Socialistische")[1] == ["Radical left"]))
+reg.append(("DE 2025 BSW classified", len(flagof("DE", 2025, r"^BSW")[1]) > 0))
+for name, ok in reg:
+    log(f"  {'OK ' if ok else '***'} {name}")
+log(f"party-identity checks: {sum(o for _, o in reg)}/{len(reg)} pass")
 
 with open(os.path.join(HERE, "independent_audit_report.txt"), "w", encoding="utf8") as fh:
     fh.write("\n".join(report))

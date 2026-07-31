@@ -24,8 +24,9 @@ in-table-but-not-eligible: []
 vote-total match finest-restricted vs nuts3: max dev 0.00
 
 === 7. PARTY CLASSIFICATION COVERAGE ===
-vote-weighted family coverage: 96.67% (README claims 96.7%)
-countries below 92% coverage: none
+vote-weighted family coverage: 99.13% (README claims 99.1%)
+countries below 97.8% coverage: none
+weakest country: GB at 97.87%
 
 === 8. FRESH EXTERNAL SPOT CHECKS (parties NOT in 30_validate.py) ===
   OK  DE 2025: 22.55% vs 22.6% (tol 0.5) [^CDU$|Christlich Demokratische Unio]
@@ -55,3 +56,25 @@ finest_2021 conversion mix: {'exact': 0.96, 'weighted': 0.04}
 finest_2024 conversion mix: {'exact': 0.951, 'weighted': 0.049}
 GB in 2024 vintage (should be absent): 0 rows
 GB in 2016 vintage: 1751 rows
+
+=== 10. PARTY LABEL INTEGRITY ===
+party_abbreviation never null in any table: PASS
+label provenance (finest_2016): {'source': 80003, 'native': 45825}
+'native'-sourced labels identical to party_native: True
+pf_name_short populated on 81% of rows (exposed separately, never merged into party_abbreviation)
+
+=== 11. STRICT vs INCLUSIVE POPULIST FLAGS + PARTY-IDENTITY CHECKS ===
+  populist: strict-not-subset rows=0 (undocumented countries: none), NaN-pattern mismatches=0, borderline party identities=37
+  farright: strict-not-subset rows=0 (undocumented countries: none), NaN-pattern mismatches=0, borderline party identities=22
+  farleft: strict-not-subset rows=0 (undocumented countries: none), NaN-pattern mismatches=0, borderline party identities=16
+  eurosceptic: strict-not-subset rows=48 (undocumented countries: none), NaN-pattern mismatches=0, borderline party identities=9
+strict flags well-formed (known upstream case excepted): PASS
+  OK  BE 2024 N-VA flagged far right
+  OK  BE 2019 CD&V not far right, Christian democratic
+  OK  BE 2024 far-right share ~30.5%
+  OK  DK 2022 letter A = Socialdemokratiet, Social democratic
+  OK  SI 2014 Zdruzena levica not far right
+  OK  IT 2022 Lega classified Radical right
+  OK  NL 2021 SP classified Radical left
+  OK  DE 2025 BSW classified
+party-identity checks: 8/8 pass

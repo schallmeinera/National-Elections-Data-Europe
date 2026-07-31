@@ -71,8 +71,14 @@ parties = (f.groupby(PIDC, dropna=False)
                 last_year=("year", "max"),
                 share=("partyvote", lambda s: np.nan))
            .reset_index())
-sh = (f.assign(sh=f.partyvote / f.nat_total)
-      .groupby(PIDC, dropna=False).sh.max().reset_index(name="max_nat_share"))
+# national share per election, then the party's best election. (Until
+# A per-region denominator would understate the share here, so
+# it reported region shares and the "unclassified above 1%" check below
+# almost never fired.)
+sh = (f.groupby(PIDC + ["year", "month"], dropna=False)
+      .agg(v=("partyvote", "sum"), nat=("nat_total", "first")).reset_index())
+sh["sh"] = sh.v / sh.nat
+sh = sh.groupby(PIDC, dropna=False).sh.max().reset_index(name="max_nat_share")
 parties = parties.drop(columns=["max_share", "share"]).merge(
     sh, on=PIDC, how="left")
 parties["pname"] = parties.party_native.where(
@@ -82,6 +88,22 @@ parties["pname"] = parties.party_native.where(
 parties["nname"] = parties.pname.map(norm)
 parties["nabbr"] = parties.party_abbreviation.map(norm)
 parties["neng"] = parties.party_english.map(norm)
+
+
+def name_match(cc, pat):
+    """Rows of `parties` in country `cc` whose name matches `pat`.
+
+    Tests all three label columns, not just `pname`. Many sources supply the
+    party only as an abbreviation while `pname` prefers the native name, so a
+    pattern written against one column would silently miss the other.
+    """
+    m = parties.country_code == cc
+    hit = False
+    for col in ("pname", "party_abbreviation", "party_english",
+                "party_native"):
+        hit = hit | parties[col].astype(str).str.contains(
+            pat, case=False, regex=True, na=False)
+    return m & hit
 print("distinct parties:", len(parties),
       "| with partyfacts_id:", parties.partyfacts_id.notna().sum())
 
@@ -128,9 +150,26 @@ pop.columns = [c.replace("﻿", "") for c in pop.columns]
 pop["nn"] = pop.party_name.map(norm)
 pop["nne"] = pop.party_name_english.map(norm)
 pop["nns"] = pop.party_name_short.map(norm)
+
+# PopuList's own partyfacts links contain errors; override the known ones
+# before anything joins on them (see POPULIST_PFID_FIX for the reasoning).
+from party_manual import POPULIST_PFID_FIX  # noqa: E402
+for short, cname, wrong, right in POPULIST_PFID_FIX:
+    m = ((pop.party_name_short == short) & (pop.country_name == cname)
+         & (pop.partyfacts_id == wrong))
+    if not m.any():
+        print("POPULIST_PFID_FIX no match:", short, cname, wrong)
+        continue
+    pop.loc[m, "partyfacts_id"] = right if right is not None else np.nan
+    print(f"PopuList link overridden: {cname} {short} {wrong} -> {right}")
+
 FLAG_COLS = []
 for fl in ["populist", "farright", "farleft", "eurosceptic"]:
-    FLAG_COLS += [fl, fl + "_start", fl + "_end"]
+    # *_start/_end are the borderline-INCLUSIVE windows; *_startnobl/_endnobl
+    # are PopuList's strict windows, which exclude borderline cases. Both are
+    # carried so the output can expose the two definitions separately.
+    FLAG_COLS += [fl, fl + "_start", fl + "_end",
+                  fl + "_startnobl", fl + "_endnobl"]
 pop_pf = (pop.dropna(subset=["partyfacts_id"])
           .drop_duplicates("partyfacts_id").set_index("partyfacts_id")
           [FLAG_COLS])
@@ -138,6 +177,20 @@ pop_pf = (pop.dropna(subset=["partyfacts_id"])
 # Partyfacts core for name matching
 core = pd.read_csv(rf"{BASE}\raw\partyfacts_core.csv", low_memory=False)
 core = core[core.country.isin(set(ISO3.values()))]
+
+# Guard: drop PopuList rows whose partyfacts_id resolves to a party in a
+# different country. Such a link silently transplants one country's flags
+# onto another's party.
+_cty = core.drop_duplicates("partyfacts_id").set_index("partyfacts_id").country
+_exp = pop.dropna(subset=["partyfacts_id"]).drop_duplicates("partyfacts_id")
+_exp = _exp.set_index("partyfacts_id").country_name.map(
+    {v: k for k, v in CNAME.items()}).map(ISO3)
+_got = pd.Series(pop_pf.index, index=pop_pf.index).map(_cty)
+_bad = _got.notna() & _exp.reindex(pop_pf.index).notna() & (
+    _got != _exp.reindex(pop_pf.index))
+if _bad.any():
+    print("PopuList cross-country links dropped:", list(pop_pf.index[_bad]))
+    pop_pf = pop_pf[~_bad]
 core["nn"] = core.name.map(norm)
 core["nne"] = core.name_english.map(norm)
 core["nns"] = core.name_short.map(norm)
@@ -174,6 +227,20 @@ def build_pool(cc):
     pool = (pool.sort_values("sh").drop_duplicates("key", keep="last"))
     return pool.set_index("key").partyfacts_id
 
+
+# Pin identities the automatic matcher gets wrong (ballot-letter collisions,
+# EU-NED cartel labels). Applied first and unconditionally, so neither the
+# name matcher nor the containment fallback can move them.
+from party_manual import PFID_FIX  # noqa: E402
+
+for cc, pat, pfid in PFID_FIX:
+    m = name_match(cc, pat)
+    if not m.any():
+        print("PFID_FIX no match:", cc, pat)
+        continue
+    parties.loc[m, "partyfacts_id"] = float(pfid)
+print("partyfacts ids pinned by PFID_FIX:",
+      int(sum(name_match(cc, p) for cc, p, _ in PFID_FIX).astype(bool).sum()))
 
 matched = 0
 for cc in parties.country_code.unique():
@@ -223,6 +290,8 @@ for flag in ["populist", "farright", "farleft", "eurosceptic"]:
         {True: 1, False: 0, "TRUE": 1, "FALSE": 0, 1: 1, 0: 0})
     parties[flag + "_start"] = pf.map(pop_pf[flag + "_start"])
     parties[flag + "_end"] = pf.map(pop_pf[flag + "_end"])
+    parties[flag + "_startnobl"] = pf.map(pop_pf[flag + "_startnobl"])
+    parties[flag + "_endnobl"] = pf.map(pop_pf[flag + "_endnobl"])
 
 # PopuList-implied family where none yet
 need = parties.party_family.isna() & (parties.farright == 1)
@@ -246,8 +315,7 @@ from party_manual import MANUAL  # (cc, regex, family, populist_key)
 FLAGS = ["populist", "farright", "farleft", "eurosceptic"]
 pop["nshort"] = pop.party_name_short.astype(str)
 for cc, pat, fam, popkey in MANUAL:
-    m = (parties.country_code == cc) & parties.pname.astype(str).str.contains(
-        pat, case=False, regex=True)
+    m = name_match(cc, pat)
     if not m.any():
         print("MANUAL no match:", cc, pat)
         continue
@@ -262,8 +330,8 @@ for cc, pat, fam, popkey in MANUAL:
             fill = m & parties[FLAGS[0]].isna()
             for fl in FLAGS:
                 parties.loc[fill, fl] = int(pr.iloc[0][fl])
-                parties.loc[fill, fl + "_start"] = pr.iloc[0][fl + "_start"]
-                parties.loc[fill, fl + "_end"] = pr.iloc[0][fl + "_end"]
+                for sfx in ("_start", "_end", "_startnobl", "_endnobl"):
+                    parties.loc[fill, fl + sfx] = pr.iloc[0][fl + sfx]
             pfid = pr.iloc[0]["partyfacts_id"]
             if pd.notna(pfid):
                 parties.loc[m & parties.partyfacts_id.isna(),
@@ -271,11 +339,15 @@ for cc, pat, fam, popkey in MANUAL:
         else:
             print("MANUAL popkey ambiguous/missing:", cc, popkey, len(pr))
 
-# explicit overrides (applied unconditionally)
-OVERRIDE = [("GR", r"NIKI", "Radical right")]
-for cc, pat, fam in OVERRIDE:
-    m = (parties.country_code == cc) & parties.pname.astype(str).str.contains(
-        pat, case=False, regex=True)
+# explicit overrides (applied unconditionally, i.e. they can replace a family
+# an automatic source already assigned)
+from party_manual import FAMILY_FIX  # noqa: E402
+
+for cc, pat, fam in FAMILY_FIX:
+    m = name_match(cc, pat)
+    if not m.any():
+        print("FAMILY_FIX no match:", cc, pat)
+        continue
     parties.loc[m, ["party_family", "family_source"]] = [fam, "manual_override"]
 
 # harmonize across name variants of the same party within a country:
@@ -292,16 +364,23 @@ for fl in ["populist", "farright", "farleft", "eurosceptic"]:
     for c in [fl, fl + "_start", fl + "_end"]:
         src = grp[c].transform("max")
         parties.loc[take, c] = src[take]
+    # strict windows travel with the flag; min, because 2100 codes "never"
+    for c in [fl + "_startnobl", fl + "_endnobl"]:
+        src = grp[c].transform("min")
+        parties.loc[take, c] = src[take]
 
 # manual-source Radical right/left families without a PopuList row: imply the
-# corresponding flag for the party's full lifespan
+# corresponding flag for the party's full lifespan. A hand-coded family is an
+# unqualified assignment, so the strict window equals the inclusive one.
 man = parties.family_source.isin(["manual", "manual_override"])
 need = man & parties.farright.isna() & (parties.party_family == "Radical right")
-parties.loc[need, ["farright", "farright_start", "farright_end"]] = [1, 1900,
-                                                                     2100]
+parties.loc[need, ["farright", "farright_start", "farright_end",
+                   "farright_startnobl", "farright_endnobl"]] = [1, 1900, 2100,
+                                                                 1900, 2100]
 need = man & parties.farleft.isna() & (parties.party_family == "Radical left")
-parties.loc[need, ["farleft", "farleft_start", "farleft_end"]] = [1, 1900,
-                                                                  2100]
+parties.loc[need, ["farleft", "farleft_start", "farleft_end",
+                   "farleft_startnobl", "farleft_endnobl"]] = [1, 1900, 2100,
+                                                               1900, 2100]
 
 # PopuList is a positive list (populist/FR/FL/eurosceptic parties only), so
 # for identified parties in covered countries (EU + IS/NO/CH/GB, not TR)

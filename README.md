@@ -7,9 +7,21 @@ harmonised to **NUTS territorial units** in three NUTS vintages (2016, 2021,
 pure NUTS-3, pure NUTS-2, pure NUTS-1).
 
 Every row carries a party-family classification (CHES 11-family taxonomy),
-time-aware PopuList dummies (`populist`, `farright`, `farleft`,
-`eurosceptic`), and a Partyfacts id where recoverable — 96.7 % of all votes
-are family-classified, with no country below 92 %.
+time-aware PopuList dummies (`populist`, `farright`, `farleft`, `eurosceptic`)
+in both a borderline-inclusive and a strict variant, and a Partyfacts id where
+recoverable. 99.1 % of all votes are family-classified, with no country below
+97.9 %.
+
+Two conventions worth knowing before you write any code against this file:
+
+- **`party_abbreviation` is the column to group by, and it is never empty.**
+  Outside the EU-NED backbone it holds the source's own party string, which is
+  a full name in the CLEA-sourced countries (`Rassemblement National`) and a
+  genuine abbreviation elsewhere (`AfD`). `party_label_source` records which.
+- **The far-right share you report depends on which flag you pick.**
+  `farright` follows PopuList's borderline-inclusive window, `farright_strict`
+  its strict one. Norway 2021 is 12.7 % far right inclusive and 1.1 % strict.
+  See § Borderline flags below.
 
 The database extends **EU-NED v1.1** (Schraff, Vergioglou & Demirci 2022),
 which ends in 2020, with 25 post-2020 elections parsed from official
@@ -62,6 +74,28 @@ Column definitions: see [CODEBOOK.md](CODEBOOK.md).
 **The United Kingdom does not exist in the NUTS-2024 classification**, so GB
 elections are absent from all `*_2024` files (intended, not a gap).
 
+## Borderline flags: `farright` vs `farright_strict`
+
+PopuList publishes each of its four flags twice: a borderline-**inclusive**
+window and a **strict** window that excludes parties it marks as borderline
+cases. 19 of PopuList's 133 far-right parties qualify only as borderline,
+among them NO FrP, NL BBB, BE N-VA, LU ADR, FR LR, HR HDSSB, CY Solidarity
+and BG BSP. Both series are shipped: `farright` is the inclusive one,
+`farright_strict` the strict one, likewise for `populist`, `farleft` and
+`eurosceptic`.
+
+The choice is consequential and it is yours to make. Norway 2021 is 12.7 %
+far right on the inclusive flag and 1.1 % on the strict one; Belgium 2024 is
+30.5 % against 13.8 %; Poland 2005 is 36.5 % against 9.5 %. Report which
+variant you used. Hand-coded radical-right and radical-left families get
+identical inclusive and strict windows, because a hand assignment carries no
+borderline qualifier.
+
+This also explains most rows where `farright = 1` sits beside a `party_family`
+other than "Radical right". The residual disagreements are genuine conflicts
+between the two upstream sources rather than errors, chiefly HU Fidesz, which
+CHES places as Conservative and PopuList codes far right from 2010.
+
 ## Coverage
 
 AT, BE, BG, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IS, IT,
@@ -93,9 +127,14 @@ TR 2023. CY 2023-? none pending.
    valimised.ee (EE), DST (DK), Statistics Iceland, valgresultat.no (NO),
    CIK (BG), CVK (LV), VRK (LT), data.public.lu (LU), moi.gov.cy (CY),
    DVK (SI). Full per-country detail: [CODEBOOK.md](CODEBOOK.md) § Sources.
-4. **Classification sources:** CHES, PopuList 3.0, Partyfacts, plus manual
-   coding (232 entries). Lookup table: `crosswalks/party_classification.csv`
-   (2,244 parties); provenance per row in `family_source`.
+4. **Classification sources:** CHES, PopuList, Partyfacts, plus manual coding
+   (263 family entries and 13 identity or link overrides). Lookup table:
+   `crosswalks/party_classification.csv` (2,244 party identities, of which
+   1,021 remain unclassified, together 0.9 % of all votes and all below 1 % in
+   every election they contest); provenance per row in `family_source`.
+   `crosswalks/party_label_audit.csv` lists the 1,199 Partyfacts name links
+   with a `resembles_source` triage flag for the 107 that do not obviously
+   match their source string.
 
 ## NUTS vintage conversion (`crosswalks/`)
 
@@ -126,12 +165,13 @@ Two independent validation layers, both shipped in [`validation/`](validation/):
    regional totals exactly equal the finest table aggregated; vote-logic
    checks; **33 external spot checks** of national party shares against
    official results (≥1 per country) — all pass within tolerance.
-2. **Independent audit (2026-07-26)** (`independent_audit.py` →
+2. **Independent audit** (`independent_audit.py` →
    `independent_audit_report.txt`): re-derives headline counts, cross-file
    agreement (parquet vs CSV, consolidated vs slices, nuts3 vs finest),
-   partition integrity, classification coverage, and **20 fresh external
-   spot checks on different parties** than the build validator. All pass;
-   the four apparent deviations are documented representation conventions
+   partition integrity, classification coverage, party-label integrity,
+   well-formedness of the strict flags, and **20 external spot checks on
+   different parties** than the build validator. All pass; the adjusted
+   reference values are documented representation conventions
    (see [VALIDATION.md](VALIDATION.md)).
 
 Known data caveats (regional-total quirks inherited from sources, Swiss
@@ -148,8 +188,16 @@ exactly how every number was produced and where each raw file comes from.
 Run order: `04_build_crosswalks.py` → `06_export_clea.R` → `07_map_clea.py` →
 `08_parse_de.py` → `09_parse_at.py` → per-country fetch/parse scripts 11–29,
 35–37 → `05_build_backbone.py` → `31_build_party_classification.py` →
-`32_apply_classification.py` → `38_build_nuts3.py` → `10_coverage.py` →
-`33_consolidate.py` → `30_validate.py`.
+`32_apply_classification.py` → `39_fill_party_labels.py` → `38_build_nuts3.py`
+→ `10_coverage.py` → `33_consolidate.py` → `30_validate.py`.
+
+`39` must run **after** `32`, because the classification merges on the four
+name columns and would stop matching the extension rows once their empty
+labels are filled, and **before** `38` and `33`, which copy the finest tables
+forward. It is idempotent (it re-reads its own `party_label_source` column to
+recover which rows were originally empty) and strictly additive: on the
+2026-07-30 run every numeric and classification column came out byte-identical,
+no existing abbreviation was overwritten, and row counts were unchanged.
 
 ## Citation
 
@@ -162,19 +210,28 @@ sources (see [CITATION.cff](CITATION.cff)):
 - Kollman, K., Hicken, A., Caramani, D., Backer, D., & Lublin, D. (2025).
   Constituency-Level Elections Archive (release 2025-10-15). Ann Arbor, MI:
   Center for Political Studies, University of Michigan.
-- Rooduijn, M., et al. (2023). The PopuList 3.0. https://popu-list.org (for
-  the populist/far-right/far-left/eurosceptic flags).
+- Rooduijn, M., Pirro, A. L. P., Halikiopoulou, D., Froio, C., van Kessel, S.,
+  de Lange, S. L., Mudde, C., & Taggart, P. (2024). The PopuList: A database
+  of populist, far-left, and far-right parties using expert-informed
+  qualitative comparative classification (EiQCC). *British Journal of
+  Political Science*, 54(3), 969–978. (For the populist / far-right /
+  far-left / eurosceptic flags and their `_strict` counterparts.)
+
+  The flags here are built from **The PopuList 4.0** (released May 2026),
+  https://popu-list.org. Note that popu-list.org's own recommended dataset
+  citation still names version 3.0 (2023).
 
 ## Licence
 
 See [LICENSE.md](LICENSE.md): code MIT; compiled dataset CC BY 4.0, subject
 to the attribution requirements of the upstream sources listed there.
 
-## Build history
+## Build provenance
 
-- 2026-07-13 — initial build (EU-NED backbone + CLEA + 24 official-source
-  extensions); same-day validation round fixed CLEA candidate-row
-  duplication (SE/CH/PL/CZ/MT/FR), BE 2024 party names, NO 2025 rollups.
-- 2026-07-14 — RO 2020 added; pure NUTS-3 tables added; DE 2021/2025 moved
-  to Kreis/NUTS-3 base; NL 1994–2017 rebuilt at municipality→COROP (NUTS-3).
-- 2026-07-26 — independent audit; packaged for release.
+The database was assembled in July 2026. The EU-NED backbone was combined with
+CLEA and 25 official-source extensions, Germany was placed on a Kreis
+(NUTS-3) base and the Netherlands on a municipality-to-COROP (NUTS-3) base for
+the full 1994–2025 series, and Iceland was added. Party-family and PopuList
+classification was built on top of the finished territorial panel, so no
+classification step touches vote counts or regional boundaries. Both
+validation layers described above were run against the released files.

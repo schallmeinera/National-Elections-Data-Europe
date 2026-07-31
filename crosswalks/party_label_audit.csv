@@ -1,0 +1,1200 @@
+country_code,party_abbreviation,party_native,partyfacts_id_matched,pf_name_short,pf_name,pf_name_english,votes,resembles_source
+GR,NEA DIMOKRATIA,NEA DIMOKRATIA,794.0,ND,Néa Đimokratía,New Democracy,4523072.0,False
+GB,RUK,Reform UK,7364.0,BP,Brexit Party,Brexit Party,4117610.0,False
+NO,H,Hoyre,503.0,H,Høyre,Conservative Party,3652199.0,False
+DK,K,Konservative Folkeparti,53.0,KrF/KD,Kristeligt Folkeparti / Kristendemokraterne,Christian People's Party / Christian Democrats,2865078.0,False
+IT,LEGA PER SALVINI PREMIER,LEGA PER SALVINI PREMIER,1221.0,LN,Lega Nord,North League,2392617.0,False
+PT,PPD/PSD.CDS-PP,PPD/PSD.CDS-PP,5939.0,PàF,Portugal à Frente,Portugal Ahead,2018539.0,False
+HU,"United for Hungary (Jobbik, MSZP, Dialogue, DK, LMP, Momentum)","United for Hungary (Jobbik, MSZP, Dialogue, DK, LMP, Momentum)",8249.0,MM,Momentum Mozgalom,Momentum Movement,1983708.0,False
+PT,PPD/PSD.CDS-PP,,5939.0,PàF,Portugal à Frente,Portugal Ahead,1981459.0,False
+SE,Arbetarepartiet-Socialdemokraterna,Arbetarepartiet-Socialdemokraterna,487.0,S,Socialdemokraterna / Sveriges socialdemokratiska arbetareparti,Social Democrats / Social Democratic Workers' Party of Sweden,1949997.0,False
+BG,ГЕРБ-СДС,ГЕРБ-СДС,760.0,GERB,Grazhdani za evropeysko razvitie na Balgariya,Citizens for European Development of Bulgaria,1173631.0,False
+ES,SUMAR,SUMAR,3203.0,PODEMOS,Podemos,We Can,1151113.0,False
+DK,A,A. Socialdemokratiet,379.0,SD,Socialdemokraterne,Social Democrats,971995.0,False
+NO,A,Arbeiderpartiet,448.0,DNA,Det norske Arbeiderparti,Norwegian Labour Party,902296.0,False
+NO,Arbeiderpartiet,Arbeiderpartiet,448.0,DNA,Det norske Arbeiderparti,Norwegian Labour Party,783394.0,False
+ES,PODEMOS-COMPROMIS-EUPV,,5623.0,CC,Coalició Compromís,Commitment Coalition,659771.0,False
+BG,ВЪЗРАЖДАНЕ,ВЪЗРАЖДАНЕ,5862.0,V,Vazrazhdane,Revival,621381.0,False
+PT,PCP-PEV,PCP-PEV,284.0,CDU,Coligação Democrática Unitária,Unitary Democratic Coalition,619913.0,False
+ES,ECP-GUANYEM EL CANVI,,3203.0,PODEMOS,Podemos,We Can,549173.0,False
+ES,SUMAR ANDALUCÍA,SUMAR ANDALUCÍA,3203.0,PODEMOS,Podemos,We Can,520826.0,False
+PT,L,L,3225.0,L,"Livre — Liberdade, Esquerda, Europa e Ecologia",Livre,519514.0,False
+BE,LES ENGAGÉS,LES ENGAGÉS,633.0,PSC — CDH,Parti Social Chrétien — Centre démocrate humaniste,Francophone Christian Social Party — Humanist Democratic Centre,472755.0,False
+ES,COMPROMÍS - SUMAR: SUMEM PER GUANYAR,COMPROMÍS - SUMAR: SUMEM PER GUANYAR,5623.0,CC,Coalició Compromís,Commitment Coalition,399405.0,False
+FR,REG,,2536.0,1-perc,1 percent,1 percent,396610.0,False
+ES,PARTIDO POPULAR / PARTIT POPULAR,PARTIDO POPULAR / PARTIT POPULAR,441.0,AP/PP,Alianza-Partido Popular / Partido Popular,People's Alliance-Party / People's Party,387285.0,False
+BE,open vld,open vld,49.0,PVV — OVLD,Partij voor Vrijheid en Vooruitgang — Open Vlaamse Liberalen en Democraten,Party of Liberty and Progress — Open Flemish Liberals and Democrats,380659.0,False
+IT,NUOVO PSI,,888.0,NPSI,Nuovo Partito Socialisti Italiani,New PSI,353066.0,False
+FR,Divers,Divers,1898.0,etc,other,other,337178.0,False
+FR,Régionalistes,Régionalistes,2536.0,1-perc,1 percent,1 percent,310727.0,False
+FR,REEP,,3156.0,MDC/PR,Mouvement des citoyens / Pôle républicain,Citizens' Movement / Republican Alliance,308664.0,False
+BG,ПП ИМА ТАКЪВ НАРОД,ПП ИМА ТАКЪВ НАРОД,8992.0,ITN,Ima takav narod,There Is Such a People,293167.0,False
+FR,Régionaliste,Régionaliste,2536.0,1-perc,1 percent,1 percent,291384.0,False
+IT,LEGA PER SALVINI PREMIER - FORZA ITALIA - FRATELLI D'ITALIA,LEGA PER SALVINI PREMIER - FORZA ITALIA - FRATELLI D'ITALIA,1221.0,LN,Lega Nord,North League,281949.0,False
+DK,A,Alternativet,379.0,SD,Socialdemokraterne,Social Democrats,273066.0,False
+BG,Demokratichna Balgariya,Demokratichna Balgariya,9083.0,DB,Demokratichna Bulgaria,Democratic Bulgaria,272391.0,False
+IT,SA 1/4DTIROLER VOLKSPARTEI,,1369.0,SVP,Südtiroler Volkspartei,South Tyrol Peoples Party,231825.0,False
+BG,PP HAS SUCH PEOPLE,PP HAS SUCH PEOPLE,8992.0,ITN,Ima takav narod,There Is Such a People,225189.0,False
+FI,VAS,VAS,1096.0,SKDL,Suomen Kansan Demokraattinen Liitto,Finnish People's Democratic League,218430.0,False
+IT,PPST,,1369.0,SVP,Südtiroler Volkspartei,South Tyrol Peoples Party,198433.0,False
+ES,PODEMOS-EU,,8271.0,AlV,A la valenciana,Valencian style,188231.0,False
+LT,RISING NATION PARTY,Tvarka ir teisingumas - Liberalu Demokratu Partija,347.0,TPP,Tautos prisikėlimo partija,National Resurrection Party,186629.0,False
+BG,БСП – ОБЕДИНЕНА ЛЕВИЦА,БСП – ОБЕДИНЕНА ЛЕВИЦА,757.0,BSP,Bălgarska Socialističeska Partija,Bulgarian Socialist Party,184403.0,False
+ES,MES COMPROMIS,,5623.0,CC,Coalició Compromís,Commitment Coalition,176287.0,False
+ES,SUMAR GALICIA,SUMAR GALICIA,3203.0,PODEMOS,Podemos,We Can,175813.0,False
+NO,RØDT,Rødt,44.0,RV,Rød Valgallianse,Red Electoral Alliance,171342.0,False
+BG,БСП за БЪЛГАРИЯ,БСП за БЪЛГАРИЯ,757.0,BSP,Bălgarska Socialističeska Partija,Bulgarian Socialist Party,151560.0,False
+NO,Rødt,Rødt,44.0,RV,Rød Valgallianse,Red Electoral Alliance,140931.0,False
+DK,B,B. Radikale Venstre,1507.0,RV,Det Radikale Venstre,Danish Social-Liberal Party / Radical Liberal Party,133931.0,False
+IT,DEM.CRIST.-NUOVO PSI,,888.0,NPSI,Nuovo Partito Socialisti Italiani,New PSI,119599.0,False
+FR,MPF,,364.0,MF,Mouvement pour la France,Movement for France,116779.0,False
+FI,SKS (2007),,2687.0,1-perc,1 percent,1 percent,112827.0,False
+ES,SUMAR CANARIAS,SUMAR CANARIAS,3203.0,PODEMOS,Podemos,We Can,107322.0,False
+EE,Eesti Konservatiivne Rahvaerakond,Eesti Konservatiivne Rahvaerakond,110.0,ERL,Eestimaa Rahvalliit,People's Union of Estonia,97966.0,False
+IT,DIE FREIHEITLICHEN,,2415.0,1-perc,1 percent,1 percent,93831.0,False
+IT,PROGETTO NORDEST,,2415.0,1-perc,1 percent,1 percent,92079.0,False
+AT,JETZT,,6137.0,PILZ,Liste Peter Pilz,Peter Pilz List,89169.0,False
+BE,PTB-PVDA,PTB-PVDA,1753.0,PVDA — PTB,Partij van de Arbeid van België — Parti du Travail de Belgique,Workers' Party of Belgium,86927.0,False
+IT,L.VALLE D'AOSTA,,6242.0,VdA,Vallée d’Aoste,Aosta Valley,85098.0,False
+ES,SUMAR MÉS,SUMAR MÉS,3203.0,PODEMOS,Podemos,We Can,83116.0,False
+ES,SUMAR ARAGÓN,SUMAR ARAGÓN,3203.0,PODEMOS,Podemos,We Can,82863.0,False
+ES,PARTIT POPULAR / PARTIDO POPULAR,PARTIT POPULAR / PARTIDO POPULAR,441.0,AP/PP,Alianza-Partido Popular / Partido Popular,People's Alliance-Party / People's Party,81832.0,False
+CY,ΑΚΕΛ (ΑΝΟΡΘΩΤΙΚΟ ΚΟΜΜΑ ΕΡΓΑΖΟΜΕΝΟΥ ΛΑΟΥ),ΑΚΕΛ (ΑΝΟΡΘΩΤΙΚΟ ΚΟΜΜΑ ΕΡΓΑΖΟΜΕΝΟΥ ΛΑΟΥ),1076.0,AKEL,Anorthotikó Kómma Ergazómenou Laoú,Progressive Party of Working People,79913.0,False
+FR,DIVED,,452.0,exd,extrême droite,other far-right,76342.0,False
+IT,PS D'AZ.,,877.0,PSA,Partito Sardo d'Azione,Sardinian Action Party,71403.0,False
+IT,UNION FUR SUD TIROL,,2415.0,1-perc,1 percent,1 percent,68338.0,False
+FR,REGIONALISTE,,2536.0,1-perc,1 percent,1 percent,65430.0,False
+DE,DSU,,1895.0,etc,other,other,63872.0,False
+IS,B,Framsóknarflokkur,224.0,B,Borgarahreyfingin,Citizens' Movement,51080.0,False
+EE,ISAMAA Erakond,ISAMAA Erakond,685.0,IRL,Erakond Isamaa ja Res Publica Liit,Union of Pro Patria and Res Publica,50118.0,False
+CH,Schweizer Demokraten (SD),Schweizer Demokraten (SD),1819.0,NA-SD,Nationale Aktion / Schweizer Demokraten,National Action / Swiss Democrats,45716.0,False
+FR,RPF,,364.0,MF,Mouvement pour la France,Movement for France,44338.0,False
+GR,DH.ANA,,648.0,DIANA,Dimokratiki Ananeosi,Democratic Renewal,44077.0,False
+FI,LIB (2007),,249.0,L,Liberaalinen kansanpuolue,Liberal People's Party,38020.0,False
+HR,RESTART-REFORMISTI,,4866.0,NS — R,Narodna stranka — Reformisti,People's Party — Reformists,34907.0,False
+CH,SOL.,,1646.0,RB,Republikanische Bewegung,Republican Movement,30940.0,False
+FI,REM (1999),,250.0,Rt,Remonttiryhmä,Reform Group,28549.0,False
+BG,VMRO - BULGARIAN NATIONAL MOVEMENT,VMRO - BULGARIAN NATIONAL MOVEMENT,2056.0,IMRO,VMRO — Bulgarsko Natsionalno Dvizhenie,IMRO — Bulgarian National Movement,27492.0,False
+CY,ΕΘΝΙΚΟ ΛΑΪΚΟ ΜΕΤΩΠΟ (Ε.ΛΑ.Μ.),ΕΘΝΙΚΟ ΛΑΪΚΟ ΜΕΤΩΠΟ (Ε.ΛΑ.Μ.),1013.0,ELAM,Ethniko Laiko Metopo,National Popular Front,24255.0,False
+FI,PIRATE PTY,,2687.0,1-perc,1 percent,1 percent,23972.0,False
+BG,ZELENITE,,659.0,ZP,Zelena Partija,Green Party of Bulgaria,23440.0,False
+CH,MCR,,8176.0,MCG,Mouvement Citoyens Genevois,Geneva Citizens' Movement,23346.0,False
+LT,"LITHUANIAN PEOPLE'S UNION ""FOR THE FAIR LITHUANIA""",,1409.0,UTL,"Liaudies sąjunga ""Uz teisingą Lietuvą""","People’s Union ""For Just Lithuania""",21583.0,False
+PT,A,,7357.0,A,Aliança,Alliance,21066.0,False
+CZ,SZZJ,,670.0,DZJ,Důchodci za životní jistoty,Pensioners for a Secure Living,18845.0,False
+LT,LITHUANIAN FREEDOM UNION,,1410.0,LLS,Lietuvos laisvės sąjunga,Lithuanian Liberty Union,18622.0,False
+DK,K,K. KD - Kristendemokraterne,53.0,KrF/KD,Kristeligt Folkeparti / Kristendemokraterne,Christian People's Party / Christian Democrats,18276.0,False
+LT,"""YOUNG LITHUANIAS"", NEW NATIONALISTS AND POLITICAL PRISONERS UNION",,1679.0,JL/PKS,Jaunoji Lietuva / Politinių kalinių sąjunga,Young Lithuania / Union of Political Prisoners,16941.0,False
+IT,LEGA PER SALVINI PREMIER - FORZA ITALIA - NOI MODERATI - FRATELLI D'ITALIA,LEGA PER SALVINI PREMIER - FORZA ITALIA - NOI MODERATI - FRATELLI D'ITALIA,1221.0,LN,Lega Nord,North League,16016.0,False
+IT,AUTONOMIE LIBERTE' DEMOCRATIE,,2415.0,1-perc,1 percent,1 percent,14340.0,False
+FI,SSP (2011),,2687.0,1-perc,1 percent,1 percent,13971.0,False
+LT,PARTY OF CIVIC DEMOCRACY,,105.0,PDP,Pilietinės demokratijos partija,Civic Democratic Party,13775.0,False
+RO,APRPE,,173.0,PaRo,Partida Romilor,Party of the Roma,11977.0,False
+HU,MAGYAR MUNKÁSPÁRT + IGEN SZOLIDARITÁS MAGYARORSZÁGÉRT MOZGALOM,MAGYAR MUNKÁSPÁRT + IGEN SZOLIDARITÁS MAGYARORSZÁGÉRT MOZGALOM,859.0,MKM,Magyar Kommunista Munkáspárt,Hungarian Communist Workers' Party,8678.0,False
+LT,THE UNION OF THE RUSSIANS OF LITHUANIA,,168.0,LRS,Lietuvos rusų sąjunga,Lithuanian Russian Union,8356.0,False
+HR,REFORMISTI-HSS BRACE RADIC-UMIROVLJENICI,,4866.0,NS — R,Narodna stranka — Reformisti,People's Party — Reformists,8269.0,False
+BG,National Movement for Stability and Progress,National Movement for Stability and Progress,374.0,NDSV,Nacionalno dviženie (Simeon Vtori) za stabilnost i văzhod,National Movement (Simeon II) for Stability and Progress,6409.0,False
+IE,INDEPENDENT FF,,2533.0,IFF,Independent Fianna Fáil,Independent Fianna Fail,6124.0,False
+EE,Erakond Eestimaa Rohelised,Erakond Eestimaa Rohelised,1040.0,EER,Erakonna Eestimaa Rohelised,Estonian Greens,5886.0,False
+RO,PMR,,1542.0,PSMR,Partidul Socialist Muncitoresc Roman,Romanian Socialist Party of Workers,5871.0,False
+IT,PARTITO COMUNISTA DEI LAVORATORI,,34.0,PCI,Partito Comunista Italiano,Italian Communist Party,4238.0,False
+FI,Pirate Pty,Pirate Pty,2687.0,1-perc,1 percent,1 percent,3058.0,False
+AT,PIRAT,,2591.0,1-perc,1 percent,1 percent,2940.0,False
+IT,CENTRO CRIST.DEM.,,1767.0,CCD,Centro Cristiano Democratico,Christian Democratic Center,2646.0,False
+HR,DEMOKRATI-LABURISTI-LISTA RI,,3143.0,CL — LP,Hrvatski laburisti — Stranka rada,Croatian Labourists — Labour Party,2534.0,False
+HR,MDS,,2524.0,1-perc,1 percent,1 percent,2332.0,False
+PT,A,A,7357.0,A,Aliança,Alliance,1902.0,False
+IT,AZ.SOCIALE MUSSOLINI,,327.0,ASM,Alternativa Sociale Mussolini,Social Alternative Mussolini,1066.0,False
+EE,EIP,,429.0,TEE,Tuleviku Eesti Erakond,Estonian Future Party,734.0,False
+DE,SPD,Sozialdemokratische Partei Deutschlands,383.0,SPD,Sozialdemokratische Partei Deutschlands,Social Democratic Party of Germany,118188140.0,True
+DE,CDU,Christlich Demokratische Union,1375.0,CDU,Christlich Demokratische Union,Christian Democratic Union,113514013.0,True
+TR,AKP,,306.0,AKP,Adalet ve Kalkınma Partisi,Justice and Development Party,93595696.0,True
+GB,CONSERVATIVES,Conservatives,1567.0,Con,Conservatives,Conservatives,90435159.0,True
+GB,LABOUR,Labour Party,1516.0,Lab,Labour Party,Labour,79880681.0,True
+ES,PP,Alianza-Partido Popular / Partido Popular,441.0,AP/PP,Alianza-Partido Popular / Partido Popular,People's Alliance-Party / People's Party,79111832.0,True
+ES,PSOE,Partido Socialista Obrero Espanol,1338.0,PSOE,Partido Socialista Obrero Español,Spanish Socialist Workers Party,73594245.0,True
+TR,CHP,,1060.0,CHP,Cumhuriyet Halk Partisi,Republican Peoples Party,48054625.0,True
+GB,LIB DEMS,Liberal Democrats,1388.0,LD,Liberal Democrats,Liberal Democrats,43963086.0,True
+IT,FORZA ITALIA,Forza Italia,1626.0,FI,Forza Italia,Go Italy,35490371.0,True
+DE,FDP,Freie Demokratische Partei,573.0,FDP,Freie Demokratische Partei,Free Democratic Party,33031189.0,True
+FR,PS,Parti socialiste,1478.0,PS,Parti socialiste,Socialist Party,32070921.0,True
+DE,GRUNE,Bundnis 90 / Die Grunen,1816.0,B90/Gr,Bündnis 90 / Die Grünen,Alliance 90 / Greens,28936198.0,True
+PL,PIS,Prawo i Sprawiedliwosc,1565.0,PiS,Prawo i Sprawiedliwość,Law and Justice,27664472.0,True
+DE,CSU,Christlich Soziale Union,1731.0,CSU,Christlich Soziale Union,Christian Social Union,26807540.0,True
+IT,PARTITO DEMOCRATICO,Partito Democratico,802.0,PD,Partito Democratico,Democratic Party,26625772.0,True
+FR,UMP,,1595.0,UMP,Union pour un mouvement populaire,Union for a Popular Movement,25731354.0,True
+GR,ND,Nea Dimokratia,794.0,ND,Néa Đimokratía,New Democracy,25573354.0,True
+TR,MHP,,1610.0,MHP,Milliyetçi Hareket Partisi,Nationalist Movement [Action] Party,24476657.0,True
+GR,PASOK,Panellinio Sosialistiko Kinima,1468.0,PASOK,Panellinio Sosialistikó Kínima,Panhellenic Socialist Movement,21136475.0,True
+IT,IL POPOLO DELLA LIBERTA',Il Popolo della Liberta,365.0,IPdL,Il Popolo della Libertà,The People of Freedom,20975574.0,True
+NL,VVD,VVD,828.0,VVD,Volkspartij voor Vrijheid en Democratie,People's Party for Freedom and Democracy,20601339.0,True
+PL,PO,Platforma Obywatelska,1117.0,PO,Platforma Obywatelska,Civic Platform,20492357.0,True
+IT,LEGA NORD,Lega Nord,1221.0,LN,Lega Nord,North League,20321112.0,True
+DE,SPD,SPD,383.0,SPD,Sozialdemokratische Partei Deutschlands,Social Democratic Party of Germany,20107269.1,True
+IT,ALLEANZA NAZIONALE,Alleanza Nazionale,813.0,AN,Alleanza Nazionale,National Alliance,20026523.0,True
+DE,CDU,CDU,1375.0,CDU,Christlich Demokratische Union,Christian Democratic Union,19974238.9,True
+IT,MOVIMENTO 5 STELLE,Movimento 5 Stelle,2046.0,M5S,Movimento 5 Stelle,Five Star Movement,18956509.0,True
+PT,PS,Partido Socialista,655.0,PS,Partido Socialista,Socialist Party,18452160.0,True
+FR,FN,Front National / Rassemblement national,433.0,FN / RN,Front National / Rassemblement national,National Front / National Rally,17415123.0,True
+SE,SAP,Socialdemokraterna / Sveriges Socialdemokratiska Arbetareparti,487.0,S,Socialdemokraterna / Sveriges socialdemokratiska arbetareparti,Social Democrats / Social Democratic Workers' Party of Sweden,16137871.0,True
+PT,PPD/PSD,Partido Popular Democratico / Partido Social Democrata,1359.0,PPD/PSD,Partido Popular Democrático / Partido Social Democrata,Popular Democratic Party / Social Democratic Party,15701103.0,True
+NL,CDA,CDA,1157.0,CDA,Christen Democratisch Appèl,Christian Democratic Appeal,15489384.0,True
+DE,AfD,AfD,1976.0,AfD,Alternative für Deutschland,Alternative for Germany,15133371.3,True
+IT,PDS,Partito Democratico della Sinistra,8054.0,PDS,Partito Democratico della Sinistra,Democratic Party of the Left,14621281.0,True
+AT,SPO,Sozialdemokratische Partei Osterreichs,1384.0,SPO,Sozialdemokratische Partei Österreichs,Social Democratic Party of Austria,14026855.0,True
+AT,OVP,Osterreichische Volkspartei,1329.0,OVP,Österreichische Volkspartei,Austrian People's Party,13663613.0,True
+FR,Rassemblement National,Rassemblement National,433.0,FN / RN,Front National / Rassemblement national,National Front / National Rally,13642010.0,True
+DE,DIE LINKE,Die Linke,1545.0,Linke,Die Linke,The Left,13208902.0,True
+DE,GRÜNE,GRÜNE,1816.0,B90/Gr,Bündnis 90 / Die Grünen,Alliance 90 / Greens,12616002.2,True
+IT,L'ULIVO,L'Ulivo,1737.0,Ulivo,L'Ulivo,The Olive Tree,11929536.0,True
+IT,RIFONDAZIONE COMUNISTA,Partito della Rifondazione Comunista,1404.0,PRC,Partito della Rifondazione Comunista,Communist Refoundation Party,11785529.0,True
+DE,PDS,Partei des Demokratischen Sozialismus,86.0,PDS,Partei des Demokratischen Sozialismus,Party for Democratic Socialism,11642755.0,True
+IT,DC,Democrazia Cristiana,934.0,DC,Democrazia Cristiana,Christian Democrats,11639170.0,True
+TR,HDP,,6042.0,HDP,Halkların Demokratik Partisi,Peoples' Democratic Party,11015387.0,True
+NL,PvdA,PvdA,1234.0,PvdA,Partij van de Arbeid,Labour,10800153.0,True
+CH,Schweizerische Volkspartei (SVP),Schweizerische Volkspartei (SVP),308.0,SVP,Schweizerische Volkspartei,Swiss People's Party,10644237.0,True
+SE,M,Allmanna valmansforbundet / Hogern / Hogerpartiet / Moderata samlingspartiet,690.0,AV / H / HP / M,Allmänna valmansförbundet / Högern / Högerpartiet / Moderata samlingspartiet,General Electoral League / The Right / Right Wing Party / Moderate Party,10442609.0,True
+ES,IU,Izquierda Unida,247.0,IU,Izquierda Unida,United Left,10096482.0,True
+GB,Lab,Labour,1516.0,Lab,Labour Party,Labour,9708716.0,True
+FR,UDF,Union pour la democratie francaise,213.0,UDF,Union pour la démocratie française,Union for French Democracy,9538916.0,True
+HU,MSZP,Magyar Szocialista Part,1408.0,MSZP,Magyar Szocialista Párt,Hungarian Socialist Party,9451607.0,True
+HU,FIDESZ,Fidesz - Magyar Polgari Szovetseg,1691.0,Fidesz,Fidesz — Magyar Polgári Szövetség,Fidesz — Hungarian Civic Alliance,9368549.0,True
+NL,PVV (Partij voor de Vrijheid),PVV (Partij voor de Vrijheid),298.0,PVV,Partij voor de Vrijheid,Party for Freedom,9112796.0,True
+DK,SD,Socialdemokraterne,379.0,SD,Socialdemokraterne,Social Democrats,9055935.0,True
+FR,RPR,,509.0,RPR,Rassemblement pour la République,Rally for the Republic,8870391.0,True
+ES,OTHER,,1839.0,etc,other,other,8528028.0,True
+DE,AFD,Alternative fur Deutschland,1976.0,AfD,Alternative für Deutschland,Alternative for Germany,7935100.0,True
+AT,FPO,Freiheitliche Partei Osterreichs,463.0,FPO,Freiheitliche Partei Österreichs,Freedom Party of Austria,7821438.0,True
+CH,Sozialdemokratische Partei der Schweiz (SP),Sozialdemokratische Partei der Schweiz (SP),29.0,SP,Sozialdemokratische Partei der Schweiz,Social Democratic Party of Switzerland,7774976.0,True
+FR,PCF,Parti communiste francaise,1251.0,PCF,Parti communiste française,French Communist Party,7726808.0,True
+PL,KW PRAWO I SPRAWIEDLIWOŚĆ,KW PRAWO I SPRAWIEDLIWOŚĆ,1565.0,PiS,Prawo i Sprawiedliwość,Law and Justice,7640854.0,True
+ES,PARTIDO POPULAR,PARTIDO POPULAR,441.0,AP/PP,Alianza-Partido Popular / Partido Popular,People's Alliance-Party / People's Party,7622723.0,True
+DK,V,Venstre,1204.0,V,Venstre,Liberal Party,7524753.0,True
+DE,OTHER,,1895.0,etc,other,other,7478764.0,True
+DE,FDP,FDP,573.0,FDP,Freie Demokratische Partei,Free Democratic Party,7469761.0,True
+NL,D66,D66,45.0,D66,Democraten 66,Democrats 66,7245930.0,True
+IT,PARTITO DEMOCRATICO DELLA SINISTRA,Partito Democratico della Sinistra,8054.0,PDS,Partito Democratico della Sinistra,Democratic Party of the Left,7231877.0,True
+BE,CD&V,Christen-Democratisch & Vlaams / Nieuw-Vlaams Alliantie,604.0,CD&V,Christen-Democratisch en Vlaams,Christian Democrats and Flemish,7153798.0,True
+IT,FRATELLI D'ITALIA CON GIORGIA MELONI,FRATELLI D'ITALIA CON GIORGIA MELONI,2280.0,FdI,Fratelli d'Italia,Brothers of Italy,7094081.0,True
+PL,PSL,Polskie Stronnictwo Ludowe,602.0,PSL,Polskie Stronnictwo Ludowe,Polish People's (Peasants') Party,6987948.0,True
+GB,Con,Conservative,1567.0,Con,Conservatives,Conservatives,6828925.0,True
+GB,OTHER,,1841.0,etc,other,other,6676168.000000001,True
+PL,KKW KOALICJA OBYWATELSKA PO .N IPL ZIELONI,KKW KOALICJA OBYWATELSKA PO .N IPL ZIELONI,1117.0,PO,Platforma Obywatelska,Civic Platform,6629402.0,True
+DE,DIE LINKE / PDS,DIE LINKE / PDS,1545.0,Linke,Die Linke,The Left,6627772.2,True
+GB,SNP,Scottish National Party,986.0,SNP,Scottish National Party,Scottish National Party,6611279.0,True
+FI,SDP,Suomen Sosialidemokraattinen Puolue,1303.0,SDP,Suomen Sosialidemokraattinen Puolue,Social Democratic Party of Finland,6352552.0,True
+FR,REM,La Republique En Marche!,5857.0,LaREM/RE,La République En Marche! / Renaissance,The Republic Onwards! / Renaissance,6278157.0,True
+LU,CSV,Chreschtlech Sozial Vollekspartei,539.0,CSV,Chrëschtlech Sozial Vollekspartei,Christian Social People's Party,6096651.0,True
+BE,PS,Parti Socialiste,500.0,PS,Parti Socialiste,Socialist Party [Francophone],6087674.0,True
+IT,DEMOCRATICI SINISTRA,Democratici di Sinistra,878.0,DS,Democratici di Sinistra,Democrats of the Left,6085350.0,True
+GR,SYRIZA,Synaspismos Rizospastikis Aristeras,301.0,SYRIZA,Synaspismós Rizospastikís Aristerás,Coalition of the Radical Left,6039333.0,True
+BE,OPENVLD,Partij voor Vrijheid en Vooruitgang - Open Vlaamse Liberalen en Democraten,49.0,PVV — OVLD,Partij voor Vrijheid en Vooruitgang — Open Vlaamse Liberalen en Democraten,Party of Liberty and Progress — Open Flemish Liberals and Democrats,6026686.0,True
+ES,CIU,Convergencia i Unio,139.0,CiU,Convergència i Unió,Convergence and Unity,5918424.0,True
+CZ,CSSD,Ceska strana socialne demokraticka,177.0,CSSD,Česká strana sociálně demokratická,Czech Social Democratic Party,5709549.0,True
+FI,KOK,Kansallinen Kokoomus,495.0,KOK,Kansallinen Kokoomus,National Coalition Party,5700206.0,True
+FR,OTHER RIGHT,divers droite,1776.0,d-d,divers droite,other right,5699944.0,True
+FI,KESK,Maalaisliitto / Keskusta,901.0,KESK,Maalaisliitto / Keskusta,Agrarian Union / Centre Party,5699489.0,True
+IT,OTHER,,1896.0,etc,other,other,5570561.0,True
+ES,PARTIDO SOCIALISTA OBRERO ESPAÑOL,PARTIDO SOCIALISTA OBRERO ESPAÑOL,1338.0,PSOE,Partido Socialista Obrero Español,Spanish Socialist Workers Party,5534851.0,True
+IT,PARTITO DEMOCRATICO - ITALIA DEMOCRATICA E PROGRESSISTA,PARTITO DEMOCRATICO - ITALIA DEMOCRATICA E PROGRESSISTA,802.0,PD,Partito Democratico,Democratic Party,5431426.0,True
+BE,SP,Socialistische Partij Anders,1680.0,SPA — V,Socialistische Partij Anders — Vooruit,Socialist Party Differently — Forward,5411299.0,True
+PT,PS,PS,655.0,PS,Partido Socialista,Socialist Party,5401136.0,True
+IT,PSI,Partito Socialista Italiano,742.0,PSI,Partito Socialista Italiano,Italian Socialist Party,5400551.0,True
+GB,UKIP,United Kingdom Independence Party,601.0,UKIP,United Kingdom Independence Party,United Kingdom Independence Party,5394638.0,True
+NL,Partij van de Arbeid (P.v.d.A.),Partij van de Arbeid (P.v.d.A.),1234.0,PvdA,Partij van de Arbeid,Labour,5385284.0,True
+DE,CSU,CSU,1731.0,CSU,Christlich Soziale Union,Christian Social Union,5366855.0,True
+IT,LA MARGHERITA,Democrazia e Liberta - La Margherita,279.0,DL — M,Democrazia è Libertà — La Margherita,Democracy is Freedom — The Daisy,5319083.0,True
+IT,UNIONE DI CENTRO,Unione di Centro,201.0,UdC,Unione di Centro,Union of the Centre,5242296.0,True
+BE,MR,Mouvement Reformateur,789.0,MR,Mouvement Réformateur,Reformist Movement,5107843.0,True
+CZ,ODS,Obcanska demokraticka strana,466.0,ODS,Občanská demokratická strana,Civic Democratic Party,5074378.0,True
+PL,KO,,9122.0,KO,Koalicja Obywatelska,Civic Coalition,5060355.0,True
+TR,INDEPENDENT,,2956.0,indep,independent,independent,5058858.0,True
+TR,IYI PARTI,,6236.0,IYI,İyi Parti,Good Party,4993479.0,True
+BG,GERB,Grazhdani za evropeysko razvitie na Balgariya,760.0,GERB,Grazhdani za evropeysko razvitie na Balgariya,Citizens for European Development of Bulgaria,4980029.0,True
+PL,SLD,Sojusz Lewicy Demokratycznej,57.0,SLD,Sojusz Lewicy Demokratycznej,Democratic Left Alliance,4839494.0,True
+BE,N-VA,Nieuw-Vlaamse Alliantie,36.0,N-VA,Nieuw-Vlaamse Alliantie,New Flemish Alliance,4782416.0,True
+HU,FIDESZ-KDNP,Fidesz - Hungarian Civic Alliance -- Christian Democratic People's Party,6366.0,Fidesz — KDNP,Fidesz — KDNP pártszövetség / Magyar Szolidaritás Szövetsége,Fidesz — KDNP Party Alliance / Alliance of Hungarian Solidarity,4750132.0,True
+FR,VERTS,Les Verts,1108.0,V,Les Verts,Greens,4747094.0,True
+PL,SLD-UP,Sojusz Lewicy Demokratycznej-Unia Pracy,6183.0,SLD — UP,Sojusz Lewicy Demokratycznej — Unia Pracy,Democratic Left Alliance — Labour Union,4696921.0,True
+BE,VB,Vlaams Belang,553.0,VB,Vlaams Blok / Belang,Flemish Block / Interest,4626384.0,True
+IT,FORZA ITALIA,Forza Italia (2013),8058.0,FI,Forza Italia (2013),Forward Italy (2013),4498106.0,True
+FR,Les Républicains,Les Républicains,8168.0,LR,Les Républicains,The Republicans,4480694.0,True
+IE,FF,Fianna Fail,1055.0,FF,Fianna Fáil,Fianna Fail — The Republican Party,4398671.0,True
+RO,USL,Uniunea Social Liberala,5941.0,USL,Uniunea Social Liberală,Social Liberal Union,4327602.0,True
+BG,KB,Koalicija za Balgarija - Koalicija za Balgarija,1665.0,KzB — BSP,Koalicija za Balgarija — BSP za Bŭlgariya,Coalition for Bulgaria — BSP for Bulgaria,4280901.0,True
+IT,MOVIMENTO 5 STELLE,MOVIMENTO 5 STELLE,2046.0,M5S,Movimento 5 Stelle,Five Star Movement,4268749.0,True
+LU,LSAP,Letzebuerger Sozialistesch Aarbechterpartei,186.0,LSAP,Lëtzebuerger Sozialistesch Aarbechterpartei,Luxembourg Socialist Workers' Party,4260496.0,True
+NO,DNA,Det norske Arbeiderparti,448.0,DNA,Det norske Arbeiderparti,Norwegian Labour Party,4237223.0,True
+CH,SVP,Schweizerische Volkspartei,308.0,SVP,Schweizerische Volkspartei,Swiss People's Party,4214015.0,True
+CH,Die Mitte (Centre),Die Mitte (Centre),9024.0,Centre,Die Mitte,The Centre,4074584.0,True
+LU,DP,Demokratesch Partei,300.0,DP,Demokratesch Partei,Democratic Party,3973432.0,True
+IT,PARTITO POPOLARE ITALIANO,Partito Popolare Italiano,1701.0,PPI,Partito Popolare Italiano,Italian People's Party,3966634.0,True
+PT,PCP-PEV,CDU  Coligação Democrática Unitária,284.0,CDU,Coligação Democrática Unitária,Unitary Democratic Coalition,3961502.0,True
+IT,IDV,Lista di Pietro -- Italia del Valori,768.0,IdV,Lista di Pietro — Italia del Valori,List Di Pietro — Italy of Values,3957605.0,True
+SK,SMER,Smer - socialna demokracia,311.0,Smer — SD,Smer — sociálna demokracia,Direction — Social Democracy,3950076.0,True
+NL,SP (Socialistische Partij),SP (Socialistische Partij),1363.0,SP,Socialistiese Partij,Socialist Party,3940763.0,True
+TR,OTHER,,2955.0,etc,other,other,3935359.0,True
+IT,FEDERAZIONE DEI VERDI,Federazione dei Verdi,851.0,FdV,Federazione dei Verdi,Federation of the Greens,3819002.0,True
+NO,FRP,Fremskrittspartiet,101.0,FrP,Fremskrittspartiet,Progress Party,3791866.0,True
+AT,GRUNE,Die Grunen - Die grune Alternative,1659.0,GRUENE,Die Grünen — Die grüne Alternative,The Greens — The Green Alternative,3753671.0,True
+RO,PARTIDUL SOCIAL DEMOCRAT,PARTIDUL SOCIAL DEMOCRAT,120.0,PSD,Partidul Social Democrat,Social Democratic Party,3735809.0,True
+RO,PSD+PUR,Uniunea Nationala PSD+PUR,1347.0,PSD+PUR,Uniunea Naţională PSD+PUR,National Union PSD+PUR,3730352.0,True
+IE,FG,Fine Gael,1288.0,FG,Fine Gael,Fine Gael (Familiy of the Irish),3705515.0,True
+ES,VOX,Vox,3218.0,Vox,Vox,Voice,3656979.0,True
+FR,LR,Union pour un mouvement populaire,8168.0,LR,Les Républicains,The Republicans,3537499.0,True
+CH,SP,Sozialdemokratische Partei der Schweiz,29.0,SP,Sozialdemokratische Partei der Schweiz,Social Democratic Party of Switzerland,3521817.0,True
+GB,LD,Liberal Democrats,1388.0,LD,Liberal Democrats,Liberal Democrats,3519143.0,True
+GR,KKE,Kommounistiko Komma Elladas,48.0,KKE,Kommounistikó Kómma Elládas,Communist Party of Greece,3488631.0,True
+CZ,ANO 2011,ANO 2011,2141.0,ANO,Akce nespokojených občanů,Action of Dissatisfied Citizens,3398647.0,True
+IT,LEGA LOMBARDA,Liga Lombarda,744.0,LL,Liga Lombarda,Lombard League,3395449.0,True
+SE,FP,Folkpartiet liberalerna / Liberalerna,1274.0,Fpl / L,Folkpartiet liberalerna / Liberalerna,Liberal People's Party / The Liberals,3389538.0,True
+TR,GENC PARTI,,159.0,GP,Genç Parti,Young Party,3349515.0,True
+PT,CDS-PP,Centro Democratico e Social / Partido Popular,1308.0,CDS/PP,Centro Democrático e Social / Partido Popular,Democratic and Social Center / People's Party,3340182.0,True
+CZ,KSCM,Komunisticka strana Cech a Moravy,1728.0,KSCM,Komunistická strana Cech a Moravy,Communist Party of Bohemia and Moravia,3291890.0,True
+SE,C,Centre Party,7415.0,CP,Centern,Centre Party,3255148.0,True
+ES,PODEMOS-IU-EQUO,,3203.0,PODEMOS,Podemos,We Can,3227123.0,True
+NL,SP,SP,1363.0,SP,Socialistiese Partij,Socialist Party,3223444.0,True
+SE,VP,Vansterpartiet / Sveriges Komunistiska Parti,830.0,V/SKP,Vänsterpartiet / Sveriges Komunistiska Parti,Left Party / Communist Party,3199318.0,True
+ES,PODEMOS,Podemos,3203.0,PODEMOS,Podemos,We Can,3198584.0,True
+RO,PSD,Partidul Social Democrat,120.0,PSD,Partidul Social Democrat,Social Democratic Party,3194015.0,True
+RO,PNL-PD,Alianta Dreptate si Adevar,215.0,ADA,Alianţa Dreptate şi Adevăr,Justice and Truth Alliance,3191546.0,True
+HU,SZDSZ,Szabad Demokratak Szovetsege,910.0,SzDSz,Szabad Demokraták Szövetsége,Alliance of Free Democrats,3134570.0,True
+SE,KD,Kristdemokraterna,651.0,KD,Kristdemokraterna,Christian Democrats,3113571.0,True
+DE,REP,Die Republikaner,720.0,Rep,Die Republikaner,The Republicans,3080064.0,True
+DK,DF,Dansk Folkeparti,1022.0,DF,Dansk Folkeparti,Danish Peoples Party,3077880.0,True
+HU,FIDESZ+KDNP,FIDESZ+KDNP,6366.0,Fidesz — KDNP,Fidesz — KDNP pártszövetség / Magyar Szolidaritás Szövetsége,Fidesz — KDNP Party Alliance / Alliance of Hungarian Solidarity,3060706.0,True
+CH,FDP,FDP.Die Liberalen,1231.0,FDP,FDP.Die Liberalen,FDP.The Liberals,3056170.0,True
+ES,VOX,VOX,3218.0,Vox,Vox,Voice,3033744.0,True
+TR,DYP,,351.0,DYP,Doğru Yol Partisi,True Path Party,3004949.0,True
+HU,JOBBIK,Jobbik Magyarorszagert Mozgalom,42.0,Jobbik,Jobbik Magyarországért Mozgalom,Movement for a Better Hungary,2963737.0,True
+PL,SRP,Samoobrona Rzeczypospolitej Polskiej,727.0,SRP,Samoobrona Rzeczypospolitej Polskiej,Self-Defense of the Republic Poland,2922279.0,True
+TR,SAADET PARTISI,,572.0,SP,Saadet Partisi,Felicity Party,2903796.0,True
+PT,CH,CH,8182.0,CH,Chega,Enough,2840059.0,True
+IT,SCELTA CIVICA CON MONTI PER L'ITALIA,Scelta Civica,2281.0,SC,Scelta Civica,Civic Choice,2824064.0,True
+FI,LEFT,Vasemmistoliitto,1044.0,VAS,Vasemmistoliitto,Left Alliance,2763142.0,True
+GB,GREENS,Green Party of England and Wales,1794.0,GP,Green Party of England and Wales,Green Party of England and Wales,2716749.0,True
+FR,OTHER LEFT,divers gauche,126.0,d-g,divers gauche,other left,2712288.0,True
+RO,PARTIDUL NAȚIONAL LIBERAL,PARTIDUL NAȚIONAL LIBERAL,481.0,PNL,Partidul Naţional Liberal,National Liberal Party,2706212.0,True
+NL,Democraten 66 (D66),Democraten 66 (D66),45.0,D66,Democraten 66,Democrats 66,2698742.0,True
+RO,PNL,Partidul National Liberal,481.0,PNL,Partidul Naţional Liberal,National Liberal Party,2658186.0,True
+NL,GL,GL,1537.0,GL,GroenLinks,GreenLeft,2546915.0,True
+PT,B.E.,Bloco de Esquerda,1310.0,BE,Bloco de Esquerda,Left Bloc,2533495.0,True
+CH,CVP,Katholische Konservative / Christlichdemokratische Volkspartei,1808.0,KK/CVP,Katholische Konservative / Christlichdemokratische Volkspartei,Catholic Conservative / Christian Democratic Peoples Party,2508295.0,True
+BE,ECOLO,Ecologistes Confederes pour l'organisation de luttes originales,1563.0,Ecolo,Écologistes Confédérés pour l'organisation de luttes originales,Confederated ecologists for the organisation of original struggles,2506786.0,True
+BE,GROEN!,Agalev - Groen,528.0,AGL — Gr,Agalev — Groen,Agalev — Green,2489862.0,True
+FR,FI,La France Insoumise,5858.0,FI,La France Insoumise,Unbowed France,2477888.0,True
+DE,BSW,BSW,9646.0,BSW,Bündnis Sahra Wagenknecht,Sahra Wagenknecht Alliance,2472947.0,True
+FI,PS,Perussuomalaiset,1689.0,SP/PS,Suomen Puolue / Perussuomalaiset,Finns Party / True Finns,2434822.0,True
+HU,MDF,Magyar Demokrata Forum,1697.0,MDF,Magyar Demokrata Fórum,Hungarian Democratic Forum,2397789.0,True
+SE,MP,Miljopartiet de Grona,456.0,MP,Miljöpartiet de gröna,Greens,2390914.0,True
+DK,SF,Socialistisk Folkeparti,329.0,SF,Socialistisk Folkeparti,Socialist Peoples Party,2386501.0,True
+ES,PODEMOS-IU,,3203.0,PODEMOS,Podemos,We Can,2381960.0,True
+NL,GROENLINKS,GROENLINKS,1537.0,GL,GroenLinks,GreenLeft,2345437.0,True
+BG,DPS,Dvizhenie za prava i svobodi,982.0,DPS,Dvizhenie za prava i svobodi,Movement for Rights and Freedoms,2281497.0,True
+SE,SD,Sverigedemokraterna,409.0,SD,Sverigedemokraterna,Sweden Democrats,2276415.0,True
+RO,PSD-PC,Alliance PSD+PC,6153.0,PSD-PC,Alianța PSD+PC,Alliance PSD+PC,2275874.0,True
+IT,FORZA ITALIA,FORZA ITALIA,1626.0,FI,Forza Italia,Go Italy,2218117.0,True
+RO,PDL,Partidul Democrat-Liberal,660.0,PDL,Partidul Democrat-Liberal,Democratic Liberal Party,2217901.0,True
+RO,ALIANȚA PENTRU UNIREA ROMÂNILOR,ALIANȚA PENTRU UNIREA ROMÂNILOR,8983.0,AUR,Alianța pentru Unirea Românilor,Alliance for the Union of Romanians,2200843.0,True
+IT,CCD-CDU,Centro Cristiano Democratico  / Cristiani Democratici Uniti (Biancofiore),962.0,CCD/CDU,Centro Cristiano Democratico  / Cristiani Democratici Uniti (Biancofiore),Christian Democratic Center / United Christian Democrats (White Flower),2190058.0,True
+PL,LPR,Liga Polskich Rodzin,1768.0,LPR,Liga Polskich Rodzin,League of Polish Families,2175040.0,True
+NL,LPF,LPF,1528.0,LPF,Lijst Pim Fortuyn,Fortuyn List,2164776.0,True
+FR,OTHER FAR-LEFT,extreme gauche,1594.0,exg,extrême gauche,other far-left,2160402.0,True
+LU,GRENG,Dei Greng [Alternativ],1138.0,Greng/GAP,Déi Gréng [Alternativ],The Greens,2140399.0,True
+IT,AZIONE - ITALIA VIVA - CALENDA,AZIONE - ITALIA VIVA - CALENDA,8641.0,IV,Italia Viva,Italy Alive,2125230.0,True
+PL,LID,Lewica i Demokraci,1588.0,LiD,Lewica i Demokraci,Left and Democrats,2122981.0,True
+GR,SYNASPISMOS RIZOSPASTIKIS ARISTERAS-PROODEFTIKI SYMMACHIA,SYNASPISMOS RIZOSPASTIKIS ARISTERAS-PROODEFTIKI SYMMACHIA,301.0,SYRIZA,Synaspismós Rizospastikís Aristerás,Coalition of the Radical Left,2114634.0,True
+DE,NPD,Nationaldemokratische Partei Deutschlands,1723.0,NPD,Nationaldemokratische Partei Deutschlands,National Democratic Party,2112763.0,True
+IT,MSI-DN,Movimento Sociale Italiano / Movimento sociale italiano-Destra nazionale,1696.0,MSI,Movimento Sociale Italiano / Movimento sociale italiano-Destra nazionale,Italian Social Movement / Italian Social Movement-National Right,2106742.0,True
+NL,Christen Democratisch Appèl (CDA),Christen Democratisch Appèl (CDA),1157.0,CDA,Christen Democratisch Appèl,Christian Democratic Appeal,2083078.0,True
+IT,FRATELLI D'ITALIA,Fratelli d'Italia,2280.0,FdI,Fratelli d'Italia,Brothers of Italy,2067198.0,True
+ES,EAJ_PNV,Partido Nacionalista Vasco - Euzko Alderdi Jeltzalea,1637.0,PNV,Partido Nacionalista Vasco — Euzko Alderdi Jeltzalea,Basque Nationalist Party,2015777.0,True
+PL,KORWIN,Koalicja Odnowy Rzeczypospolitej Wolnosc i Nadzieja KORWiN,4629.0,KORWIN,Koalicja Odnowy Rzeczypospolitej Wolność i Nadzieja KORWiN,Coalition for the Renewal of the Republic — Liberty and Hope,1979952.0,True
+TR,DP,,899.0,DP,Demokrat Parti,Democratic Party (2007),1975766.0,True
+FR,MODEM,Mouvement Democrate,496.0,MoDem,Mouvement démocrate,Democratic Movement,1974157.0,True
+FI,GREENS,Vihrea Liitto,479.0,VIHR,Vihreä Liitto,Green League,1954255.0,True
+TR,DEHAP,,1355.0,DEHAP,Demokratik Halk Partisi,Democratic People's Party,1933680.0,True
+CZ,KDU-CSL,Krestanska a demokraticka unie / Ceskoslovenska strana lidova,676.0,KDU/CSL,Křesťanská a demokratická unie / Československá strana lidová,Christian Democratic Union / People's Party,1927707.0,True
+LU,ADR,Alternativ Demokratesch Reformpartei,1114.0,ADR,Alternativ Demokratesch Reformpartei,Alternative Democratic Reform Party,1918904.0,True
+BG,Citizens for European Development of Bulgaria-Union of Democratic Forces,Citizens for European Development of Bulgaria-Union of Democratic Forces,760.0,GERB,Grazhdani za evropeysko razvitie na Balgariya,Citizens for European Development of Bulgaria,1901362.0,True
+DE,FREIE WÄHLER,FREIE WÄHLER,1090.0,FW,Freie Wähler,Free Voters,1897124.5,True
+FR,DIV,other,1898.0,etc,other,other,1879322.0,True
+DK,RV,Det Radikale Venstre,1507.0,RV,Det Radikale Venstre,Danish Social-Liberal Party / Radical Liberal Party,1865660.0,True
+RO,UDMR,Uniunea Democrata Maghiara din Romania / Romaniai Magyar Demokrata Szovetseg,1105.0,UDMR/RMDS,Uniunea Democrată Maghiară din România / Romániai Magyar Demokrata Szövetség,Democratic Union of Hungarians in Romania / Democratic Alliance of Hungarians in Romania,1865069.0,True
+PL,KW NOWA LEWICA,KW NOWA LEWICA,9349.0,NL,Nowa Lewica,New Left,1859018.0,True
+FR,PRG,Parti radical de gauche,1783.0,PRG,Parti radical de gauche,Radical Party of the Left,1819430.0,True
+DE,PIRATEN,Piratenpartei Deutschland,1287.0,Pirat,Piratenpartei Deutschland,German Pirate Party,1807047.0,True
+IT,LISTA PANNELLA,Lista PanneIIa,3742.0,LP,Lista PanneIIa,Pannella List,1801791.0,True
+FR,FG,Front de Gauche,4363.0,FDG,Front de Gauche,Left Front,1783285.0,True
+ES,ECP,En Comu Podem,8031.0,ECP,En Comú Podem,In Common We Can,1782982.0,True
+IT,PATTO SEGNI,Patto Segni,688.0,PS,Patto Segni,Segni Pact,1762981.0,True
+ES,ERC,Esquerra Republicana de Catalunya,848.0,ERC,Esquerra Republicana de Catalunya,Republican Left of Catalonia,1734810.0,True
+HR,KUKURIKU,Kukuriku koalicija,2522.0,KK,Kukuriku koalicija,Kukuriku Coalition,1734253.0,True
+NO,SP,Senterpartiet,1072.0,Sp/Bp,Senterpartiet / Bondepartiet,Centre [Agrarian] Party,1730735.0,True
+IT,PRI,Partito Repubblicano Italiano,394.0,PRI,Partito Repubblicano Italiano,Italian Republican Party,1722296.0,True
+NL,ChristenUnie,ChristenUnie,1459.0,CU,ChristenUnie,ChristianUnion,1719858.0,True
+GR,SYN,Synaspismos tis Aristeras,516.0,SYN,Synaspismós tīs Aristerás,Coalition of the Left,1715909.0,True
+RO,PRM,Partidul Romania Mare,1305.0,PRM,Partidul România Mare,Greater Romania Party,1697814.0,True
+NO,A,Avholdspartiet,4073.0,A,Avholdspartiet,Teetotaler Party,1675716.0,True
+HU,FKGP,Fuggetlen Kisgazdapart,1294.0,FKgP,Független Kisgazdapárt,Independent Smallholders Party (1988),1670327.0,True
+ES,CS,Ciudadanos - Partido de la Ciudadania,3217.0,C,Ciudadanos — Partido de la Ciudadanía,Citizens — Party of the Citizenry,1650318.0,True
+IT,RINNOVAMENTO IT-DINI,Rinnovamento Italiano,259.0,RiI,Rinnovamento Italiano,Italian Renewal,1627272.0,True
+TR,ANAP,,1190.0,ANAP,Anavatan Partisi,Motherland Party,1610207.0,True
+SE,OTHER,other,1887.0,etc,other,other,1604222.0,True
+NO,KRF,Kristelig Folkeparti,705.0,KrF,Kristelig Folkeparti,Christian Democratic Party,1603941.0,True
+IE,LABOUR,Pairti Lucht Oibre,562.0,Lab,Páirti Lucht Oibre,Labour Party,1596633.0,True
+BE,OTHER,,1834.0,etc,other,other,1580567.0,True
+PL,RP,Ruch Palikota / Twoj Ruch,731.0,RP / TR,Ruch Palikota / Twój Ruch,Palikot's Movement / Your Movement,1563527.0,True
+PL,KW KONFEDERACJA WOLNOŚĆ I NIEPODLEGŁOŚĆ,KW KONFEDERACJA WOLNOŚĆ I NIEPODLEGŁOŚĆ,9026.0,Konf,Konfederacja Wolność i Niepodległość,Confederation Freedom and Independence,1547364.0,True
+GB,DUP,,335.0,DUP,Democratic Unionist Party,Democratic Unionist Party,1523162.0,True
+IT,COMUNISTI ITALIANI,Partito dei Comunisti Italiani,1635.0,PdCI,Partito dei Comunisti Italiani,Party of Italian Communists,1509088.0,True
+CZ,ANO,Akce nespokojenych obcanu,2141.0,ANO,Akce nespokojených občanů,Action of Dissatisfied Citizens,1500113.0,True
+PT,PPD/PSD,PPD/PSD,1359.0,PPD/PSD,Partido Popular Democrático / Partido Social Democrata,Popular Democratic Party / Social Democratic Party,1498655.0,True
+NL,Partij voor de Dieren,Partij voor de Dieren,1467.0,PvdD,Partij voor de Dieren,Party for the Animals,1493794.0,True
+NL,Forum voor Democratie,Forum voor Democratie,5855.0,FvD,Forum voor Democratie,Forum for Democracy,1423383.0,True
+FR,VEC,Europe Ecologie - Les Verts,5650.0,EELV,Europe Écologie — Les Verts,Europe Ecology — The Greens,1400953.0,True
+CH,GPS,Grune Partei,1006.0,Grue,Grüne Partei,Green Party,1400599.0,True
+AT,FPÖ,FPÖ,463.0,FPO,Freiheitliche Partei Österreichs,Freedom Party of Austria,1382043.0,True
+ES,BNG,Bloque Nacionalista Galego,1011.0,BNG,Bloque Nacionalista Galego,Galician Nationalist Block,1379104.0,True
+FI,RKP,Ruotsalainen Kansanpuolue / Svenska Folkepartiet i Finland,1229.0,RKP/SFP,Ruotsalainen Kansanpuolue / Svenska Folkepartiet i Finland,Swedish People's Party of Finland,1379043.0,True
+IE,SF,Sinn Fein (Provisional),4.0,SF,Sinn Féin (Provisional),Sinn Fein (Provisional),1361591.0,True
+NO,SV,Sosialistisk Venstreparti,719.0,SV,Sosialistisk Venstreparti,Socialist Left Party,1357912.0,True
+NL,Nieuw Sociaal Contract,Nieuw Sociaal Contract,9348.0,NSC,Nieuw Sociaal Contract,New Social Contract,1342959.0,True
+FR,GE++,Generation ecologie,1273.0,GE,Generation écologie,Ecology Generation,1342929.0,True
+PL,KUKIZ'15,Kukiz'15,4631.0,K,Kukiz'15,Kukiz'15,1339094.0,True
+SE,Sverigedemokraterna,Sverigedemokraterna,409.0,SD,Sverigedemokraterna,Sweden Democrats,1330325.0,True
+GB,SF,,963.0,SF,Sinn Féin,Sinn Fein,1324617.0,True
+LT,HOMELAND UNION,Tevynes Sajunga / Tevynes sajunga - Lietuvos krikscionys demokratai,193.0,TS — LKD,Tėvynės sąjunga — Lietuvos krikščionys demokratai,Homeland Union — Lithuanian Christian Democrats,1322063.0,True
+IE,INDEPENDENT,,2735.0,indep,independent,independent,1305196.0,True
+GR,PASOK-KINIMA ALLAGIS,PASOK-KINIMA ALLAGIS,7909.0,KINAL,Kinima Allagis,Movement for Change,1293652.0,True
+HU,UNITY,Osszefogas,8265.0,O,Összefogás,Unity,1289311.0,True
+SI,SDS,Slovenska demokratska stranka,472.0,SDS,Slovenska demokratska stranka,Slovenian Democratic Party,1281258.0,True
+DK,EL,Enhedslisten / De Rod-Gronne,1527.0,Enh,Enhedslisten / De Rød-Grønne,Red-Green Alliance,1278885.0,True
+RO,OTHER,,1854.0,etc,other,other,1277748.0,True
+GB,UUP,,1366.0,UUP,Ulster Unionist Party,Ulster Unionist Party,1267050.0,True
+AT,ÖVP,ÖVP,1329.0,OVP,Österreichische Volkspartei,Austrian People's Party,1254160.0,True
+NL,Staatkundig Gereformeerde Partij (SGP),Staatkundig Gereformeerde Partij (SGP),1178.0,SGP,Staatkundig Gereformeerde Partij,Reformed Political Party,1249885.0,True
+HR,HDZ,Hrvatska demokratska zajednica,1431.0,HDZ,Hrvatska demokratska zajednica,Croatian Democratic Union,1233805.0,True
+IT,CENTRO CRISTIANO DEMOCRATICO-CENTRO DEMOCRATICO UNITO,Centro Cristiano Democratico  / Cristiani Democratici Uniti (Biancofiore),962.0,CCD/CDU,Centro Cristiano Democratico  / Cristiani Democratici Uniti (Biancofiore),Christian Democratic Center / United Christian Democrats (White Flower),1232926.0,True
+ES,CC,Coalicion Canaria,81.0,CC,Coalición Canaria,Canary Coalition,1229487.0,True
+SK,OLANO,Obycajni Ludia a Nezavisle Osobnosti,2130.0,OLaNO,Obyčajní Ľudia a Nezávislé Osobnosti,Ordinary People and Independents,1226641.0,True
+ES,PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE),PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE),586.0,PSC-PSOE,Partit dels Socialistes de Catalunya,Socialists' Party of Catalonia,1213006.0,True
+RO,ARD,Alianta Romania Dreapta,5940.0,ARD,Alianţa România Dreaptă,Right Romania Alliance,1197589.0,True
+ES,UPYD,Union Progreso y Democracia,55.0,UPyD,Unión Progreso y Democracia,"Union, Progress and Democracy",1190363.0,True
+FR,OTHER,,1898.0,etc,other,other,1174624.0,True
+FR,Divers Droite,Divers Droite,1776.0,d-d,divers droite,other right,1169513.0,True
+BE,N-VA,N-VA,36.0,N-VA,Nieuw-Vlaamse Alliantie,New Flemish Alliance,1167061.0,True
+GR,OTHER,,1842.0,etc,other,other,1161901.0,True
+DE,Tierschutzpartei,Tierschutzpartei,749.0,Tier,Tierschutzpartei,Animal Welfare Party,1157684.1,True
+PL,NOWOCZESNA,Nowoczesna,4630.0,N,Nowoczesna,Modern,1155370.0,True
+PL,ZL,,9091.0,ZL,Zjednoczona Lewica,United Left,1147102.0,True
+RO,UNIUNEA SALVAȚI ROMÂNIA,UNIUNEA SALVAȚI ROMÂNIA,5969.0,USR,Uniunea Salvați România,Save Romania Union,1144382.0,True
+FR,ECO,Aujour'hui l'Ecologie,5953.0,AE,Aujour'hui l'Ecologie,Ecology Today,1124613.0,True
+IT,LA SINISTRA L'ARCOBALENO,Sinistra Italiana,1212.0,SI,Sinistra Italiana,Italian Left,1124418.0,True
+IT,PLI,Partito Liberale Italiano,1461.0,PLI,Partito Liberale Italiano,Italian Liberal Party,1121134.0,True
+LU,CSV,Chrëschtlech-Sozial Vollekspartei,539.0,CSV,Chrëschtlech Sozial Vollekspartei,Christian Social People's Party,1099427.0,True
+BG,ATAKA,Natsionalen Sayuz Ataka,1793.0,ATA,Natsionalen Sǎyuz Ataka,National Union Attack,1099324.0,True
+GB,SDLP,,762.0,SDLP,Social Democratic and Labour Party,Social Democratic and Labour Party,1095685.0,True
+IT,SINISTRA ECOLOGIA LIBERTA',Sinistra Ecologia Liberta,7031.0,SEL,Sinistra Ecologia Libertà,Left Ecology Freedom,1089562.0,True
+IT,DEMOCRAZIA EUROPEA,Democrazia Europea,1327.0,DE,Democrazia Europea,European Democracy,1068839.0,True
+FI,KD,Kristillisdemokraatit,703.0,KD,Kristillisdemokraatit,Christian Democrats / League,1067991.0,True
+IT,PSDI,Partito Socialista Democratico Italiano,1126.0,PSDI,Partito Socialista Democratico Italiano,Italian Democratic Socialist Party,1064456.0,True
+HU,LMP,Lehet Mas a Politika,1650.0,LMP—Greens,Lehet Más a Politika — LMP – Magyarország Zöld Pártja,Politics Can Be Different — LMP – Hungary's Green Party,1055063.0,True
+GB,PLAID,,1002.0,Plaid,Plaid Cymru,Plaid Cymru — the Party of Wales,1035560.0,True
+PT,OTHER,,1853.0,etc,other,other,1034444.0,True
+IT,LIBERI E UGUALI,,8246.0,LeU,Liberi e Uguali,Free and Equal,1032713.0,True
+RO,PP-DD,Partidul Poporului - Dan Diaconescu,2474.0,PP — DD,Partidul Poporului — Dan Diaconescu,People's Party — Dan Diaconescu,1023239.0,True
+LV,SC,Saskanas Centrs,1056.0,SC,Saskaņas Centrs,Harmony Centre,1019221.0,True
+AT,SPÖ,SPÖ,1384.0,SPO,Sozialdemokratische Partei Österreichs,Social Democratic Party of Austria,1006035.0,True
+CZ,OTHER,,1838.0,etc,other,other,1005531.0,True
+CH,Evangelische Volkspartei der Schweiz (EVP),Evangelische Volkspartei der Schweiz (EVP),1123.0,EVP,Evangelische Volkspartei der Schweiz,Protestant Peoples Party,1003264.0,True
+IT,LA ROSA NEL PUGNO,Rosa nel Pugno,1711.0,RnP,Rosa nel Pugno,Rose in the Fist,990443.0,True
+SK,SDKU/DS,Slovenska demokraticka a krestanska unia - Demokraticka strana,1617.0,SDKU — DS,Slovenská demokratická a kresťanská únia — Demokratická strana,Slovak Democratic and Christian Union — Democratic Party,968601.0,True
+ES,EAJ-PNV,,1637.0,PNV,Partido Nacionalista Vasco — Euzko Alderdi Jeltzalea,Basque Nationalist Party,968332.0,True
+FR,Reconquête !,Reconquête !,9064.0,R!,Reconquête,Reconquest,964775.0,True
+GR,CHRYSI.AYGI,Laikos Syndesmos / Chrysi Avgi,1660.0,LS/CA,Laïkós Sýndesmos / Chrysí Avgí,People’s Association / Golden Dawn,962509.0,True
+BE,VLAAMS BELANG,VLAAMS BELANG,1968.0,VB,Vlaams Belang,Flemish Interest,961601.0,True
+NO,V,Venstre,1173.0,V,Venstre,Liberal Party of Norway,957931.0,True
+HR,KUKURIKU,,2522.0,KK,Kukuriku koalicija,Kukuriku Coalition,952715.0,True
+SK,SAS,Sloboda a Solidarita,1386.0,SaS,Sloboda a Solidarita,Freedom and Solidarity,951710.0,True
+NL,JA21,JA21,9011.0,JA21,Juiste Antwoord21,Right Answer 2021,946327.0,True
+CZ,ANO 2011,Akce nespokojenych obcanu,2141.0,ANO,Akce nespokojených občanů,Action of Dissatisfied Citizens,927240.0,True
+NL,DENK,DENK,5856.0,DENK,Beweging DENK,Think,924472.0,True
+RO,UNIUNEA DEMOCRATĂ MAGHIARĂ DIN ROMÂNIA,UNIUNEA DEMOCRATĂ MAGHIARĂ DIN ROMÂNIA,1105.0,UDMR/RMDS,Uniunea Democrată Maghiară din România / Romániai Magyar Demokrata Szövetség,Democratic Union of Hungarians in Romania / Democratic Alliance of Hungarians in Romania,924358.0,True
+GR,LA.O.S,Laikos Orthodoxos Synagermos,965.0,LAOS,Laïkós Orthódoxos Synagermós,Popular Orthodox Rally,917163.0,True
+PT,IL,IL,8640.0,IL,Iniciativa Liberal,Liberal Initiative,910627.0,True
+SK,KDH,Krestanskodemokraticke hnutie,63.0,KDH,Kresťanskodemokratické hnutie,Christian Democratic Movement,895405.0,True
+AT,NEOS,NEOS - Das Neue Osterreich,1970.0,NEOS,NEOS — Das Neue Österreich,NEOS — The New Austria,888588.0,True
+AT,BZO,Bundnis Zukunft Osterreich,599.0,BZO,Bündnis Zukunft Österreich,Alliance for the Future of Austria,887355.0,True
+IT,LA DESTRA - FIAMMA TRICOLORE,Fiamma Tricolore,1101.0,MSFT,Fiamma Tricolore,Fiamma Tricolore,885229.0,True
+CZ,TOP 9,Tradice Odpovednost Prosperita 09,223.0,TOP09,Tradice Odpovědnost Prosperita 09,Tradition Responsibility Prosperity 09,873833.0,True
+NL,BBB,BBB,9010.0,BBB,BoerBurgerBeweging,Farmer-Citizen Movement,869542.0,True
+CZ,TOP 09,Tradice Odpovednost Prosperita 09,223.0,TOP09,Tradice Odpovědnost Prosperita 09,Tradition Responsibility Prosperity 09,865168.0,True
+BG,NDSV,Nacionalno dvizenie (Simeon Vtori) za stabilnost i vazhod,374.0,NDSV,Nacionalno dviženie (Simeon Vtori) za stabilnost i văzhod,National Movement (Simeon II) for Stability and Progress,852784.0,True
+NL,CU,CU,1459.0,CU,ChristenUnie,ChristianUnion,836616.0,True
+BG,Movement for Rights and Freedoms,Movement for Rights and Freedoms,982.0,DPS,Dvizhenie za prava i svobodi,Movement for Rights and Freedoms,836415.0,True
+BE,PAPTB,Partij van de Arbeid van Belgie - Parti du Travail de Belgique,1753.0,PVDA — PTB,Partij van de Arbeid van België — Parti du Travail de Belgique,Workers' Party of Belgium,835897.0,True
+SK,SNS,Slovenska narodna strana,730.0,SNS,Slovenská národná strana,Slovak National Party,831663.0,True
+IT,PANNELLA-BONINO,Lista Bonino,2134.0,LB,Lista Bonino,Bonino List,828856.0,True
+GR,KOMMOUNISTIKO KOMMA ELLADAS,KOMMOUNISTIKO KOMMA ELLADAS,48.0,KKE,Kommounistikó Kómma Elládas,Communist Party of Greece,827857.0,True
+BG,GERB-Sayuz na demokratichnite sili,GERB-Sayuz na demokratichnite sili,760.0,GERB,Grazhdani za evropeysko razvitie na Balgariya,Citizens for European Development of Bulgaria,823009.0,True
+FI,OTHER,,1859.0,etc,other,other,821442.0,True
+NL,50PLUS,50PLUS,714.0,50+,50PLUS,50PLUS,813803.0,True
+HU,KDNP,Keresztenydemokrata Neppart,1412.0,KDNP,Kereszténydemokrata Néppárt,Christian Democratic People's Party,812866.0,True
+LV,ZZS,Zalo un Zemnieku savieniba,701.0,ZZS,Zaļo un Zemnieku savienība,Green and Farmers' Union,809220.0,True
+HU,OTHER,,1843.0,etc,other,other,804611.0,True
+IT,+EUROPA,,6155.0,+E,Più Europa,More Europe,803621.0,True
+IT,IL GIRASOLE,Il Girasole,1782.0,Giras,Il Girasole,Greens and Social Democrats,802970.0,True
+LT,LABOUR PARTY,Darbo Partija,102.0,DP,Darbo Partija,Labour Party,781899.0,True
+NL,SGP,SGP,1178.0,SGP,Staatkundig Gereformeerde Partij,Reformed Political Party,775967.0,True
+IT,RIVOLUZIONE CIVILE,Rivoluzione Civile,2277.0,RC,Rivoluzione Civile,Civil Revolution,765194.0,True
+CY,DISY,Dimokratikos Sinayermos,563.0,DISY,Dimokratikós Sinayermós,Democratic Rally,763879.0,True
+IT,PARTITO SOCIALISTA ITALIANO,Partito Socialista Italiano,742.0,PSI,Partito Socialista Italiano,Italian Socialist Party,762940.0,True
+IT,+EUROPA,+EUROPA,6155.0,+E,Più Europa,More Europe,759979.0,True
+IT,LA RETE-MOV.DEM.,La Rete / Movimento per la Democrazia,131.0,LR,La Rete / Movimento per la Democrazia,The Network / Movement for Democracy,759485.0,True
+HR,PATRIOTIC,,8608.0,DK,Domoljubna koalicija,Patriotic Coalition,749890.0,True
+CZ,SZ,Strana zelenych,1554.0,SZ,Strana zelených,Green Party,736272.0,True
+LV,VIENOTIBA,Vienotiba,852.0,V,Vienotība,Unity,730069.0,True
+PL,AWS,Akcja Wyborcza Solidarnosc Prawicy,863.0,AWS,Akcja Wyborcza Solidarność Prawicy,Solidarity Electoral Action of the Right,729170.0,True
+GB,SNP,SNP,986.0,SNP,Scottish National Party,Scottish National Party,724758.0,True
+CY,AKEL,Anorthotiko Komma Ergazomenou Laou,1076.0,AKEL,Anorthotikó Kómma Ergazómenou Laoú,Progressive Party of Working People,722818.0,True
+BE,MR,MR,789.0,MR,Mouvement Réformateur,Reformist Movement,716934.0,True
+DE,dieBasis,dieBasis,8993.0,dieBasis,Basisdemokratische Partei Deutschland,Grassroots Democratic Party of Germany,715619.2,True
+BG,BSP FOR BULGARIA,BSP FOR BULGARIA,1665.0,KzB — BSP,Koalicija za Balgarija — BSP za Bŭlgariya,Coalition for Bulgaria — BSP for Bulgaria,714265.0,True
+FR,Divers gauche,Divers gauche,126.0,d-g,divers gauche,other left,713574.0,True
+LU,LSAP,d'Sozialisten,186.0,LSAP,Lëtzebuerger Sozialistesch Aarbechterpartei,Luxembourg Socialist Workers' Party,711890.0,True
+DE,Die PARTEI,Die PARTEI,6126.0,PARTEI,Die PARTEI,THE PARTY,704412.2,True
+PL,OTHER,,1852.0,etc,other,other,699292.0,True
+LT,LITHUANIAN SOCIAL DEMOCRATIC PARTY,Lietuvos socialdemokratu partija,64.0,LSDP,Lietuvos socialdemokratų partija,Lithuanian Social Democratic Party,688719.0,True
+AT,LIF,Liberales Forum,605.0,LIF,Liberales Forum,Liberal Forum,682656.0,True
+ES,EH BILDU,Euskal Herria Bildu / Reunir Euskal Herria,5668.0,EHBildu,Euskal Herria Bildu / Reunir Euskal Herria,Basque Country Unite,681459.0,True
+SK,SMER - sociálna demokracia,SMER - sociálna demokracia,311.0,Smer — SD,Smer — sociálna demokracia,Direction — Social Democracy,681017.0,True
+IT,RETE - MOVIMENTO DEMOCRATICO,La Rete / Movimento per la Democrazia,131.0,LR,La Rete / Movimento per la Democrazia,The Network / Movement for Democracy,679148.0,True
+CZ,PIRATI,Ceska piratska strana,2047.0,Pi,Ceska piratska strana,Czech Pirate Party,678810.0,True
+SI,SD,Socialni demokrati / Zdruzena lista socialnih demokratov,1403.0,SD/ZLSD,Socialni demokrati / Združena lista socialnih demokratov,Social Democrats / United List of Social Democrats,675500.0,True
+ES,PODEMOS-COM,,3203.0,PODEMOS,Podemos,We Can,673549.0,True
+BG,REVIVAL,REVIVAL,5862.0,V,Vazrazhdane,Revival,672909.0,True
+GR,AE,Anexartitoi Ellines,1651.0,ANEL,Anexartitoi Ellines,Independent Greeks,662938.0,True
+EE,ER,Eesti Reformierakond,821.0,ER,Eesti Reformierakond,Estonian Reform Party,660080.0,True
+EE,EK,Eesti Keskerakond,533.0,EK,Eesti Keskerakond,Estonian Centre Party,657495.0,True
+FR,UDI,Union des democrates et independants,3229.0,UDI,Union des démocrates et indépendants,Union of Democrats and Independents,656607.0,True
+CH,Eidgenössisch-Demokratische Union (EDU),Eidgenössisch-Demokratische Union (EDU),631.0,EDU,Eidgenössisch-Demokratische Union,Federal Democratic Union of Switzerland,647344.0,True
+FI,KOK,KOK,495.0,KOK,Kansallinen Kokoomus,National Coalition Party,644555.0,True
+GB,BREXIT,Brexit Party,7364.0,BP,Brexit Party,Brexit Party,644257.0,True
+LU,LENK,Dei Lenk,271.0,DL,Déi Lénk,The Left,638034.0,True
+PT,B.E.,B.E.,1310.0,BE,Bloco de Esquerda,Left Bloc,633512.0,True
+CZ,STAROSTOVÉ A NEZÁVISLÍ,STAROSTOVÉ A NEZÁVISLÍ,1707.0,STAN,Starostové a nezávislí,Mayors and Independents,631512.0,True
+BG,We continue the Change,We continue the Change,8994.0,PP,Prodalzhavame promyanata,We Continue the Change,624468.0,True
+DK,LA,[Ny] Liberal Alliance,212.0,LA,[Ny] Liberal Alliance,[New] Liberal Alliance,621279.0,True
+FI,PS,PS,1689.0,SP/PS,Suomen Puolue / Perussuomalaiset,Finns Party / True Finns,620981.0,True
+GR,DIKKI,Dimokratiko Koinoniko Kinima,1682.0,DIKKI,Dimokratiko Koinoniko Kinima,Democratic Social Movement,618019.0,True
+FI,SDP,SDP,1303.0,SDP,Suomen Sosialidemokraattinen Puolue,Social Democratic Party of Finland,617552.0,True
+MT,MLP/PL,Partit Laburista,808.0,MLP,Partit Laburista,Malta Labour Party,614489.0,True
+SK,MOST-HID,MOST-HID,258.0,MH,MOST-HID,Most-Hid,610211.0,True
+NO,Høyre,Høyre,503.0,H,Høyre,Conservative Party,607316.0,True
+HR,MOST,Most nezavisnih lista,4865.0,Most,Most nezavisnih lista,Bridge of Independent Lists,603171.0,True
+DE,DVU,,695.0,DVU,Deutsche Volksunion,German People's Union,602810.0,True
+SK,SMK-MKP,Strana madarskej koalicie / Strana madarskej komunity,349.0,SMK-MKP,Strana maďarskej koalície / Strana maďarskej komunity,Party of the Hungarian Coalition / Party of the Hungarian Community,593709.0,True
+RO,UNSR,Uniunea Salvati Romania,5969.0,USR,Uniunea Salvați România,Save Romania Union,593693.0,True
+BG,There is Such A People,There is Such A People,8992.0,ITN,Ima takav narod,There Is Such a People,587531.0,True
+HU,MIEP,Magyar Igazsag es Elet Partja,1597.0,MIEP,Magyar Igazság és Élet Pártja,Hungarian Justice and Life Party,579888.0,True
+NL,PVV,PVV,298.0,PVV,Partij voor de Vrijheid,Party for Freedom,579490.0,True
+BG,GERB-SDS,GERB-SDS,760.0,GERB,Grazhdani za evropeysko razvitie na Balgariya,Citizens for European Development of Bulgaria,578726.0,True
+DE,FREIE WAHLER,,1090.0,FW,Freie Wähler,Free Voters,576459.0,True
+CZ,VV,Veci verejne,1202.0,VV,Věci veřejné,Public Affairs,569127.0,True
+FR,NCE,Nouveau centre,1255.0,NC,Nouveau centre,New Centre,567486.0,True
+BE,PS,PS,500.0,PS,Parti Socialiste,Socialist Party [Francophone],561602.0,True
+DE,B90/GR,Bundnis 90 / Grune - BurgerInnenbewegung,865.0,B90/Gr-BB,Bündnis 90 / Grüne — BürgerInnenbewegung,Greens / Alliance 90 — Citizens' Movement [East Germany],558570.0,True
+MT,PN,Partit Nazzjonalista,699.0,PN,Partit Nazzjonalista,Nationalist Party,557762.0,True
+BE,CD&V,CD&V,604.0,CD&V,Christen-Democratisch en Vlaams,Christian Democrats and Flemish,557392.0,True
+BE,FN,Front National,191.0,FN,Front National,National Front,555286.0,True
+PL,LR,[Lewica] Razem,4871.0,Razem,[Lewica] Razem,[Left] Together,550349.0,True
+NL,Volt,Volt,7355.0,VN,Volt Nederland,Volt Netherlands,547565.0,True
+CZ,SPD,Svoboda a prima demokracie,6125.0,SPD,Svoboda a přímá demokracie,Freedom and Direct Democracy,538574.0,True
+GR,ANOIX,Politiki Anixi,312.0,POLAN,Politiki Anixi,Political Spring,535923.0,True
+IT,U.D.EUR POPOLARI,Unione Democratici per l'Europa,115.0,UDEUR,Unione Democratici per l'Europa,Union of Democrats for Europe,534440.0,True
+SK,Progresívne Slovensko,Progresívne Slovensko,7361.0,PS,Progresívne Slovensko,Progressive Slovakia,533136.0,True
+FR,Divers droite,Divers droite,1776.0,d-d,divers droite,other right,530782.0,True
+ES,JXCAT-JUNTS,Junts per Catalunya,7421.0,JxCat,Junts per Catalunya,Together for Catalonia,530225.0,True
+BG,OTHER,,1835.0,etc,other,other,517029.0,True
+IT,ITALEXIT PER L'ITALIA,ITALEXIT PER L'ITALIA,9081.0,Italexit,Italexit for Italy,Italexit per l'Italia,516300.0,True
+CZ,Svoboda a prima demokracie,Svoboda a prima demokracie,6125.0,SPD,Svoboda a přímá demokracie,Freedom and Direct Democracy,513910.0,True
+SK,LSNS,Ludova strana Nase Slovensko,656.0,LsNS,Ľudová strana Naše Slovensko,People's Party Our Slovakia,513395.0,True
+BG,Ima takav narod,Ima takav narod,8992.0,ITN,Ima takav narod,There Is Such a People,512697.0,True
+DK,FP,Fremskridtspartiet,1601.0,FrP,Fremskridtspartiet,Progress Party,504978.0,True
+CZ,Česká pirátská strana,Česká pirátská strana,2047.0,Pi,Ceska piratska strana,Czech Pirate Party,504537.0,True
+DK,CD,Centrumdemokraterne,800.0,CD,Centrumdemokraterne,Centre Democrats,501765.0,True
+ES,SUMAR - EN COMÚ PODEM,SUMAR - EN COMÚ PODEM,8031.0,ECP,En Comú Podem,In Common We Can,493548.0,True
+FR,Divers Gauche,Divers Gauche,126.0,d-g,divers gauche,other left,493521.0,True
+CH,GLP,Grunliberale Partei der Schweiz,1759.0,GLP,Grünliberale Partei der Schweiz,Green Liberal Party,486554.0,True
+ES,CDC,Convergencia Democratica de Catalunya,4795.0,CDC,Convergència Democràtica de Catalunya,Democratic Convergence of Catalonia,483488.0,True
+ES,PACMA,,3219.0,PACMA,Partido Animalista Contra el Maltrato Animal,Animalist Party Against Mistreatment to Animals,483165.0,True
+LT,LITHUANIAN PEASANT AND GREENS UNION,Lietuvos valstieciu partija,21.0,LVP,Lietuvos valstiečių partija,Lithuanian Peasant Party,478899.0,True
+IT,SVP,,1369.0,SVP,Südtiroler Volkspartei,South Tyrol Peoples Party,477173.0,True
+HU,MUNKASPART,Magyar Kommunista Munkaspart,859.0,MKM,Magyar Kommunista Munkáspárt,Hungarian Communist Workers' Party,476676.0,True
+IE,GREEN,Green Party-Comhaontas Glas,1775.0,Greens,Green Party-Comhaontas Glas,Green Party,472460.0,True
+NO,H,Høyre,503.0,H,Høyre,Conservative Party,471602.0,True
+DK,V,"V. Venstre, Danmarks Liberale Parti",1204.0,V,Venstre,Liberal Party,470546.0,True
+BG,BSP za Bŭlgariya,BSP za Bŭlgariya,1665.0,KzB — BSP,Koalicija za Balgarija — BSP za Bŭlgariya,Coalition for Bulgaria — BSP for Bulgaria,469048.0,True
+DK,KD,Kristeligt Folkeparti / Kristendemokraterne,53.0,KrF/KD,Kristeligt Folkeparti / Kristendemokraterne,Christian People's Party / Christian Democrats,464071.0,True
+ES,ESQUERRA REPUBLICANA DE CATALUNYA,ESQUERRA REPUBLICANA DE CATALUNYA,848.0,ERC,Esquerra Republicana de Catalunya,Republican Left of Catalonia,462883.0,True
+PL,SDPL,Socjaldemokracja Polska,1328.0,SDPL,Socjaldemokracja Polska,Social Democracy of Poland,459376.0,True
+GR,KIN.AL.,Kinima Allagis,7909.0,KINAL,Kinima Allagis,Movement for Change,457623.0,True
+LT,A. BRAZAUSKAS SOCIALDEMOCRATIC COALITION,Brazausko socialdemokratine koalicija,197.0,BSDK,Brazausko socialdemokratiné koalicija,Brazauskas Social Democratic Coalition,457294.0,True
+TR,BBP,,1330.0,BBP,Büyük Birlik Partisi,Great Union Party,455035.0,True
+BE,LDD,"Lijst Dedecker / Libertair, Direct, Democratisch",43.0,LD/LDD,"Lijst Dedecker / Libertair, Direct, Democratisch","List Dedecker / Libertarian, Direct, Democratic",447639.0,True
+LV,NA!,Nacionala apvieniba,7619.0,,Nacionālā apvienība,National Alliance,445767.0,True
+IT,ALLEANZA DEMOCRATICA,Alleanza Democratica,614.0,AD,Alleanza Democratica,Democratic Alliance,439414.0,True
+CZ,Svoboda a přímá demokracie (SPD),Svoboda a přímá demokracie (SPD),6125.0,SPD,Svoboda a přímá demokracie,Freedom and Direct Democracy,437611.0,True
+SE,Vänsterpartiet,Vänsterpartiet,830.0,V/SKP,Vänsterpartiet / Sveriges Komunistiska Parti,Left Party / Communist Party,436810.0,True
+SK,HLAS - sociálna demokracia,HLAS - sociálna demokracia,9071.0,HLAS-SD,HLAS – sociálna demokracia,Voice – Social Democracy,436415.0,True
+GB,ALLIANCE,,1477.0,All,Alliance Party of Northern Ireland,Alliance Party of Northern Ireland,434653.0,True
+SE,Centerpartiet,Centerpartiet,199.0,B/C,Bondeförbundet / Centerpartiet,Farmers' League / Centre Party,434436.0,True
+FR,MAJ,Parti de la Majorite presidentielle,3157.0,MP,Parti de la Majorité présidentielle,Party of Presidential Majority,434050.0,True
+AT,NEOS,NEOS,1970.0,NEOS,NEOS — Das Neue Österreich,NEOS — The New Austria,429615.0,True
+AT,OTHER,,1857.0,etc,other,other,423141.0,True
+CH,OTHER,,1964.0,etc,other,other,414319.0,True
+SI,SVOBODA,GIBANJE SVOBODA,9067.0,GS,Gibanje Svoboda,Freedom Movement,410769.0,True
+ES,PODEMOS-EN,,3203.0,PODEMOS,Podemos,We Can,410698.0,True
+IT,MOVIMENTO PER L'AUTONOMIA ALL.PER IL SUD,Movimento per l'Autonomia,1045.0,MpA,Movimento per l'Autonomia,Movement for Autonomy,410487.0,True
+SK,SME,Sme Rodina - Boris Kollar,4873.0,SR,Sme Rodina — Boris Kollár,We are family — Boris Kollar,410318.0,True
+PL,UW,Unia Wolnosci,8268.0,UW,Unia Wolności,Freedom Union,404037.0,True
+NO,Senterpartiet,Senterpartiet,1072.0,Sp/Bp,Senterpartiet / Bondepartiet,Centre [Agrarian] Party,402961.0,True
+BG,RB,Reformatorski Blok,3189.0,RB,Reformatorski Blok,Reformist Bloc,399213.0,True
+RO,PALD,Alianta Liberalilor si Democratilor,5662.0,ALDE,Alianța Liberalilor și Democraților,Alliance of Liberals and Democrats,393255.0,True
+ES,JUNTS PER CATALUNYA - JUNTS,JUNTS PER CATALUNYA - JUNTS,7421.0,JxCat,Junts per Catalunya,Together for Catalonia,392634.0,True
+FR,Divers Centre,Divers Centre,9133.0,d-centre,divers centre,other centre,391423.0,True
+SK,OTHER,,1855.0,etc,other,other,390930.0,True
+SI,SMC,Stranka Mira Cerarja / Stranka modernega centra,3098.0,SMC,Stranka Mira Cerarja / Stranka modernega centra,Party of Miro Cerar / Modern Center Party,388431.0,True
+AT,GRÜNE,GRÜNE,1659.0,GRUENE,Die Grünen — Die grüne Alternative,The Greens — The Green Alternative,386910.0,True
+LV,JL,Jaunais Laiks,1531.0,JL,Jaunais Laiks,New Era,386054.0,True
+TR,DSP,,1740.0,DSP,Demokratik Sol Parti,Democratic Left Party,385786.0,True
+IT,PARTITO PENSIONATI,,772.0,PP,Partito Pensionati,Pensioners' Party,385737.0,True
+GR,DIMAR,Dimokratiki Aristera,1160.0,DIMAR,Dimokratiki Aristera,Democratic Left,384986.0,True
+RO,PNGCD,Partidul Noua Generatie - Crestin Democrat,296.0,PNG — CD,Partidul Noua Generaţie — Creştin Democrat,New Generation Party — Christian Democratic,383656.0,True
+LT,LIBERALS MOVEMENT OF THE REPUBLIC OF LITHUANIA,Lietuvos Respublikos Liberalu sajudis,1744.0,LRLS,Lietuvos Respublikos Liberalų sąjūdis,Liberals' Movement of the Republic of Lithuania,383444.0,True
+IT,FARE PER FERMARE IL DECLINO,Fermare il Declino,2279.0,FiD,Fermare il Declino,Stop the Decline,381236.0,True
+CY,DIKO,Dimokratiko Komma,635.0,DIKO,Dimokratikó Kómma,Democratic Party,378723.0,True
+FR,Extrême Gauche,Extrême Gauche,1594.0,exg,extrême gauche,other far-left,364290.0,True
+TR,YTP,,2471.0,YTP,Yeni Türkiye Partisi,New Turkey Party (2002),363671.0,True
+BE,FDF,Democratic Front of Francophones,698.0,FDF,Front Démocratique des Francophones / DéFI,Democratic Front of Francophones,362591.0,True
+CH,EVP,Evangelische Volkspartei der Schweiz,1123.0,EVP,Evangelische Volkspartei der Schweiz,Protestant Peoples Party,360312.0,True
+BG,BSP for Bulgaria,BSP for Bulgaria,1665.0,KzB — BSP,Koalicija za Balgarija — BSP za Bŭlgariya,Coalition for Bulgaria — BSP for Bulgaria,359700.0,True
+BE,PVDA,PVDA,1753.0,PVDA — PTB,Partij van de Arbeid van België — Parti du Travail de Belgique,Workers' Party of Belgium,355231.0,True
+RO,PMP,Partidul Miscarea Populara,3210.0,PMP,Partidul Mișcarea Populară,People's Movement Party,351637.0,True
+IT,POTERE AL POPOLO!,,8247.0,PaP,Potere al Popolo,Power to the People,351208.0,True
+FI,KESK,KESK,901.0,KESK,Maalaisliitto / Keskusta,Agrarian Union / Centre Party,349640.0,True
+ES,PODEMOS-EN MAREA-ANOVA-EU,,5873.0,EM,En Marea,In Tide,347542.0,True
+NO,Fremskrittspartiet,Fremskrittspartiet,101.0,FrP,Fremskrittspartiet,Progress Party,346474.0,True
+SE,Kristdemokraterna,Kristdemokraterna,651.0,KD,Kristdemokraterna,Christian Democrats,345489.0,True
+LV,TP,Tautas Partija,1755.0,TP,Tautas Partija,People's Party,342727.0,True
+CZ,USVIT,Usvit prime demokracie,2049.0,UPD,Úsvit přímé demokracie,Dawn of Direct Democracy,342339.0,True
+SI,LZJPS,Lista Zorana Jankovica - Pozitivna Slovenija,1773.0,LZJ — PS,Lista Zorana Jankovića — Pozitivna Slovenija,Zoran Janković's List — Positive Slovenia,340248.0,True
+LT,LITHUANIAN POLES' ELECTORAL ACTION,Lietuvos lenku rinkimu akcija,556.0,LLRA,Lietuvos lenkų rinkimų akcija,Election Action of Lithuania's Poles,339213.0,True
+IT,ITALIA SOVRANA E POPOLARE,ITALIA SOVRANA E POPOLARE,9127.0,ISP,Italia Sovrana e Popolare,Sovereign and Popular Italy,338798.0,True
+IT,MOV.SOC.TRICOLORE,Fiamma Tricolore,1101.0,MSFT,Fiamma Tricolore,Fiamma Tricolore,338746.0,True
+ES,AMAIUR,Amaiur,1671.0,A,Amaiur,Amaiur,334498.0,True
+LT,NEW UNION (SOCIAL LIBERALS),Naujoji sajunga (socialliberalai),1800.0,NS,Naujoji sąjunga (socialliberalai),New Union (Social Liberals),333956.0,True
+ES,EUSKAL HERRIA BILDU,EUSKAL HERRIA BILDU,5668.0,EHBildu,Euskal Herria Bildu / Reunir Euskal Herria,Basque Country Unite,333362.0,True
+NL,RPF,RPF,172.0,RPF,Reformatorisch Politieke Federatie,Reformatory Political Federation,333298.0,True
+HU,MI HAZÁNK MOZGALOM,MI HAZÁNK MOZGALOM,7349.0,MHM,Mi Hazánk Mozgalom,Our Homeland Movement,332487.0,True
+ES,MAS PAIS-EQUO,,8395.0,Pais,Más País,More Country,330345.0,True
+DK,M,M. Moderaterne,9063.0,M,Moderaterne,Moderates,327699.0,True
+SK,LS-HZDS,Ludova strana - Hnutie za demokraticke Slovensko,560.0,LS — HZDS,Ľudová strana — Hnutie za demokratické Slovensko,People's Party — Movement for a Democratic Slovakia,327589.0,True
+SI,DESUS,Demokraticna stranka upokojencev Slovenije,467.0,DeSUS,Demokratična stranka upokojencev Slovenije,Democratic Party of Retired People of Slovenia,327213.0,True
+SE,Miljöpartiet de gröna,Miljöpartiet de gröna,456.0,MP,Miljöpartiet de gröna,Greens,324976.0,True
+BE,GROEN,GROEN,528.0,AGL — Gr,Agalev — Groen,Agalev — Green,324608.0,True
+LU,PPLU,Piratepartei Letzebuerg,2065.0,Pi,Piratepartei Lëtzebuerg,Pirate Party Luxembourg,323819.0,True
+LU,déi gréng,déi gréng,1138.0,Greng/GAP,Déi Gréng [Alternativ],The Greens,321895.0,True
+FR,LCR,Ligue communiste revolutionnaire,1506.0,LCR,Ligue communiste révolutionnaire,Revolutionary Communist League,320610.0,True
+BG,IMRO/NFSB/ATTAKA,Obedineni Patrioti,6115.0,OP,Obedineni Patrioti,United Patriots,318513.0,True
+GR,EN.KENT,Enosi Kentroon,2510.0,EK,Enosi Kentroon,Union of Centrists,317269.0,True
+PL,PJN,Polska jest Najwazniejsza,41.0,PjN,Polska jest Najważniejsza,Poland is the Most Important,315393.0,True
+FR,PRV,Parti radical [socialiste],14.0,PR,Parti radical [socialiste],Radical [Socialist] Party,313750.0,True
+BG,Dvizhenie za prava i svobodi,Dvizhenie za prava i svobodi,982.0,DPS,Dvizhenie za prava i svobodi,Movement for Rights and Freedoms,313302.0,True
+FR,MOUVEMENT POUR LA FRANCE,,364.0,MF,Mouvement pour la France,Movement for France,312581.0,True
+EE,IRL,Erakond Isamaa ja Res Publica Liit,685.0,IRL,Erakond Isamaa ja Res Publica Liit,Union of Pro Patria and Res Publica,312355.0,True
+BG,Democratic Bulgaria,Democratic Bulgaria,9083.0,DB,Demokratichna Bulgaria,Democratic Bulgaria,310522.0,True
+DE,ODP,,7345.0,ODP,Ökologisch-Demokratische Partei,Ecological Democratic Party,309955.0,True
+HU,DK,Demokratikus Koalicio,469.0,DK,Demokratikus Koalíció,Democratic Coalition,307492.0,True
+FR,LO,,617.0,LO,Lutte ouvrière,Workers' Struggle,304077.0,True
+GR,OIK.PRAS,Oikologoi Prasinoi,378.0,OP,Oikologoi Prasinoi,Ecologist Greens,303359.0,True
+EE,SDE-MOODUKAT,Sotsiaaldemokraatlik Erakond - Moodukad,1150.0,SDE — M,Sotsiaaldemokraatlik Erakond — Mõõdukad,Social Democratic Party — Moderates,302417.0,True
+CZ,SPOZ,Strana Prav Obcanu - Zemanovci / Strana Prav Obcanu,1272.0,SPOZ / SPO,Strana Práv Občanů — Zemanovci / Strana Práv Občanů,Party of Civic Rights — Zeman's people / Party of Civic Rights,301640.0,True
+PT,PAN,Partido pelos Animais e pela Natureza,97.0,PAN,Partido pelos Animais e pela Natureza,Party for Animals and Nature,299267.0,True
+FR,DIVECO,other,1898.0,etc,other,other,297304.0,True
+CH,BDP,Burgerlich-Demokratische Partei (BDP) Graubunden,1415.0,BDP,Bürgerlich-Demokratische Partei (BDP) Graubünden,Conservative Democratic Party of Switzerland,294960.0,True
+IE,PD,An Pairti Daonlathach,924.0,PD,An Pairti Daonlathach,Progressive Democrats,294576.0,True
+DK,F,F. SF - Socialistisk Folkeparti,329.0,SF,Socialistisk Folkeparti,Socialist Peoples Party,293186.0,True
+SI,LDS,Liberalna demokracija Slovenije,975.0,LDS,Liberalna demokracija Slovenije,Liberal Democracy of Slovenia,291887.0,True
+SI,NSI,Nova Slovenija - Krscanska ljudska stranka,1618.0,NSi,Nova Slovenija — Krščanska ljudska stranka,New Slovenia — Christian People's Party,290243.0,True
+PL,PD,Partia Demokratyczna,1566.0,PD,Partia Demokratyczna,Democratic Party,289268.0,True
+DK,Æ,Æ. Danmarksdemokraterne - Inger Støjberg,9062.0,DD (Æ),Danmarksdemokraterne,Denmark Democrats,286796.0,True
+BG,SINIATA,Sinyata koalitsia,58.0,BC,Sinyata koalitsia,Blue Coalition,285662.0,True
+NO,OTHER,,1886.0,etc,other,other,285479.0,True
+RO,PARTIDUL MIȘCAREA POPULARĂ,PARTIDUL MIȘCAREA POPULARĂ,3210.0,PMP,Partidul Mișcarea Populară,People's Movement Party,284502.0,True
+FR,Divers centre,Divers centre,9133.0,d-centre,divers centre,other centre,283612.0,True
+PT,PAN,PAN,97.0,PAN,Partido pelos Animais e pela Natureza,Party for Animals and Nature,281681.0,True
+BG,ODS,Obedineni Demokratichni Sili,1183.0,ODS,Obedineni Demokratichni Sili,United Democratic Forces,280323.0,True
+SI,SDS,SLOVENSKA DEMOKRATSKA STRANKA - SDS,472.0,SDS,Slovenska demokratska stranka,Slovenian Democratic Party,279897.0,True
+DK,I,I. Liberal Alliance,3922.0,ally,alliance,alliance,278656.0,True
+FR,MNR,,1634.0,MNR,Mouvement national républicain,National Republican Movement,278255.0,True
+CH,LPS,Liberale Partei der Schweiz,444.0,LPS,Liberale Partei der Schweiz,Liberal Party of Switzerland,274886.0,True
+NL,CD,CD,1472.0,CD,Centrum Democraten,Centre Democrats,272960.0,True
+AT,FRANK,Team Stronach,1971.0,TS,Team Stronach,Team Stronach,268679.0,True
+HU,ASZ,Agrarszovetseg,1132.0,ASZ,Agrárszövetség,Agrarian Alliance,267388.0,True
+FR,Divers extrême gauche,Divers extrême gauche,1594.0,exg,extrême gauche,other far-left,266412.0,True
+FR,DLF,,3207.0,DLF,Debout la France,France Arise,265359.0,True
+LV,PCTVL,Par cilveka tiesibam vienota Latvija,176.0,PCTVL,Par cilvēka tiesībām vienotā Latvijā,For Human Rights in a United Latvia,264728.0,True
+SK,"OĽANO A PRIATELIA: OBYČAJNÍ ĽUDIA (OĽANO), NEZÁVISLÍ KANDIDÁTI (NEKA), NOVA, SLOBODNÍ A ZODPOVEDNÍ, PAČIVALE ROMA, MAGYAR SZÍVEK a Kresťanská únia a ZA ĽUDÍ","OĽANO A PRIATELIA: OBYČAJNÍ ĽUDIA (OĽANO), NEZÁVISLÍ KANDIDÁTI (NEKA), NOVA, SLOBODNÍ A ZODPOVEDNÍ, PAČIVALE ROMA, MAGYAR SZÍVEK a Kresťanská únia a ZA ĽUDÍ",7360.0,KU,Kresťanská únia,Christian Union,264137.0,True
+GR,ELLINIKI LYSI - KYRIAKOS VELOPOULOS,ELLINIKI LYSI - KYRIAKOS VELOPOULOS,7347.0,EL,Elliniki Lisi,Greek Solution,262498.0,True
+CZ,STAN,Starostove a Nezavisli - Vase Alternativa,1707.0,STAN,Starostové a nezávislí,Mayors and Independents,262157.0,True
+FR,DIVERS,other,1898.0,etc,other,other,262050.0,True
+BE,PARTI POPULAIRE,Parti populaire,639.0,Pp,Parti populaire,People's Party,261682.0,True
+HR,OTHER,,2027.0,etc,other,other,257579.0,True
+CH,Ensemble à Gauche : solidaritéS · DAL · Parti du Travail (PdA/Sol.),Ensemble à Gauche : solidaritéS · DAL · Parti du Travail (PdA/Sol.),8653.0,S,SolidaritéS,Solidarity,255320.0,True
+LT,LITHUANIAN LIBERAL UNION,Lietuvos liberalu sajunga,1357.0,LLS,Lietuvos liberalų sąjunga,Liberal Union of Lithuania,253823.0,True
+BG,Movement for Rights and Freedoms - DPS,Movement for Rights and Freedoms - DPS,982.0,DPS,Dvizhenie za prava i svobodi,Movement for Rights and Freedoms,253257.0,True
+CZ,Ceska strana socialne demokraticka,Ceska strana socialne demokraticka,177.0,CSSD,Česká strana sociálně demokratická,Czech Social Democratic Party,250397.0,True
+DE,DIE PARTEI,,6126.0,PARTEI,Die PARTEI,THE PARTY,250297.0,True
+IT,NOI MODERATI/LUPI - TOTI - BRUGNARO - UDC,NOI MODERATI/LUPI - TOTI - BRUGNARO - UDC,9513.0,NM,Noi moderati,Us Moderates,248337.0,True
+IE,OTHER,,1885.0,etc,other,other,247872.0,True
+LT,WORKING FOR LITHUANIA,"""Koalicija """"Uz darba Lietuvai""""""",2091.0,UdL,"Koalicija ""Už darba Lietuvai“",Working for Lithuania,246852.0,True
+BE,PTB,PTB,1753.0,PVDA — PTB,Partij van de Arbeid van België — Parti du Travail de Belgique,Workers' Party of Belgium,246211.0,True
+GR,SPARTIATES,SPARTIATES,9129.0,Sp,Spartiátes,Spartans,243922.0,True
+LU,KPL,Kommunistesch Partei vu Letzebuerg,1647.0,KPL,Kommunistesch Partei vu Lëtzebuerg,Communist Party of Luxembourg,243201.0,True
+RO,PARTIDUL PRO ROMÂNIA,PARTIDUL PRO ROMÂNIA,7359.0,PROR,PRO România,PRO Romania,241272.0,True
+LT,Lietuvos socialdemokratų partija,Lietuvos socialdemokratų partija,64.0,LSDP,Lietuvos socialdemokratų partija,Lithuanian Social Democratic Party,240503.0,True
+BG,IMRO/NFSB,Patriotichen front,5649.0,PF,Patriotichen front,Patriotic Front,239101.0,True
+FR,Reconquête,Reconquête,9064.0,R!,Reconquête,Reconquest,236768.0,True
+BG,DSB,Demokrati za Silna Balgarija,1195.0,DSB,Demokrati za Silna Balgarija,Democrats for a Strong Bulgaria,234788.0,True
+BG,RZS,"Red, zakonnost i spravedlivost",272.0,RZS,"Red, zakonnost i spravedlivost","Order, Law and Justice",233727.0,True
+FR,Horizons,Horizons,9134.0,H,Horizons,Horizons,231667.0,True
+GR,ELLINIKI LYSI-KYRIAKOS VELOPOULOS,ELLINIKI LYSI-KYRIAKOS VELOPOULOS,7347.0,EL,Elliniki Lisi,Greek Solution,231491.0,True
+HR,HDZ-HSLS,Hrvatska demokratska zajednica,1431.0,HDZ,Hrvatska demokratska zajednica,Croatian Democratic Union,230838.0,True
+IT,P.POPOLARE ITALIANO,Partito Popolare Italiano,1701.0,PPI,Partito Popolare Italiano,Italian People's Party,228194.0,True
+NO,Sosialistisk Venstreparti,Sosialistisk Venstreparti,719.0,SV,Sosialistisk Venstreparti,Socialist Left Party,228063.0,True
+NL,GPV,GPV,1602.0,GPV,Gereformeerd Politiek Verbond,Reformed Political League,227882.0,True
+NL,PvdD,PvdD,1467.0,PvdD,Partij voor de Dieren,Party for the Animals,227742.0,True
+DE,DIE GRAUEN,,1652.0,Grau,Die Grauen — Graue Panther,The Grays — Gray Panthers,227364.0,True
+LT,Tėvynės sąjunga-Lietuvos krikščionys demokratai ,Tėvynės sąjunga-Lietuvos krikščionys demokratai ,193.0,TS — LKD,Tėvynės sąjunga — Lietuvos krikščionys demokratai,Homeland Union — Lithuanian Christian Democrats,224026.0,True
+AT,PILZ,Liste Peter Pilz,6137.0,PILZ,Liste Peter Pilz,Peter Pilz List,223543.0,True
+GR,POTAMI,To Potami,3118.0,TP,To Potami,The River,222349.0,True
+CZ,PRISAHA Roberta Slachty,PRISAHA Roberta Slachty,9002.0,P,Přísaha,Oath,221415.0,True
+HU,OMC,alliance,3948.0,ally,alliance,alliance,219029.0,True
+DE,DIE TIERSCHUTZPARTEI,,749.0,Tier,Tierschutzpartei,Animal Welfare Party,218192.0,True
+FI,VIHR,VIHR,479.0,VIHR,Vihreä Liitto,Green League,217795.0,True
+PT,PCTP/MRPP,Comunista dos Trabalhadores Portugueses / Movimento Reorganizativo do Partido do Proletariado,857.0,PCTP/MRPP,Comunista dos Trabalhadores Portugueses / Movimento Reorganizativo do Partido do Proletariado,Communist Party of the Portuguese Workers / Reorganizative Movement of the Party of the Proletariat,215033.0,True
+GB,SF,Sinn Féin,963.0,SF,Sinn Féin,Sinn Fein,210891.0,True
+GR,ELLINIKI LYSI,Elliniki Lisi,7347.0,EL,Elliniki Lisi,Greek Solution,209290.0,True
+IT,PARTITO SOCIALISTA,Partito Socialista Italiano,742.0,PSI,Partito Socialista Italiano,Italian Socialist Party,207653.0,True
+CH,EDU,Eidgenossisch-Demokratische Union,631.0,EDU,Eidgenössisch-Demokratische Union,Federal Democratic Union of Switzerland,206227.0,True
+BE,ECOLO,ECOLO,1563.0,Ecolo,Écologistes Confédérés pour l'organisation de luttes originales,Confederated ecologists for the organisation of original struggles,204438.0,True
+LT,LIBERAL AND CENTRE UNION,Liberalu ir centro sajunga,1193.0,LiCS,Liberalų ir centro sąjunga,Liberal and Centre Union,204210.0,True
+SK,Kresťanskodemokratické hnutie,Kresťanskodemokratické hnutie,63.0,KDH,Kresťanskodemokratické hnutie,Christian Democratic Movement,202515.0,True
+CZ,SVOBODNI,Strana svobodnych obcanu,254.0,SSO,Strana svobodných občanů,Party of Free Citizens,201793.0,True
+IT,SUDTIROLER VOLKSPARTEI,,1369.0,SVP,Südtiroler Volkspartei,South Tyrol Peoples Party,200056.0,True
+SK,SPOLU,Spolu - obcianska demokracia,8177.0,Spolu,Spolu — občianska demokracia,Together — Civic Democracy,199506.0,True
+BG,LIDER,Lider,265.0,LR,Lider,Lider,199277.0,True
+SI,SLS,Slovenska ljudska stranka,764.0,SLS,Slovenska ljudska stranka,Slovenian People's Party,199220.0,True
+BE,ROSSEM,Radikale Omvormers Strijdersen Stubbelaars vor Maatschappij,1016.0,ROSSEM,Radikale Omvormers Strijdersen Stubbelaars vor Maatschappij,Radical Reformers Fighting for an Upright Society,198182.0,True
+DK,OTHER,,1858.0,etc,other,other,197912.0,True
+DK,C,C. Det Konservative Folkeparti,536.0,KF,Konservative Folkeparti,Conservative People's Party,194820.0,True
+GB,PC,Plaid Cymru,1002.0,Plaid,Plaid Cymru,Plaid Cymru — the Party of Wales,194811.0,True
+CH,FPS,Auto-Partei / Freiheitspartei der Schweiz,1311.0,A/FPS,Auto-Partei / Freiheitspartei der Schweiz,Automobile Party / Freedom Party of Switzerland,194591.0,True
+GR,MERA25,European Realistic Disobedience Front [MeRa25],7348.0,MeRA25,Métopo Evropaikís Realistikís Anypakoís,European Realistic Disobedience Front,194576.0,True
+CZ,Komunistická strana Čech a Moravy,Komunistická strana Čech a Moravy,1728.0,KSCM,Komunistická strana Cech a Moravy,Communist Party of Bohemia and Moravia,193817.0,True
+SI,SNS,Slovenska nacionalna stranka,96.0,SNS,Slovenska nacionalna stranka,Slovenian National Party,193768.0,True
+GR,"DIMOKRATIKO PATRIOTIKO KINIMA ""NIKI""","DIMOKRATIKO PATRIOTIKO KINIMA ""NIKI""",9126.0,Niki,Dimokratikó Patriotikó Kínima 'Níki',Democratic Patriotic Movement 'Victory',193124.0,True
+RO,PRU,Partidul Romania Unita,5854.0,PRU,Partidul România Unită,United Romania Party,192444.0,True
+CZ,SUVEREN.,Suverenita - blok Jany Bobosikove,293.0,S — JB,Suverenita — blok Jany Bobošíkové,Sovereignty — Jana Bobosikova Bloc,192145.0,True
+NL,LN,LN,1420.0,LN,Leefbaar Nederland,Livable Netherlands,191949.0,True
+LV,ZRP,Zatlera Reformu partija,1476.0,ZRP,Zatlera Reformu partija,Zatlers' Reform Party,190856.0,True
+EE,Eesti Reformierakond,Eesti Reformierakond,821.0,ER,Eesti Reformierakond,Estonian Reform Party,190632.0,True
+RO,FORȚA DREPTEI,FORȚA DREPTEI,9579.0,FD,Forța Dreptei,Force of the Right,189535.0,True
+CY,EDEK,Kinima Sosialdimokraton EDEK,1028.0,EDEK,Kinima Sosialdimokraton EDEK,Movement for Social Democracy EDEK,189442.0,True
+BG,BNS,Balgarski Naroden Sajuz,263.0,BNS,Balgarski Naroden Sajuz,Bulgarian People's Union,189268.0,True
+PT,ADN,ADN,9817.0,ADN,Alternativa Democrática Nacional,National Democratic Alternative,188966.0,True
+BG,Bulgarian Rise,Bulgarian Rise,9060.0,BV,Balgarski vazhod,Bulgarian Rise,188436.0,True
+RO,PNTCD,Partidul National Taranesc Crestin Democrat,1750.0,PNT-CD,Partidul Naţional Ţărănesc Creştin Democrat,Christian-Democratic National Peasants' Party,188268.0,True
+SK,Sloboda a Solidarita,Sloboda a Solidarita,1386.0,SaS,Sloboda a Solidarita,Freedom and Solidarity,187645.0,True
+BG,CP,Balgarija bes Zensura,3188.0,BBZ,Balgarija bes Zensura,Bulgaria without Censorship,186938.0,True
+CH,SD,Nationale Aktion / Schweizer Demokraten,1819.0,NA-SD,Nationale Aktion / Schweizer Demokraten,National Action / Swiss Democrats,186627.0,True
+PL,PJKM,Platforma Janusza Korwin-Mikke,913.0,PJKM,Platforma Janusza Korwin-Mikke,Platform of Janusz Korwin-Mikke,185864.0,True
+HU,MAGYAR KÉTFARKÚ KUTYA PÁRT,MAGYAR KÉTFARKÚ KUTYA PÁRT,6129.0,MKKP,Magyar Kétfarkú Kutya Párt,Hungarian Two-tailed Dog Party,185052.0,True
+IT,LEGA D'AZIONE MERIDIONALE,,8647.0,LAM,Lega d'Azione Meridionale,Southern Action League,183981.0,True
+DE,PIRATEN,PIRATEN,1287.0,Pirat,Piratenpartei Deutschland,German Pirate Party,183757.9,True
+FR,Divers Écologistes,Divers Écologistes,8657.0,d-eco,divers ecologistes,other greens,182478.0,True
+DK,Ø,Ø. Enhedslisten - De Rød-Grønne,1527.0,Enh,Enhedslisten / De Rød-Grønne,Red-Green Alliance,181452.0,True
+NO,SV,SV - Sosialistisk Venstreparti,719.0,SV,Sosialistisk Venstreparti,Socialist Left Party,181192.0,True
+HU,MSZMP,Magyar Szocialista Munkáspárt,299.0,MSZMP,Magyar Szocialista Munkáspárt,Hungarian Socialist Workers' Party,180964.0,True
+RO,PARTIDUL SOCIAL DEMOCRAT UNIT,PARTIDUL SOCIAL DEMOCRAT UNIT,120.0,PSD,Partidul Social Democrat,Social Democratic Party,177137.0,True
+HR,DPMS-LED COALITION,,8981.0,DP,Domovinski pokret,Homeland Movement,175449.0,True
+HU,MSZDP,Magyarorszagi Szocialdemokrata Part,1726.0,MSzDP,Magyarországi Szociáldemokrata Párt,Social Democratic Party of Hungary (1989),174434.0,True
+HU,MOMENTUM,Momentum Mozgalom,8249.0,MM,Momentum Mozgalom,Momentum Movement,174225.0,True
+FR,CHASSE PECHE NATURE TRADITIONS,,1313.0,CPNT,"Chasse, pêche, nature, traditions","Hunting, Fishing, Nature, Tradition",174214.0,True
+NO,MDG,Miljopartiet De Gronne,1963.0,MDG,Miljøpartiet De Grønne,Green Party,173940.0,True
+IT,IMPEGNO CIVICO LUIGI DI MAIO - CENTRO DEMOCRATICO,IMPEGNO CIVICO LUIGI DI MAIO - CENTRO DEMOCRATICO,2278.0,CD,Centro Democratico,Democratic Centre,173497.0,True
+LV,Jaunā VIENOTĪBA,Jaunā VIENOTĪBA,9089.0,JV,Jaunā Vienotība,New Unity,173425.0,True
+GR,NIKI,NIKI,9126.0,Niki,Dimokratikó Patriotikó Kínima 'Níki',Democratic Patriotic Movement 'Victory',172260.0,True
+GB,DUP,DUP,335.0,DUP,Democratic Unionist Party,Democratic Unionist Party,172058.0,True
+GR,LAE,Laiki Enotita,4512.0,LE,Laïkí Enótita,Popular Unity,170932.0,True
+HR,HDZ-HDS,Hrvatska demokratska zajednica - Hrvatska demokrscanska stranka,1431.0,HDZ,Hrvatska demokratska zajednica,Croatian Democratic Union,170524.0,True
+GR,PLEFSI ELEFTHERIAS - ZOI KONSTANTOPOULOU,PLEFSI ELEFTHERIAS - ZOI KONSTANTOPOULOU,9088.0,PE,Plefsi Eleftherias,Course of Freedom,170424.0,True
+GR,XANA,Dimiourgia Xana,471.0,DX,Dimiourgia Xana,Recreate Greece,168409.0,True
+SK,Slovenská národná strana,Slovenská národná strana,730.0,SNS,Slovenská národná strana,Slovak National Party,166995.0,True
+GR,PLEFSI ELEFTHERIAS-ZOI KONSTANTOPOULOU,PLEFSI ELEFTHERIAS-ZOI KONSTANTOPOULOU,9088.0,PE,Plefsi Eleftherias,Course of Freedom,165523.0,True
+BE,VIVANT,Vivant,76.0,V,Vivant,Alive,165296.0,True
+SK,ZA LUDI,,8394.0,Za,Za ľudí,For the People,165288.0,True
+HR,HDZ-HGS,Hrvatska demokratska zajednica,1431.0,HDZ,Hrvatska demokratska zajednica,Croatian Democratic Union,163287.0,True
+MT,Partit Laburista,Partit Laburista,808.0,MLP,Partit Laburista,Malta Labour Party,162707.0,True
+SI,OTHER,,1856.0,etc,other,other,162530.0,True
+PL,MN,,1439.0,MN,Mniejszość niemiecka w Polsce,German minority,162440.0,True
+DE,ÖDP,ÖDP,7345.0,ODP,Ökologisch-Demokratische Partei,Ecological Democratic Party,162085.5,True
+FR,Union des Démocrates et Indépendants,Union des Démocrates et Indépendants,3229.0,UDI,Union des démocrates et indépendants,Union of Democrats and Independents,161768.0,True
+IT,CASAPOUND ITALIA,,8244.0,CPI,CasaPound Italia,CasaPound Italy,161708.0,True
+RO,INDEPENDENT,,2894.0,indep,independent,independent,158401.0,True
+LT,"PARTY ""ORDER AND JUSTICE"" (LIBERAL DEMOCRATIC PARTY)",Tvarka ir teisingumas - Liberalu Demokratu Partija,237.0,TT — LDP,Tvarka ir teisingumas — Liberalų Demokratų Partija,Order and Justice — Liberal Democratic Party,156777.0,True
+GR,MERA25-SYMMACHIA GIA TI RIXI,MERA25-SYMMACHIA GIA TI RIXI,7348.0,MeRA25,Métopo Evropaikís Realistikís Anypakoís,European Realistic Disobedience Front,155107.0,True
+NO,MDG,Miljøpartiet De Grønne,1963.0,MDG,Miljøpartiet De Grønne,Green Party,152782.0,True
+ES,BLOQUE NACIONALISTA GALEGO,BLOQUE NACIONALISTA GALEGO,1011.0,BNG,Bloque Nacionalista Galego,Galician Nationalist Block,152327.0,True
+PL,NP,,4713.0,KNP,Kongres Nowej Prawicy,Congress of the New Right,151837.0,True
+LU,déi Lénk,déi Lénk,271.0,DL,Déi Lénk,The Left,147839.0,True
+CH,LEGA,Lega dei Ticinesi,1661.0,LdT,Lega dei Ticinesi,Ticino League,147097.0,True
+SK,SIET,Siet,4872.0,S—SKS,Sieť — Slovenská konzervatívna strana,Network — Slovak Conservative Party,146039.0,True
+BG,VOLYA,Volya,5863.0,Volya,Volya,Will,145637.0,True
+EE,EKRE,Eesti Konservatiivne Rahvaerakond,4094.0,EKRE,Eesti Konservatiivne Rahvaerakond,Conservative People’s Party,143972.0,True
+BG,Izpravi se.BG! Nie idvame!,Izpravi se.BG! Nie idvame!,8991.0,IS,Izpravi se!,Stand up!,143699.0,True
+AT,KPO,Kommunistische Partei Osterreichs,996.0,KPO,Kommunistische Partei Österreichs,Communist Party of Austria,142901.0,True
+SK,REPUBLIKA,REPUBLIKA,9072.0,REP,Republika,Republic,141099.0,True
+CH,Mouvement Citoyens Genevois (MCR),Mouvement Citoyens Genevois (MCR),8176.0,MCG,Mouvement Citoyens Genevois,Geneva Citizens' Movement,137802.0,True
+HU,KP-CONS,Koztarsasag Part,3795.0,KP,Köztársaság Párt,Republican Party,137561.0,True
+NO,Venstre,Venstre,1173.0,V,Venstre,Liberal Party of Norway,137433.0,True
+BG,ABC,Alternativa za balgarsko vazrazhdane,3187.0,ABV,Alternativa za balgarsko vazrazhdane,Alternative for Bulgarian Revival,136223.0,True
+LT,FOR ORDER AND JUSTICE,Tvarka ir teisingumas - Liberalu Demokratu Partija,237.0,TT — LDP,Tvarka ir teisingumas — Liberalų Demokratų Partija,Order and Justice — Liberal Democratic Party,135807.0,True
+FR,ALLI,,1177.0,AC,Alliance centriste,Centrist Alliance,135537.0,True
+LU,OTHER,,1847.0,etc,other,other,134042.0,True
+FI,RKP,RKP,1229.0,RKP/SFP,Ruotsalainen Kansanpuolue / Svenska Folkepartiet i Finland,Swedish People's Party of Finland,133518.0,True
+CZ,SNK,Sdruzeni nezavislych,884.0,Sn,Sdruzeni nezavislych,Association of Independents,132699.0,True
+HR,INDEPENDENT,independent,2650.0,indep,independent,independent,132486.0,True
+NO,RV,Rod Valgallianse,44.0,RV,Rød Valgallianse,Red Electoral Alliance,131982.0,True
+DE,SSW,SSW,50.0,SSW,Südschleswigscher Wählerverband,South Schleswig Voter League,131716.0,True
+AT,MARTIN,Liste Dr. Hans-Peter Martin,1708.0,MARTIN,Liste Dr. Hans-Peter Martin,Hans-Peter Martin's List,131688.0,True
+BG,NFSB,Natzionalen Front za Spasenie na Bulgaria,2057.0,NFSB,Natzionalen Front za Spasenie na Bulgaria,National Front for the Salvation of Bulgaria,131169.0,True
+FI,KD,KD,703.0,KD,Kristillisdemokraatit,Christian Democrats / League,130694.0,True
+BG,"Stand Up! Mafia, Get Out!","Stand Up! Mafia, Get Out!",8991.0,IS,Izpravi se!,Stand up!,130663.0,True
+GR,MERA 25 - SYMMACHIA GIA TI RIXI,MERA 25 - SYMMACHIA GIA TI RIXI,7348.0,MeRA25,Métopo Evropaikís Realistikís Anypakoís,European Realistic Disobedience Front,130378.0,True
+DK,D,D. Nye Borgerlige,7339.0,NB,Nye Borgerlige,The New Right,129524.0,True
+IE,SD,Daonlathaigh Shoisialta,4870.0,DS,Daonlathaigh Shóisialta,Social Democrats,127491.0,True
+RO,PER,Partidul Ecologist Roman,1373.0,PER,Partidul Ecologist Român,Romanian Ecologist Party,126763.0,True
+FR,Parti radical de gauche,Parti radical de gauche,1783.0,PRG,Parti radical de gauche,Radical Party of the Left,126689.0,True
+MT,Partit Nazzjonalista,Partit Nazzjonalista,699.0,PN,Partit Nazzjonalista,Nationalist Party,123233.0,True
+HR,LABURISTI,Hrvatski laburisti - Stranka rada,3143.0,CL — LP,Hrvatski laburisti — Stranka rada,Croatian Labourists — Labour Party,121755.0,True
+EE,RESP,Uhendus vabariigi eest / Res Publica,491.0,UVE/RP,Ühendus vabariigi eest / Res Publica,Union for the Republic / Res Publica Party,121383.0,True
+LV,JKP,Jauna konservativa partija,6355.0,JKP,Jaunā konservatīvā partija,New Conservative Party,121083.0,True
+LV,KPV LV,Kam pieder valsts?,6356.0,KPVLV—PCL,Kam pieder valsts? — Par cilvēcīgu Latviju,Who owns the state? — For a Humane Latvia,120264.0,True
+HU,MIEP-JOBBIK,MIEP-Jobbik a Harmadik Ut partszovetseg,8264.0,MIEP — Jobbik,MIÉP — Jobbik a Harmadik Út pártszövetség,MIÉP — Jobbik Third Way Alliance of Parties,119007.0,True
+DE,BP,,61.0,BP,Bayernpartei,Bavarian Party,118368.0,True
+NO,Miljøpartiet De Grønne,Miljøpartiet De Grønne,1963.0,MDG,Miljøpartiet De Grønne,Green Party,117647.0,True
+DK,Å,Å. Alternativet,4070.0,A,Alternativet,The Alternative,117567.0,True
+GB,APNI,Alliance,1477.0,All,Alliance Party of Northern Ireland,Alliance Party of Northern Ireland,117191.0,True
+IE,SOLIDARITY-PBP,Solidarity-People Before Profit,8241.0,S — PBP,Solidarity — People Before Profit,Solidarity — People Before Profit,116424.0,True
+LV,VA-TB/LNNK,Tevzemei un Brivibai / LNNK,1704.0,TB/LNNK,Tēvzemei un Brīvībai / LNNK,For Fatherland and Freedom / LNNK,116385.0,True
+BG,DBG,"""Dvizhenie """"Bulgariya na grazhdanite""""""",2058.0,BNG,"Dvizhenie ""Bulgariya na grazhdanite""",Bulgaria for Citizens Movement,115190.0,True
+LT,Demokratų sąjunga „Vardan Lietuvos“,Demokratų sąjunga „Vardan Lietuvos“,9073.0,DSVL,Demokratų sąjunga „Vardan Lietuvos“,"Union of Democrats ""For Lithuania""",114792.0,True
+ES,COALICIÓN CANARIA,COALICIÓN CANARIA,81.0,CC,Coalición Canaria,Canary Coalition,114718.0,True
+CH,PDA,Partei der Arbeit der Schweiz,669.0,PdA,Partei der Arbeit der Schweiz,Swiss Party of Labour,114176.0,True
+BG,IMRO - Bulgarian National Movement,IMRO - Bulgarian National Movement,2056.0,IMRO,VMRO — Bulgarsko Natsionalno Dvizhenie,IMRO — Bulgarian National Movement,113761.0,True
+LV,Zaļo un Zemnieku savienība,Zaļo un Zemnieku savienība,701.0,ZZS,Zaļo un Zemnieku savienība,Green and Farmers' Union,113676.0,True
+RO,REÎNNOIM PROIECTUL EUROPEAN AL ROMÂNIEI,REÎNNOIM PROIECTUL EUROPEAN AL ROMÂNIEI,9580.0,REPER,Reînnoim Proiectul European al României,Renewing Romania's European Project,113639.0,True
+NO,Kristelig Folkeparti,Kristelig Folkeparti,705.0,KrF,Kristelig Folkeparti,Christian Democratic Party,113344.0,True
+AT,KPÖ,KPÖ,996.0,KPO,Kommunistische Partei Österreichs,Communist Party of Austria,112878.0,True
+EE,ERL,Eestimaa Rahvalliit,110.0,ERL,Eestimaa Rahvalliit,People's Union of Estonia,112776.0,True
+SI,LMS,Lista Marjana Sarca,6132.0,LMS,Lista Marjana Šarca,List of Marjan Sarec,112250.0,True
+CZ,SNK ED,SNK Evropsti demokrate,751.0,SNK-ED,SNK Evropští demokraté,SNK European Democrats,111724.0,True
+LT,"THE COALITION ""LABOR PARTY + YOUTH""",Koalicija Darbo partija + Jaunimas,8279.0,KDJ,Koalicija Darbo partija + Jaunimas,Coalition Labour Party and Youth,111149.0,True
+LT,OTHER,,1846.0,etc,other,other,111040.0,True
+LT,POLITICAL PARTY 'THE WAY OF COURAGE',Drasos Kelias,74.0,DK,Drąsos Kelias,The Way of Courage,109444.0,True
+BG,NV,Hoboto Bpeme,2022.0,HB,Hoboto Bpeme,New Times,107758.0,True
+LT,FREEDOM PARTY,,8982.0,LP,Laisvės partija,Freedom Party,107093.0,True
+IT,SÜDTIROLER VOLKSPARTEI (SVP) - PATT,SÜDTIROLER VOLKSPARTEI (SVP) - PATT,1369.0,SVP,Südtiroler Volkspartei,South Tyrol Peoples Party,106092.0,True
+CH,Ticino League,Ticino League,1661.0,LdT,Lega dei Ticinesi,Ticino League,105868.0,True
+CH,LDU,Landesring der Unabhangigen,1194.0,LdU,Landesring der Unabhängigen,Independents Alliance,105073.0,True
+LV,AP!,,8393.0,AP!,Attīstībai/Par!,Development/For!,101685.0,True
+NO,RODT,Rodt,3698.0,DT,Rødt,Red Party,101273.0,True
+BG,"MOVEMENT ""YES, BULGARIA""",Da Bulgaria,5861.0,DB,Da Bulgaria,"Yes, Bulgaria!",101177.0,True
+BG,DOST ALL.,"Demokrati za Otgovornost, Svoboda i Tolerantnost",5860.0,DOST,"Demokrati za Otgovornost, Svoboda i Tolerantnost","Democrats for Responsibility, Solidarity and Tolerance",100479.0,True
+RO,PARTIDUL ECOLOGIST ROMÂN,PARTIDUL ECOLOGIST ROMÂN,1373.0,PER,Partidul Ecologist Român,Romanian Ecologist Party,100419.0,True
+LT,PARTY 'ORDER AND JUSTICE',Tvarka ir teisingumas - Liberalu Demokratu Partija,237.0,TT — LDP,Tvarka ir teisingumas — Liberalų Demokratų Partija,Order and Justice — Liberal Democratic Party,100110.0,True
+LV,LPP/LC,Latvijas Pirma partija / Latvijas Cels,461.0,LPP/LC,Latvijas Pirmā partija / Latvijas Ceļš,Latvian First Party / Latvian Way Party,100000.0,True
+SK,KSS,Komunisticka strana Slovenska,340.0,KSS,Komunistická strana Slovenska,Communist Party of Slovakia,99317.0,True
+HR,HDSSB,Hrvatski demokratski savez Slavonije i Baranje,2347.0,HDSSB,Hrvatski demokratski savez Slavonije i Baranje,Croatian Democratic Alliance of Slavonia and Baranja,98862.0,True
+ES,CANDIDATURA D'UNITAT POPULAR-PER LA RUPTURA,CANDIDATURA D'UNITAT POPULAR-PER LA RUPTURA,8357.0,CUP,Candidatura d'Unitat Popular,Popular Unity Candidacy,98794.0,True
+HU,MKKP,Magyar Ketfarku Kutya Part,6129.0,MKKP,Magyar Kétfarkú Kutya Párt,Hungarian Two-tailed Dog Party,98758.0,True
+SI,ZARES,Zares,474.0,Zares,Zares,For Real,98526.0,True
+FR,ECOLOGISTE,Aujour'hui l'Ecologie,5953.0,AE,Aujour'hui l'Ecologie,Ecology Today,98292.0,True
+IT,VALLEE D'AOSTE,,6242.0,VdA,Vallée d’Aoste,Aosta Valley,96429.0,True
+LT,Liberalų sąjūdis,Liberalų sąjūdis,1744.0,LRLS,Lietuvos Respublikos Liberalų sąjūdis,Liberals' Movement of the Republic of Lithuania,95868.0,True
+LV,LRA,Latvijas Regionu apvieniba,3194.0,LRa,Latvijas Reģionu apvienība,Latvian Association of Regions,95830.0,True
+PT,PSN,Partido da Solidariedade Nacional,181.0,PSN,Partido da Solidariedade Nacional,National Solidarity Party,95735.0,True
+FR,DL,,4364.0,DL,Démocratie Libérale,Liberal Democracy,95733.0,True
+BG,There is such a people,There is such a people,8992.0,ITN,Ima takav narod,There Is Such a People,94832.0,True
+GB,UUP,UUP,1366.0,UUP,Ulster Unionist Party,Ulster Unionist Party,94779.0,True
+LV,LPP,Latvijas Pirma partija,1778.0,LPP,Latvijas Pirmā partija,Latvia's First Party,94752.0,True
+DK,O,O. Dansk Folkeparti,1022.0,DF,Dansk Folkeparti,Danish Peoples Party,93428.0,True
+EE,Eesti Keskerakond,Eesti Keskerakond,533.0,EK,Eesti Keskerakond,Estonian Centre Party,93254.0,True
+IE,DEMOCRATIC LEFT,Democratic Left,1172.0,DLP,Democratic Left,Democratic Left,92846.0,True
+HU,VP,Vallalkozok Partja Egyesulet,184.0,VP,Vállalkozók Pártja Egyesület,Entrepreneurs' Party,92689.0,True
+SI,LGV,Drzavljanska lista,98.0,DL,Državljanska lista,Civic List,92282.0,True
+CH,FGA,Feministische und grun-alternative Gruppierungen,1201.0,FGr,Feministische und grün-alternative Gruppierungen,Feminists and Green-Alternative Groups,91988.0,True
+HU,HVK,Hazafias Valasztasi Koalicio,1323.0,HVK,Hazafias Választási Koalíció,Patriotic Elections Coalition,91922.0,True
+IE,SOCIALIST PARTY,Pairti Soisialach,1448.0,SP,Páirtí Sóisialach,Socialist Party,90793.0,True
+SK,DV,,8644.0,DV,Dobrá voľba,Good Choice,88194.0,True
+BG,There is Such a People,There is Such a People,8992.0,ITN,Ima takav narod,There Is Such a People,87933.0,True
+LT,Lietuvos valstiečių ir žaliųjų sąjunga,Lietuvos valstiečių ir žaliųjų sąjunga,1490.0,LVŽS / LVLS,Lietuvos valstiečių ir žaliųjų sąjunga / Lietuvos valstiečių liaudininkų sąjunga,Lithuanian Farmers and Greens Union / Lithuanian Peasant Popular Union,87374.0,True
+AT,FRITZ,Burgerforum Osterreich - Liste Fritz Dinkhauser,439.0,Fritz,Bürgerforum Österreich — Liste Fritz Dinkhauser,The Citizens`Forum Austria,87265.0,True
+GB,SDLP,SDLP,762.0,SDLP,Social Democratic and Labour Party,Social Democratic and Labour Party,86861.0,True
+HR,ZIVI ZID,Zivi zid,4867.0,ZiZi,Živi zid,Human Shield,86664.0,True
+PT,CDS-PP,CDS-PP,1308.0,CDS/PP,Centro Democrático e Social / Partido Popular,Democratic and Social Center / People's Party,86577.0,True
+AT,VGO,Vereinte Grune Osterreichs,1170.0,VGO,Vereinte Grüne Österreichs,United Greens Austria,85879.0,True
+LV,"Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""","Nacionālā apvienība ""Visu Latvijai!""-""Tēvzemei un Brīvībai/LNNK""",7619.0,,Nacionālā apvienība,National Alliance,84939.0,True
+BG,PV,People's Voice,2024.0,GN,Glas Naroden,People's Voice,84754.0,True
+SK,VLAST,,8643.0,V,Vlasť,Homeland,84429.0,True
+BE,DéFI,DéFI,698.0,FDF,Front Démocratique des Francophones / DéFI,Democratic Front of Francophones,84024.0,True
+SI,ZAAB,Zaveznistvo Alenke Bratusek / Stranka Alenke Bratusek,3114.0,ZaAB / SAB,Zavezništvo Alenke Bratušek / Stranka Alenke Bratušek,Alliance of Alenka Bratusek / Party of Alenka Bratušek,83785.0,True
+IT,FIAMMA TRICOLORE,Fiamma Tricolore,1101.0,MSFT,Fiamma Tricolore,Fiamma Tricolore,83325.0,True
+DK,NB,Nye Borgerlige,7339.0,NB,Nye Borgerlige,The New Right,83201.0,True
+SI,LEVICA,,6131.0,L,Levica,The Left,83108.0,True
+GR,PLEFSI ELEFTHERIAS,,9088.0,PE,Plefsi Eleftherias,Course of Freedom,82786.0,True
+PT,PSR,Partido Socialista Revolucionario,375.0,PSR,Partido Socialista Revolucionário,Revolutionary Socialist Party,82587.0,True
+LU,LNB,National Bewegong,995.0,NB,National Bewegong,National Movement,82581.0,True
+HR,LABOUR AND SOLIDARITY,Milan Bandic 365 - Stranka rada i solidarnosti,5452.0,BM 365,Bandić Milan 365 — Stranka rada i solidarnosti,Milan Bandic 365 — The Party of Labour and Solidarity,82473.0,True
+SI,NSi,NOVA SLOVENIJA - KRŠČANSKI DEMOKRATI,1618.0,NSi,Nova Slovenija — Krščanska ljudska stranka,New Slovenia — Christian People's Party,81794.0,True
+IT,LA DESTRA,,8188.0,LD,La Destra,The Right,81676.0,True
+EE,Erakond Eesti 200,Erakond Eesti 200,7340.0,E200,Erakond Eesti 200,Estonia 200,81329.0,True
+SK,SF,Slobodne forum,137.0,SF,Slobodné fórum,Free Forum,79963.0,True
+SI,SD,SOCIALNI DEMOKRATI - SD,1403.0,SD/ZLSD,Socialni demokrati / Združena lista socialnih demokratov,Social Democrats / United List of Social Democrats,79709.0,True
+PL,PPP,,3699.0,PPP,Polska Partia Pracy,Polish Labour Party,79324.0,True
+LT,UNION OF FARMERS' PARTY AND NEW DEMOCRACY PARTY,alliance,3971.0,ally,alliance,alliance,78902.0,True
+HR,FOR PRIME MINISTER,,9092.0,KP,Koalicija za Premijera,Coalition for Prime Minister,75938.0,True
+AT,NEIN,Nein - Burgerinitiative gegen die EU Mitgliedschaft,1678.0,Nein,Nein — Bürgerinitiative gegen die EU Mitgliedschaft,No — Citizens' Initiative against EU membership,75126.0,True
+LV,LSDSP,Latvijas Socialdemokratiska Stradnieku Partija,741.0,LSDSP,Latvijas Sociāldemokrātiskā Strādnieku Partija,Latvian Social Democratic Workers' Party,74095.0,True
+HR,THE ONLY OPTION,,8628.0,OOP,The Only Option Coalition,The Only Option Coalition,74028.0,True
+LV,PLL,Par Labu Latviju!,393.0,PLL,Par Labu Latviju!,For a Good Latvia,73881.0,True
+HR,HSLS,Hrvatska socijalno liberalna stranka,214.0,HSLS,Hrvatska socijalno liberalna stranka,Croatian Social Liberal Party,72532.0,True
+IT,SOCIALISTA,Partito Socialista Italiano,742.0,PSI,Partito Socialista Italiano,Italian Socialist Party,72458.0,True
+BG,Revival,Revival,5862.0,V,Vazrazhdane,Revival,71592.0,True
+CZ,Svobodný blok,Svobodný blok,980.0,SB,Svobodný blok,Free Bloc,71587.0,True
+IT,CENTRO DEMOCRATICO,,2278.0,CD,Centro Democratico,Democratic Centre,70836.0,True
+LU,GAL,Greng Lescht Ekologesch Initiativ,475.0,GLEI,Greng Lëscht Ekologesch Initiativ,Green Left Ecological Initiative,69875.0,True
+LV,ATMODA,No sirds Latvijai,3193.0,NsL,No sirds Latvijai,For Latvia from the Heart,69635.0,True
+LT,"PARTY ""ORDER AND JUSTICE""",Tvarka ir teisingumas - Liberalu Demokratu Partija,237.0,TT — LDP,Tvarka ir teisingumas — Liberalų Demokratų Partija,Order and Justice — Liberal Democratic Party,67817.0,True
+BG,IMRO-BNP,VMRO - Bulgarsko Natsionalno Dvizhenie,2056.0,IMRO,VMRO — Bulgarsko Natsionalno Dvizhenie,IMRO — Bulgarian National Movement,66803.0,True
+PT,CH,Chega,8182.0,CH,Chega,Enough,66448.0,True
+BG,Vazrazhdane,Vazrazhdane,5862.0,V,Vazrazhdane,Revival,65767.0,True
+SK,SME RODINA,SME RODINA,4873.0,SR,Sme Rodina — Boris Kollár,We are family — Boris Kollar,65673.0,True
+PT,IL,,8640.0,IL,Iniciativa Liberal,Liberal Initiative,65545.0,True
+DE,NPD,NPD,1723.0,NPD,Nationaldemokratische Partei Deutschlands,National Democratic Party,64582.7,True
+HU,Megoldás Mozgalom,Megoldás Mozgalom,9128.0,MEMO,Megoldás Mozgalom,Solution Movement,64341.0,True
+IS,S,Samfylkingin,1396.0,Sam,Samfylkingin,Social Democratic Alliance,63916.0,True
+DK,SK,Stram Kurs,7338.0,SK,Stram Kurs,Hard Line,63114.0,True
+EE,EG,Erakonna Eestimaa Rohelised,1040.0,EER,Erakonna Eestimaa Rohelised,Estonian Greens,62365.0,True
+LV,"Politiskā partija ""Stabilitātei!""","Politiskā partija ""Stabilitātei!""",9080.0,S!,Stabilitātei!,For Stability!,62168.0,True
+HR,HSP,Hrvatska stranka prava,253.0,HSP,Hrvatska stranka prava,Croatian Party of Rights,62003.0,True
+LT,CHRISTIAN DEMOCRATIC UNION,Krikscioniu demokratu sajunga,776.0,KDS,Krikščionių demokratų sąjunga,Christian Democratic Union,61583.0,True
+SK,SDL,Strana demokratickej lavice,2131.0,SDĽ,Strana demokratickej ľavice,Party of the Democratic Left (2005),61137.0,True
+PT,PDR,Partido Democratico Republicano,4513.0,PDR,Partido Democrático Republicano,Republican Democratic Party,60998.0,True
+CZ,PŘÍSAHA občanské hnutí,PŘÍSAHA občanské hnutí,9002.0,P,Přísaha,Oath,60503.0,True
+LT,LITHUANIAN PEASANTS' PARTY,Lietuvos valstieciu partija,21.0,LVP,Lietuvos valstiečių partija,Lithuanian Peasant Party,60040.0,True
+FR,Extrême Droite,Extrême Droite,452.0,exd,extrême droite,other far-right,59679.0,True
+DK,FK,Faelles Kurs,1676.0,FK,Fælles Kurs,Common Course,57896.0,True
+BG,C-FD,Center-svoboda i dostojnstvo,4095.0,SSD,Center-svoboda i dostojnstvo,Center-Freedom and Dignity,57611.0,True
+NO,KYST,Kystpartiet,677.0,Kp,Kystpartiet,Coastal Party,57538.0,True
+LV,LATVIJA PIRMAJĀ VIETĀ,LATVIJA PIRMAJĀ VIETĀ,9078.0,LPV,Latvija pirmajā vietā,Latvia First,57033.0,True
+EE,Sotsiaaldemokraatlik Erakond,Sotsiaaldemokraatlik Erakond,1150.0,SDE — M,Sotsiaaldemokraatlik Erakond — Mõõdukad,Social Democratic Party — Moderates,56584.0,True
+LT,Laisvės partija,Laisvės partija,8982.0,LP,Laisvės partija,Freedom Party,56379.0,True
+LV,"""PROGRESĪVIE""","""PROGRESĪVIE""",6357.0,P,Progresīvie,The Progressive,56327.0,True
+EE,EV,Eesti Vabaerakond,3271.0,EV,Eesti Vabaerakond,Estonian Free Party,55830.0,True
+FR,AUT,other,1898.0,etc,other,other,55686.0,True
+PT,L,"Livre - Liberdade, Esquerda, Europa e Ecologia",3225.0,L,"Livre — Liberdade, Esquerda, Europa e Ecologia",Livre,55660.0,True
+SI,SLS-SMS,Slovenska ljudska stranka - Stranka mladih Slovenije,764.0,SLS,Slovenska ljudska stranka,Slovenian People's Party,54809.0,True
+BG,ABC-MOVEMENT 21,,3200.0,M21,Movement 21,Movement 21,54412.0,True
+CZ,Strana zelených,Strana zelených,1554.0,SZ,Strana zelených,Green Party,53343.0,True
+CH,CSP,,1122.0,CsP,Christlich-soziale Partei,Christian Social Party,53257.0,True
+SI,LEVICA,LEVICA,6131.0,L,Levica,The Left,53234.0,True
+LT,LITHUANIAN PEASANT AND GREENS UNION,Lietuvos valstieciu ir zaliuju sajunga / Lietuvos valstieciu liaudininku sajunga,1490.0,LVŽS / LVLS,Lietuvos valstiečių ir žaliųjų sąjunga / Lietuvos valstiečių liaudininkų sąjunga,Lithuanian Farmers and Greens Union / Lithuanian Peasant Popular Union,53139.0,True
+NL,TROTS OP NEDERLAND LIJST RITA VERDONK,TROTS OP NEDERLAND LIJST RITA VERDONK,1656.0,TOP,Trots op Nederland,Proud of the Netherlands / List Verdonk,52937.0,True
+ES,MAS PAIS,,8395.0,Pais,Más País,More Country,52478.0,True
+SI,ZDRUZENA LEVICA,Zdruzena levica,4714.0,ZdLe,Združena levica,United Left,52189.0,True
+ES,UNION DEL PUEBLO NAVARRO,UNION DEL PUEBLO NAVARRO,722.0,UPN,Union del Pueblo Navarro,Navarrese Peoples Union,51764.0,True
+NL,Verenigde Senioren Partij,Verenigde Senioren Partij,994.0,AOV/VSP,Algemeen Ouderen Verbond / Verenigde Senioren Partij,General Senior Union / United Seniors Party,51527.0,True
+IT,CIVICA POPOLARE LORENZIN,,7670.0,CP,Civica Popolare,Popular Civic List,50785.0,True
+LT,LITHUANIAN FREEDOM UNION (LIBERALS),Lietuvos Laisves Sajunga (Liberalai),5456.0,LLSL,Lietuvos Laisvės Sąjunga (Liberalai),Lithuanian Freedom Union (Liberals),50629.0,True
+IS,C,Viðreisn,5454.0,V,Viðreisn,Reform Party,50234.0,True
+LU,PID,Partei fir Integral Demokratie,2064.0,PID,Partei fir Integral Demokratie,Party for Full Democracy,49290.0,True
+BG,SDS,Sayuz na Demokratichni Sili,482.0,SDS,Sayuz na Demokratichni Sili,Union of Democratic Forces,48681.0,True
+LV,SLC,Latvijas Cels,1043.0,LC,Latvijas Ceļš,Latvian Way,48432.0,True
+LT,Lietuvos lenkų rinkimų akcija-Krikščioniškų šeimų sąjunga,Lietuvos lenkų rinkimų akcija-Krikščioniškų šeimų sąjunga,556.0,LLRA,Lietuvos lenkų rinkimų akcija,Election Action of Lithuania's Poles,48288.0,True
+GR,ANT.AR.SY.A - ANTIKAPITALISTIKI ARISTERI SYNERGASIA GIA TIN ANATROPI,ANT.AR.SY.A - ANTIKAPITALISTIKI ARISTERI SYNERGASIA GIA TIN ANATROPI,95.0,Antarsya,Antikapitalistiki Aristeri Synergasia gia tin Anatropi,Front of the Greek Anticapitalist Left,47646.0,True
+HR,HSS,Hrvatska seljacka stranka,72.0,HSS,Hrvatska seljačka stranka,Croatian Peasant Party,47448.0,True
+BG,KNR,,2054.0,KR,Koalitsiya na Rozata,Coalition of the Rose,47410.0,True
+NO,PP,,317.0,P,Pensjonistpartiet,Pensioners Party,47013.0,True
+IS,F,Flokkur fólksins,5852.0,FlF,Flokkur fólksins,People's Party,46960.0,True
+RO,FDGR,,2454.0,FDGR,Forumul Democrat al Germanilor din România,Democratic Forum of Germans of Romania,46904.0,True
+IE,RENUA,Renua Ireland,4869.0,RI,Renua Ireland,Renua Ireland,46552.0,True
+LV,OTHER,,1848.0,etc,other,other,45941.0,True
+CY,KOP,Kinima Oikologoi Perivallontistoi,858.0,KOP,Kinima Oikologoi Perivallontistoi,Ecological and Environmental Movement,45901.0,True
+BG,EVROROMA,,2055.0,ER,Evroroma,Euroroma,45637.0,True
+HR,HDZ-DC,Hrvatska demokratska zajednica,1431.0,HDZ,Hrvatska demokratska zajednica,Croatian Democratic Union,45472.0,True
+LV,Attīstībai/Par!,Attīstībai/Par!,8393.0,AP!,Attīstībai/Par!,Development/For!,45452.0,True
+BG,Bulgarian Summer,Bulgarian Summer,9061.0,GPBL,Balgarsko lyato,Bulgarian Summer,45336.0,True
+LT,LITHUANIAN CHRISTIAN DEMOCRATIC PARTY,Lietuvos krikscioniu demokratu partija,6804.0,LKDP,Lietuvos krikščionių demokratų partija,Lithuanian Christian Democratic Party,45227.0,True
+DE,Bayernpartei,Bayernpartei,61.0,BP,Bayernpartei,Bavarian Party,45068.0,True
+SI,LMŠ,LISTA MARJANA ŠARCA - LMŠ,6132.0,LMS,Lista Marjana Šarca,List of Marjan Sarec,44401.0,True
+LT,LITHUANIAN GREEN PARTY,Lietuvos zalioji partija,1407.0,LZP,Lietuvos žalioji partija,Lithuanian Green Party,44030.0,True
+LV,"""Saskaņa"" sociāldemokrātiskā partija","""Saskaņa"" sociāldemokrātiskā partija",87.0,SDP,Sociāldemokrātiskā partija,Social Democratic Party,43943.0,True
+LT,LITHUANIAN CENTRE UNION,Lietuvos centro sajunga,1185.0,LCS,Lietuvos centro sąjunga,Center Union of Lithuania,42030.0,True
+HR,ZIVI ZID-PH-AM,,4867.0,ZiZi,Živi zid,Human Shield,41913.0,True
+LV,LKS,Latvijas Krievu savieniba / <U+0420><U+0443><U+0441><U+0441><U+043A><U+0438><U+0439> <U+0441><U+043E><U+044E><U+0437> <U+041B><U+0430><U+0442><U+0432><U+0438><U+0438>,5657.0,LKS/RSL,Latvijas Krievu savienība / Русский союз Латвии,Latvian Russian Union,41404.0,True
+BG,Republikantsi za Balgariya,Republikantsi za Balgariya,8995.0,RzB,Republikantsi za Balgariya,Republicans for Bulgaria,41261.0,True
+IE,AONTU,,8642.0,A,Aontú,Aontu,40878.0,True
+SI,POVEŽIMO,"POVEŽIMO SLOVENIJO (KONKRETNO, ZELENI, SLS, NLS, NS)",9068.0,K,Konkretno,Concretely,40612.0,True
+SK,99PERCENT,99% - obciansky hlas,629.0,99%,99% — občiansky hlas,99 Percent — Civic Voice,40488.0,True
+FR,EXD,,452.0,exd,extrême droite,other far-right,40082.0,True
+LT,"POLITICAL PARTY ""FRONTAS""",Fronto partija / Socialistinis liaudies frontas,1250.0,F/SLF,Fronto partija / Socialistinis liaudies frontas,Front Party / Socialist People's Front,40016.0,True
+CY,EURO.KO,Evropaiko Komma,1817.0,EK,Evropaiko Komma,European Party,39907.0,True
+NL,Nieuw Sociaal Contract (NSC),Nieuw Sociaal Contract (NSC),9348.0,NSC,Nieuw Sociaal Contract,New Social Contract,39307.0,True
+BG,MOVEMENT 21,,3200.0,M21,Movement 21,Movement 21,39221.0,True
+HR,ORAH,Odrzivi razvoj Hrvatske,3201.0,ORaH,Održivi razvoj Hrvatske,Sustainable Development of Croatia,38218.0,True
+BG,REVIVAL,,5862.0,V,Vazrazhdane,Revival,37896.0,True
+IT,POUR VALLEE D'AOSTE,,6242.0,VdA,Vallée d’Aoste,Aosta Valley,37431.0,True
+LT,LITHUANIAN SOCIAL DEMOCRATIC LABOUR PARTY,,102.0,DP,Darbo Partija,Labour Party,37197.0,True
+GR,ENOSI KENTROON,ENOSI KENTROON,2510.0,EK,Enosi Kentroon,Union of Centrists,36757.0,True
+IS,M,Miðflokkurinn,7565.0,CP,Miðflokkurinn,Centre Party,36578.0,True
+PT,PCTP/MRPP,PCTP/MRPP,857.0,PCTP/MRPP,Comunista dos Trabalhadores Portugueses / Movimento Reorganizativo do Partido do Proletariado,Communist Party of the Portuguese Workers / Reorganizative Movement of the Party of the Proletariat,36354.0,True
+NO,R,Rodt,3698.0,DT,Rødt,Red Party,36219.0,True
+EE,ISAMAALIIT,Isamaaliit,779.0,I,Isamaaliit,Pro Patria Union,35384.0,True
+GR,OIKOLOGOI PRASINOI - PRASINI ENOTITA,OIKOLOGOI PRASINOI - PRASINI ENOTITA,378.0,OP,Oikologoi Prasinoi,Ecologist Greens,35201.0,True
+FI,SEP (1999),Suomen Elakelaisten Puolue,1573.0,SEP,Suomen Eläkeläisten Puolue,Finnish Pensioners’ Party,34930.0,True
+CH,SOL,,8653.0,S,SolidaritéS,Solidarity,34479.0,True
+IT,PARTITO SARDO D'AZIONE-SARDIGNA NATZIONE,,877.0,PSA,Partito Sardo d'Azione,Sardinian Action Party,34302.0,True
+SI,Resni.ca,Državljansko gibanje Resni.ca,9069.0,Res,Resni.ca,Resni.ca,34107.0,True
+NO,Demokratene i Norge,Demokratene i Norge,9012.0,D,Demokratene,Democrats,34068.0,True
+IT,ITALIA EUROPA INSIEME,,7671.0,IEI,Insieme,Together,33935.0,True
+LV,"Politiskā partija ""KATRAM UN KATRAI""","Politiskā partija ""KATRAM UN KATRAI""",9076.0,KuK,Katram un katrai,For Each and Every One,33578.0,True
+IT,ALTERNATIVA SOCIALE MUSSOLINI,,327.0,ASM,Alternativa Sociale Mussolini,Social Alternative Mussolini,33460.0,True
+LV,"""Latvijas Krievu savienība""","""Latvijas Krievu savienība""",5657.0,LKS/RSL,Latvijas Krievu savienība / Русский союз Латвии,Latvian Russian Union,33203.0,True
+SK,ZZDS,,1181.0,ZZ-DS,"Zmena zdola, Demokratická únia Slovenska","Change from the Bottom, Democratic Union of Slovakia",33155.0,True
+LT,Lietuvos liaudies partija,Lietuvos liaudies partija,8256.0,LLP,Lietuvos liaudies partija,Lithuanian People's Party,32813.0,True
+SK,ANO,Aliancia Noveho Obcana,217.0,ANO,Aliancia Nového Občana,Alliance of the New Citizen,32775.0,True
+RO,PARTIDUL ROMÂNIA MARE,PARTIDUL ROMÂNIA MARE,1305.0,PRM,Partidul România Mare,Greater Romania Party,32655.0,True
+DK,Q,"Q. Frie Grønne, Danmarks Nye Venstrefløjsparti",9481.0,Q,Frie Grønne – Danmarks nye venstrefløjsparti,Independent Greens – Denmark's New Left-Wing Party,31787.0,True
+ES,PARTIT DEMÒCRATA EUROPEU CATALÀ-ESPAI CIU,PARTIT DEMÒCRATA EUROPEU CATALÀ-ESPAI CIU,6027.0,PDeCAT,Partit Demòcrata Europeu Català,Catalan European Democratic Party,31687.0,True
+SK,SSS NM,,711.0,SSS,Strana Slobodné Slovo — Nory Mojsejovej,Free Word Party of Nora Mojsejová,31159.0,True
+SI,SAB,STRANKA ALENKE BRATUŠEK,3114.0,ZaAB / SAB,Zavezništvo Alenke Bratušek / Stranka Alenke Bratušek,Alliance of Alenka Bratusek / Party of Alenka Bratušek,31117.0,True
+SI,PIRATE,Piratska stranka Slovenije,3099.0,PSS,Piratska stranka Slovenije,Slovenian Pirate Party,30919.0,True
+IE,PBP,,242.0,PBPA,People Before Profit Alliance,People Before Profit Alliance,30884.0,True
+CY,ED,Enomeni Dimokrates,321.0,ED,Enomeni Dimokrates,United Democrats,30825.0,True
+NL,De Groenen,De Groenen,1533.0,Groen,De Groenen,The Greens,30606.0,True
+CZ,PRISAHA - obcanske hnuti Roberta Slachty,PRISAHA - obcanske hnuti Roberta Slachty,1796.0,OH,Obcanské hnuti,Civic Movement,30147.0,True
+IS,V,Vinstrihreyfingin - grænt framboð,457.0,Graen,Vinstrihreyfingin — grænt framboð,Left-Green Movement,30088.0,True
+HR,ZIVI ZID-PH-SIP-HSSCKS-ZSZ-NLSP-HSS SR,,4867.0,ZiZi,Živi zid,Human Shield,30016.0,True
+IT, +EUROPA, +EUROPA,6155.0,+E,Più Europa,More Europe,29971.0,True
+LT,MODERATE CONSERVATIVE UNION,Nuosaikiuju konservatoriu sajunga,839.0,NKS,Nuosaikiųjų konservatorių sąjunga,Moderate Conservative Union,29615.0,True
+LV,"""SUVERĒNĀ VARA""","""SUVERĒNĀ VARA""",9138.0,SV,Suverēnā vara,Sovereign Power,29603.0,True
+HR,HRAST,,3138.0,Hrast,Hrvatski rast,Croatian Growth,29488.0,True
+FR,Parti Socialiste,Parti Socialiste,1478.0,PS,Parti socialiste,Socialist Party,29242.0,True
+SI,AS,Aktivna Slovenija,1302.0,AS,Aktivna Slovenija,Active Slovenia,28767.0,True
+LT,LITHUANIAN CENTRE PARTY,Lietuvos Centro Partija,5455.0,LCP,Lietuvos Centro Partija,Lithuanian Centre Party,27731.0,True
+FI,VL,VL,488.0,Vl,Vapaamielisten Liitto,Liberal League,27558.0,True
+LT,"Taikos koalicija (Darbo partija, Lietuvos krikščioniškosios demokratijos partija, Žemaičių partija)","Taikos koalicija (Darbo partija, Lietuvos krikščioniškosios demokratijos partija, Žemaičių partija)",102.0,DP,Darbo Partija,Labour Party,27362.0,True
+EE,OTHER,,1840.0,etc,other,other,26904.0,True
+NO,PP,Pensjonistpartiet,317.0,P,Pensjonistpartiet,Pensioners Party,26839.0,True
+BG,Movement of Independent Candidates,Movement of Independent Candidates,2633.0,indep,independent,independent,26080.0,True
+PL,KWW MNIEJSZOŚĆ NIEMIECKA,KWW MNIEJSZOŚĆ NIEMIECKA,1439.0,MN,Mniejszość niemiecka w Polsce,German minority,25778.0,True
+SI,SJN,Slovenija je nasa,740.0,SO,Slovenija je naša,Slovenia is Ours,25343.0,True
+LT,NATIONAL ALLIANCE,,9096.0,NS,https://en.wikipedia.org/wiki/National_Alliance_(Lithuania),National Alliance,25098.0,True
+SK,Kotlebovci - Ľudová strana Naše Slovensko,Kotlebovci - Ľudová strana Naše Slovensko,656.0,LsNS,Ľudová strana Naše Slovensko,People's Party Our Slovakia,25003.0,True
+AT,GILT,,6138.0,GILT,Liste Roland Düringer — Meine Stimme GILT,My Vote Counts!,24793.0,True
+IT,PARTITO COMUNISTA ITALIANO,PARTITO COMUNISTA ITALIANO,34.0,PCI,Partito Comunista Italiano,Italian Communist Party,24787.0,True
+LU,KPL,Kommunistesch Partei Lëtzebuerg,1647.0,KPL,Kommunistesch Partei vu Lëtzebuerg,Communist Party of Luxembourg,24275.0,True
+BG,Stand Up Bulgaria,Stand Up Bulgaria,8991.0,IS,Izpravi se!,Stand up!,24243.0,True
+LT,POLITICAL PARTY 'UNION YES',Tevynes atgimimas ir perspektyva,1806.0,TAIP,Tėvynės atgimimas ir perspektyva,YES — Homeland Revival and Perspective,24127.0,True
+EE,E200,Erakond Eesti 200,7340.0,E200,Erakond Eesti 200,Estonia 200,24114.0,True
+LT,Lietuvos regionų partija,Lietuvos regionų partija,7352.0,LSDDP—LRP,Lietuvos socialdemokratų darbo partija — Lietuvos regionų partija,Social Democratic Labour Party of Lithuania — Lithuanian Regions Party,23547.0,True
+FI,SIN,,5859.0,UV/SIN,Uusi vaihtoehto / Sininen tulevaisuus,New Alternative / Blue Reform,23514.0,True
+LT,CHRISTIAN CONSERVATIVE SOCIAL UNION,Krikscioniu konservatoriu socialine sajunga,52.0,KKSS,Krikščionių konservatorių socialinė sąjunga,Christian Conservative Social Union,23426.0,True
+HR,HDSSB-HKS,,2347.0,HDSSB,Hrvatski demokratski savez Slavonije i Baranje,Croatian Democratic Alliance of Slavonia and Baranja,23380.0,True
+NO,DEMN,Norgesdemokratene,9012.0,D,Demokratene,Democrats,23260.0,True
+CH,Liberale Partei der Schweiz (LPS),Liberale Partei der Schweiz (LPS),444.0,LPS,Liberale Partei der Schweiz,Liberal Party of Switzerland,22782.0,True
+CY,ADIK,Agonistiko Dimokratiko Kinima,1625.0,ADIK,Agonistiko Dimokratiko Kinima,Fighting Democratic Movement,22370.0,True
+GR,FONI LOGIKIS AFRODITI LATINOPOULOU,FONI LOGIKIS AFRODITI LATINOPOULOU,9814.0,FL,Foní Logikís,Voice of Reason,22347.0,True
+GR,KOMMOUNISTIKO KOMMA ELLADAS (MARXISTIKO-LENINISTIKO),KOMMOUNISTIKO KOMMA ELLADAS (MARXISTIKO-LENINISTIKO),48.0,KKE,Kommounistikó Kómma Elládas,Communist Party of Greece,22162.0,True
+IT,FUTURO E LIBERTA',,1179.0,FLI,Futuro e libertà per l'Italia,Future and Freedom for Italy,22105.0,True
+LV,PROGRESIVIE,Progresivie,6357.0,P,Progresīvie,The Progressive,22078.0,True
+LT,"POLITICAL PARTY ""LIST OF LITHUANIA""","""Politine partija """"Lietuvos sarasas""""""",6738.0,List,"Politinė partija ""Lietuvos sąrašas""",Lithuanian List,21966.0,True
+LT,"PARTY ""YOUNG LITHUANIANS""",Jaunoji Lietuva,1026.0,JL,Jaunoji Lietuva,Young Lithuania,21589.0,True
+GR,OIKOLOGOI PRASINOI-PRASINI ENOTITA,OIKOLOGOI PRASINOI-PRASINI ENOTITA,378.0,OP,Oikologoi Prasinoi,Ecologist Greens,21188.0,True
+CY,SYPOL,Symmaxia,3117.0,SYM,Symmaxia,Citizen's Alliance,21114.0,True
+FI,SKP,,7030.0,SKP,Suomen Kommunistinen Puolue,Communist Party of Finland,20974.0,True
+CY,OTHER,,1837.0,etc,other,other,20906.0,True
+RO,PARTIDUL VERDE,PARTIDUL VERDE,7033.0,PV,Partidul Verde,Green Party,20863.0,True
+IT,VALLÉE D’AOSTE – AUTONOMIE PROGRÈS FÉDÉRALISME,VALLÉE D’AOSTE – AUTONOMIE PROGRÈS FÉDÉRALISME,6242.0,VdA,Vallée d’Aoste,Aosta Valley,20763.0,True
+GR,ANTARSYA,,95.0,Antarsya,Antikapitalistiki Aristeri Synergasia gia tin Anatropi,Front of the Greek Anticapitalist Left,20416.0,True
+SI,SNP-DD,NAŠA PRIHODNOST IN DOBRA DRŽAVA,6133.0,DD,Dobra Drzava,Good Country,20279.0,True
+FI,KIPU (2003),,1223.0,KiPu,"Kirjava ""Puolue"" — Elonkehän Puolesta",Ecological Party the Greens,20202.0,True
+SI,SMS-ZELENI,Stranka mladih Slovenije,1401.0,SMS,Stranka mladih Slovenije,Youth Party of Slovenia,20174.0,True
+RO,PARTIDUL SOCIALIST ROMÂN,PARTIDUL SOCIALIST ROMÂN,1073.0,PS,Partidul Socialist,Socialist Party,19695.0,True
+SI,Pirati,PIRATSKA STRANKA SLOVENIJE,3099.0,PSS,Piratska stranka Slovenije,Slovenian Pirate Party,19480.0,True
+DE,Graue Panther,Graue Panther,1652.0,Grau,Die Grauen — Graue Panther,The Grays — Gray Panthers,19443.0,True
+IE,CATHOLIC DEMOCRATS,National Party,2053.0,NP,National Party,National Party,19077.0,True
+SI,LIPA,Stranka Lipa,881.0,LIPA,Stranka Lipa,Party Lime Tree,19068.0,True
+NO,Pensjonistpartiet,Pensjonistpartiet,317.0,P,Pensjonistpartiet,Pensioners Party,19006.0,True
+AT,MFG,MFG,9022.0,MFG,Menschen Freiheit Grundrechte,People Freedom Fundamental Rights,18932.0,True
+LV,DZIMTENE,Dzimtene,897.0,D,Dzimtene,Motherland,18860.0,True
+BG,Bulgarian National Movement,Bulgarian National Movement,2056.0,IMRO,VMRO — Bulgarsko Natsionalno Dvizhenie,IMRO — Bulgarian National Movement,18849.0,True
+CY,NO,Neoi Orizontes,1191.0,NO,Neoi Orizontes,New Horizons,18650.0,True
+NL,Belang Van Nederland (BVNL),Belang Van Nederland (BVNL),9106.0,BVNL,Belang van Nederland,Interest of the Netherlands,18460.0,True
+CY,SOLIDARITY,Kinima Allileggiis,4883.0,KINHMA,Kinima Allileggiis,Solidarity Movement,18424.0,True
+IT,UNION VALDOTAINE PROGRESSISTE,,548.0,UV,Union Valdôtaine,Valdotanian Union,18191.0,True
+IT,PROGRESSISTI,,8053.0,AP,Alleanza dei Progressisti,Alliance of Progressives,17942.0,True
+SI,NAŠA DEŽELA,NAŠA DEŽELA stranka dr. ALEKSANDRE PIVEC,9070.0,ND,Naša dežela,Our Country,17846.0,True
+SI,SNS,SLOVENSKA NACIONALNA STRANKA - SNS,96.0,SNS,Slovenska nacionalna stranka,Slovenian National Party,17736.0,True
+CY,ELAM,Ethniko Laiko Metopo,1013.0,ELAM,Ethniko Laiko Metopo,National Popular Front,17395.0,True
+IT,PARTITO COMUNISTA,,34.0,PCI,Partito Comunista Italiano,Italian Communist Party,17201.0,True
+PT,PND,,1095.0,PND,Partido da Nova Democracia,New Democracy Party,16851.0,True
+FI,POP (1991),,414.0,POP,Perustuslaillinen Oikeistopuolue,Constitutional Right Party,16845.0,True
+IS,J,Sósíalistaflokkur Íslands,9004.0,SFI,Sósíalistaflokkur Íslands,Icelandic Socialist Party,16603.0,True
+LT,SOCIALIST PEOPLE'S FRONT,Fronto partija / Socialistinis liaudies frontas,1250.0,F/SLF,Fronto partija / Socialistinis liaudies frontas,Front Party / Socialist People's Front,16514.0,True
+CZ,RMS,,972.0,RMS,Republikanska Miroslava Sladka,Republicans of Miroslav Sladek,16489.0,True
+LT,CHRISTIAN PARTY,Krikscioniu partija,8254.0,KP,Krikščionių partija,Christian Party,16489.0,True
+EE,KEUR,Konstitutsioonierakond - Eestimaa Uhendatud Rahvapartei,18.0,K — EUR,Konstitutsioonierakond — Eestimaa Ühendatud Rahvapartei,Constitution Party — Estonian United People's Party,16439.0,True
+CZ,DSSS,,805.0,DSSS,Dělnická strana sociální spravedlnosti,Workers' Party of Social Justice,16408.0,True
+LT,LITHUANIAN CHRISTIAN DEMOCRATS,Lietuvos Krikscionys Demokratai,1063.0,LKD,Lietuvos Krikščionys Demokratai,Lithuanian Christian Democrats,16362.0,True
+HU,EGYUTT,,2458.0,Egyutt,Együtt — A Korszakváltók Pártja,Together — Party for a New Era,16315.0,True
+RO,FORUMUL DEMOCRAT AL GERMANILOR DIN ROMÂNIA,FORUMUL DEMOCRAT AL GERMANILOR DIN ROMÂNIA,2454.0,FDGR,Forumul Democrat al Germanilor din România,Democratic Forum of Germans of Romania,16112.0,True
+SI,VESNA,VESNA - zelena stranka,9130.0,VESNA,VESNA – zelena stranka,Vesna -- the Green Party,16089.0,True
+LV,"Politiskā partija ""Republika""","Politiskā partija ""Republika""",9079.0,R,Republika,Republic,16088.0,True
+LV,LG,Latgales Gaisma,404.0,LG,Latgales Gaisma,Light of Latgale,15948.0,True
+CH,Christlich-soziale Partei (CSP),Christlich-soziale Partei (CSP),1122.0,CsP,Christlich-soziale Partei,Christian Social Party,15912.0,True
+IT,POLO PER LE LIBERTA',,8052.0,PL,Polo per le Libertà,Pole for Freedoms,15810.0,True
+HR,HNS,,799.0,HNS — LD,Hrvatska narodna stranka — Liberalni Demokrati,Croatian People's Party — Liberal Democrats,15163.0,True
+LV,SDS,Socialdemokratiska partija,87.0,SDP,Sociāldemokrātiskā partija,Social Democratic Party,15162.0,True
+BG,Ataka,Ataka,1793.0,ATA,Natsionalen Sǎyuz Ataka,National Union Attack,15143.0,True
+DE,DKP,DKP,2125.0,DKP,Deutschkonservative Partei,German Conservative Party,14926.6,True
+EE,EESTIMAA ÜHENDATUD VASAKPARTEI,EESTIMAA ÜHENDATUD VASAKPARTEI,9124.0,EUV,Eestimaa Ühendatud Vasakpartei,Estonian United Left Party,14605.0,True
+RO,ASOCIAȚIA PARTIDA ROMILOR “PRO-EUROPA”,ASOCIAȚIA PARTIDA ROMILOR “PRO-EUROPA”,173.0,PaRo,Partida Romilor,Party of the Roma,14525.0,True
+EE,EEKD,Eesti Kristlikud Demokraadid,790.0,EKD,Eesti Kristlikud Demokraadid,Estonian Christian Democrats,14310.0,True
+BG,Alternativa za Balgarsko Vazrazhdane,Alternativa za Balgarsko Vazrazhdane,3187.0,ABV,Alternativa za balgarsko vazrazhdane,Alternative for Bulgarian Revival,14218.0,True
+EE,Erakond Parempoolsed,Erakond Parempoolsed,83.0,P,Parempoolsed,Right-wingers,14037.0,True
+RO,"ASOCIAȚIA PARTIDA ROMILOR ""PRO-EUROPA""","ASOCIAȚIA PARTIDA ROMILOR ""PRO-EUROPA""",173.0,PaRo,Partida Romilor,Party of the Roma,13881.0,True
+SI,DD,Dobra Drzava,6133.0,DD,Dobra Drzava,Good Country,13540.0,True
+SI,TRS,Stranka za trajnostni razvoj Slovenije,1015.0,TRS,Stranka za trajnostni razvoj Slovenije,Party for Sustainable Development of Slovenia,13477.0,True
+LV,PVL,Visu Latvijai!,506.0,VL,Visu Latvijai!,All For Latvia!,13469.0,True
+LT,"POLITICAL PARTY ""THE WAY OF COURAGE""",Drasos Kelias,74.0,DK,Drąsos Kelias,The Way of Courage,13337.0,True
+LV,SDLP,Socialdemokratiska Labklajibas partija,680.0,SDLP,Sociāldemokrātiskā Labklājības partija,Social Democratic Welfare Party,13234.0,True
+NL,Trots op Nederland (TROTS),Trots op Nederland (TROTS),1656.0,TOP,Trots op Nederland,Proud of the Netherlands / List Verdonk,13198.0,True
+PL,PC,,1649.0,PC,Porozumienie Centrum,Centre Agreement,12838.0,True
+GB,UKUP,,8263.0,UKUP,UK Unionist Party,UK Unionist Party,12817.0,True
+SE,Medborgerlig Samling,Medborgerlig Samling,1633.0,MbS,Medborgerlig samling,Citizens Coalition,12751.0,True
+FR,Radical de Gauche,Radical de Gauche,1783.0,PRG,Parti radical de gauche,Radical Party of the Left,12434.0,True
+LT,LITHUANIAN PEOPLE'S PARTY,,8256.0,LLP,Lietuvos liaudies partija,Lithuanian People's Party,12398.0,True
+BG,Attack,Attack,1793.0,ATA,Natsionalen Sǎyuz Ataka,National Union Attack,12266.0,True
+FR,La France Insoumise,La France Insoumise,5858.0,FI,La France Insoumise,Unbowed France,12224.0,True
+BG,Glas Naroden,Glas Naroden,2024.0,GN,Glas Naroden,People's Voice,12100.0,True
+CH,PSA,,31.0,PSA,Partito socialista autonomo,Autonomous Socialist Party,12006.0,True
+IE,I4C,,8181.0,I4C,Neamhspleáigh ar son an Athraithe,Independents 4 Change,11892.0,True
+BG,ATTACK,ATTACK,1793.0,ATA,Natsionalen Sǎyuz Ataka,National Union Attack,11740.0,True
+IT,VALLE D'AOSTA-ULIVO,L'Ulivo,1737.0,Ulivo,L'Ulivo,The Olive Tree,11526.0,True
+LV,JD,,1000.0,JD,Jaunie Demokrāti,New Democrats,11505.0,True
+BG,People's Voice,People's Voice,2024.0,GN,Glas Naroden,People's Voice,11159.0,True
+SK,TIP,,3222.0,TIP,Strana TIP — Tvoríme inú politiku,TIP Party — We create another policy,11112.0,True
+RO,PUNR,,1451.0,PUNR,Partidul Unitatii Naţionale a Romanilor,Romanian National Unity Party,11088.0,True
+LV,VL,Vienoti Latvijai,3195.0,ViLa,Vienoti Latvijai,United for Latvia,10788.0,True
+PT,UDP,,896.0,UDP,União Democrática Popular,Popular Democratic Union,10142.0,True
+SK,Komunistická strana Slovenska,Komunistická strana Slovenska,6980.0,KSS,Komunistická strana Slovenska,Communist Party of Slovakia (1939),9867.0,True
+ES,GEROA BAI,GEROA BAI,8358.0,GB,Geroa Bai,Yes to the Future,9839.0,True
+DK,GREEN,,112.0,Gron,De Gronne,Greens,9775.0,True
+SI,GPS,Zeleni Slovenije,1494.0,ZS,Zeleni Slovenije,Greens of Slovenia,9708.0,True
+BG,PEOPLE'S PARTY THE TRUTH AND ONLY THE TRUTH,PEOPLE'S PARTY THE TRUTH AND ONLY THE TRUTH,6746.0,NP,Narodna partiya,People's Party,9549.0,True
+MT,AD,Alternattiva Demokratika,62.0,AD,Alternattiva Demokratika,Democratic Alternative,9316.0,True
+PT,MPT,,3226.0,MPT / PT,Movimento Partido da Terra / Partido da Terra,The Earth Party Movement / Earth Party,9213.0,True
+LV,TAUTAS KALPI LATVIJAI,TAUTAS KALPI LATVIJAI,9139.0,TKL,Tautas kalpi Latvijai,People's Servants for Latvia,9176.0,True
+RO,USR,,5969.0,USR,Uniunea Salvați România,Save Romania Union,9137.0,True
+SE,Piratpartiet,Piratpartiet,1485.0,PP,Piratpartiet,Pirate Party,9123.0,True
+NL,Piratenpartij - De Groenen,Piratenpartij - De Groenen,1533.0,Groen,De Groenen,The Greens,9107.0,True
+NL,Solidariteit Boerenpartij,Solidariteit Boerenpartij,1110.0,Bp,Boerenpartij,Farmers Party,9096.0,True
+GR,CHRYSI AVGI,Laikos Syndesmos / Chrysi Avgi,1660.0,LS/CA,Laïkós Sýndesmos / Chrysí Avgí,People’s Association / Golden Dawn,8858.0,True
+IE,UNITED LEFT ALLIANCE,,1978.0,ULA,United Left Alliance,United Left Alliance,8818.0,True
+BG,Coalition For Bulgaria,Coalition For Bulgaria,1665.0,KzB — BSP,Koalicija za Balgarija — BSP za Bŭlgariya,Coalition for Bulgaria — BSP for Bulgaria,8561.0,True
+BG,"PATRIOTIC FRONT - NFSB, BDS RADICALS AND BNDS ENTIRE BULGARIA","PATRIOTIC FRONT - NFSB, BDS RADICALS AND BNDS ENTIRE BULGARIA",5649.0,PF,Patriotichen front,Patriotic Front,8389.0,True
+GR,MARXISTIKO-LENINISTIKO KOMMOUNISTIKO KOMMA ELLADAS,MARXISTIKO-LENINISTIKO KOMMOUNISTIKO KOMMA ELLADAS,48.0,KKE,Kommounistikó Kómma Elládas,Communist Party of Greece,8172.0,True
+LV,LA,,3213.0,LAAT,Latvijas attīstībai,Latvian Development,8156.0,True
+BG,Republicans for Bulgaria,Republicans for Bulgaria,8995.0,RzB,Republikantsi za Balgariya,Republicans for Bulgaria,8116.0,True
+SK,"Modrí, Most - Híd","Modrí, Most - Híd",258.0,MH,MOST-HID,Most-Hid,7935.0,True
+SI,DeSUS,DeSUS - DEMOKRATIČNA STRANKA UPOKOJENCEV SLOVENIJE,467.0,DeSUS,Demokratična stranka upokojencev Slovenije,Democratic Party of Retired People of Slovenia,7840.0,True
+MT,OTHER,,1849.0,etc,other,other,7666.0,True
+HR,SDSS,,2348.0,SDSS,Samostalna demokratska srpska stranka,Independent Democratic Serb Party,7606.0,True
+PT,NC,NC,7358.0,NC,"Nós, Cidadãos!","We, the Citizens!",7395.0,True
+HR,HGS,,6620.0,HGS,Hrvatska građanska stranka,Croatian Civic Party,7277.0,True
+HR,ZIVI ZID-AM,,4867.0,ZiZi,Živi zid,Human Shield,7073.0,True
+PT,PRD,,1600.0,PRD,Partido Renovador Democrático,Democratic Renewal Party,7070.0,True
+LU,VOLT,VOLT Luxembourg - Lëtzebuerg,7353.0,VL,Volt Luxembourg,Volt Luxembourg,7001.0,True
+BG,WILL,WILL,5863.0,Volya,Volya,Will,6910.0,True
+PT,MPT,MPT,3226.0,MPT / PT,Movimento Partido da Terra / Partido da Terra,The Earth Party Movement / Earth Party,6900.0,True
+HR,ZIVI ZID-PH-SIP-NLSP-AM,,4867.0,ZiZi,Živi zid,Human Shield,6829.0,True
+EE,EE,Elurikkuse Erakond,7341.0,ELE,Elurikkuse Erakond,Richness of Life,6752.0,True
+FR,Divers extrême droite,Divers extrême droite,452.0,exd,extrême droite,other far-right,6457.0,True
+SK,HZD,,2133.0,HZD,Hnutie za demokraciu,Movement for Democracy,6133.0,True
+PT,PPM,PPM,1480.0,PPM,Partido Popular Monárquico,Popular Monarchist Party,6007.0,True
+FR,EXTREME DROITE,,452.0,exd,extrême droite,other far-right,5979.0,True
+LV,KDS,,304.0,KDS,Kristīgi demokrātiskā savienība,Christian Democratic Union,5481.0,True
+GR,EN. KENTROON,Enosi Kentroon,2510.0,EK,Enosi Kentroon,Union of Centrists,5375.0,True
+CY,KEP,K.E.P,1066.0,KEP,K.E.P,Free Citizens Movement,5157.0,True
+CH,POCH,,121.0,POCH,Progressive Organisationen der Schweiz,Progressive Organisations of Switzerland,4552.0,True
+BG,Bulgarian National Union - New Democracy,Bulgarian National Union - New Democracy,8260.0,BNU — ND,Balgarski Natsionalen Saiuz — ND,Bulgarian National Union — New Democracy,4476.0,True
+RO,PP,,5449.0,PP,Partidul Poporului,People's Party,4225.0,True
+HR,HOMELAND,,8981.0,DP,Domovinski pokret,Homeland Movement,4111.0,True
+CY,APC,Kinima gia ta zoa tis Kiprou,4884.0,KGTZTK,Kinima gia ta zoa tis Kiprou,Animal Party Cyprus,4088.0,True
+ES,PARTIDO ARAGONÉS,PARTIDO ARAGONÉS,946.0,PAR,Partido Aragonés Regionalista,Aragonese Regionalist Party,4088.0,True
+LT,LITHUANIAN SOCIAL DEMOCRATIC UNION,,8258.0,LSDS,Lietuvos socialdemokratų sąjunga,Lithuanian Social Democratic Union,4075.0,True
+IT,REPUBBLICANI EUROPEI,,1165.0,MRE,Movimento Repubblicani Europei,European Republicans Movement,3957.0,True
+IT,RINNOVAMENTO,Rinnovamento Italiano,259.0,RiI,Rinnovamento Italiano,Italian Renewal,3825.0,True
+BG,Bulgarian National Union,Bulgarian National Union,8260.0,BNU — ND,Balgarski Natsionalen Saiuz — ND,Bulgarian National Union — New Democracy,3717.0,True
+EE,VEE,,1975.0,VEE,Vene Erakond Eestis,Russian Party in Estonia,3579.0,True
+SK,"Maďarské fórum, Občianski demokrati Slovenska, Za regióny, Rómska koalícia, Demokratická strana","Maďarské fórum, Občianski demokrati Slovenska, Za regióny, Rómska koalícia, Demokratická strana",983.0,DS,Demokratická strana,Democratic Party,3486.0,True
+LT,LITHUANIAN NATIONAL UNION,,377.0,LTS,Lietuvių tautininkų sąjunga,Lithuanian National Union,3472.0,True
+LT,PARTY 'YOUNG LITHUANIA',Jaunoji Lietuva,1026.0,JL,Jaunoji Lietuva,Young Lithuania,3416.0,True
+BG,National Front for the Salvation of Bulgaria,National Front for the Salvation of Bulgaria,2057.0,NFSB,Natzionalen Front za Spasenie na Bulgaria,National Front for the Salvation of Bulgaria,3400.0,True
+FR,Parti Communiste Français,Parti Communiste Français,1251.0,PCF,Parti communiste française,French Communist Party,3125.0,True
+FI,SKP,SKP,7030.0,SKP,Suomen Kommunistinen Puolue,Communist Party of Finland,3044.0,True
+HR,PAMETNO,,7336.0,P,Pametno,Intelligently,3010.0,True
+BG,Green Party,Green Party,659.0,ZP,Zelena Partija,Green Party of Bulgaria,2939.0,True
+SE,Feministiskt initiativ,Feministiskt initiativ,1240.0,Fi,Feministiskt initiativ,Feminist Initiative,2938.0,True
+LV,PA,,5786.0,PA,Progresīvā apvienība,Progressive Union,2900.0,True
+RO,PARTIDUL NAȚIONAL ȚĂRĂNESC MANIU-MIHALACHE,PARTIDUL NAȚIONAL ȚĂRĂNESC MANIU-MIHALACHE,5450.0,PNT,Partidul National Tărănesc,National Peasants' Party,2727.0,True
+IT,RINNOVAMENTO DEMOCRATICO,Rinnovamento Italiano,259.0,RiI,Rinnovamento Italiano,Italian Renewal,2672.0,True
+NL,De Conservatieven.nl,De Conservatieven.nl,5686.0,C,Conservatieven,Conservatives,2521.0,True
+NL,Nieuwe Midden Partij,Nieuwe Midden Partij,369.0,NMP,Nieuwe Midden Partij,New Middle Party,2305.0,True
+SI,DOM,DOMOVINSKA LIGA - DOM,7362.0,DOM,Domovinska liga,Patriotic League,2117.0,True
+RO,PARTIDUL SOCIAL DEMOCRAT AL MUNCITORILOR,PARTIDUL SOCIAL DEMOCRAT AL MUNCITORILOR,120.0,PSD,Partidul Social Democrat,Social Democratic Party,1912.0,True
+IT,P.LIBERALE ITALIANO,Partito Liberale Italiano,1461.0,PLI,Partito Liberale Italiano,Italian Liberal Party,1628.0,True
+LV,IZAUGSME,,7864.0,I,Izaugsme,Growth,1515.0,True
+LV,"Partija ""Vienoti Latvijai""","Partija ""Vienoti Latvijai""",3195.0,ViLa,Vienoti Latvijai,United for Latvia,1413.0,True
+CZ,ODA,,1008.0,ODA,Občanská demokratická aliance,Civic Democratic Alliance,1277.0,True
+LV,RP,,1476.0,ZRP,Zatlera Reformu partija,Zatlers' Reform Party,1059.0,True
+HR,AM,,3136.0,AM,Akcija mladih,Youth Action,907.0,True
+BG,IC for the promotion of Veselin Naydenov Mareshki as an independent candidate for the People's Representative,IC for the promotion of Veselin Naydenov Mareshki as an independent candidate for the People's Representative,2633.0,indep,independent,independent,638.0,True
+CZ,Volte Pravý Blok www.cibulka.net,Volte Pravý Blok www.cibulka.net,904.0,PB,Pravý Blok,Right Bloc,429.0,True
+BG,Independent,Independent,2633.0,indep,independent,independent,428.0,True
+BG,IC for the promotion of Tsvetan Hristov Atanasov with an independent candidate,IC for the promotion of Tsvetan Hristov Atanasov with an independent candidate,2633.0,indep,independent,independent,312.0,True
+NO,Norges Kommunistiske Parti,Norges Kommunistiske Parti,1079.0,NKP,Norges Kommunistiske Parti,Communist Party of Norway,301.0,True
+RO,PARTIDUL REPUBLICAN DIN ROMÂNIA,PARTIDUL REPUBLICAN DIN ROMÂNIA,1457.0,PaRe,Partidul Republican,Republican Party,279.0,True
+RO,PARTIDUL NAȚIONAL ȚĂRĂNESC CREȘTIN DEMOCRAT,PARTIDUL NAȚIONAL ȚĂRĂNESC CREȘTIN DEMOCRAT,1750.0,PNT-CD,Partidul Naţional Ţărănesc Creştin Democrat,Christian-Democratic National Peasants' Party,270.0,True
+NO,Kystpartiet,Kystpartiet,677.0,Kp,Kystpartiet,Coastal Party,171.0,True
+GR,Independent candidates,Independent candidates,2708.0,indep,independent,independent,155.0,True
+BG,IC for Petar Konstantinov Nizamov - independent,IC for Petar Konstantinov Nizamov - independent,2633.0,indep,independent,independent,129.0,True
+BG,David Leon Levy - independent,David Leon Levy - independent,2633.0,indep,independent,independent,53.0,True
+NO,NKP,Norges Kommunistiske Parti,1079.0,NKP,Norges Kommunistiske Parti,Communist Party of Norway,50.0,True
+SE,Ny Demokrati,Ny Demokrati,343.0,NyD,Ny Demokrati,New Democracy,4.0,True
+SE,Stora Norrland's independent Freedom Party,Stora Norrland's independent Freedom Party,2934.0,indep,independent,independent,1.0,True

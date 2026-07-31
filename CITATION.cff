@@ -6,15 +6,16 @@ title: "European National Elections at NUTS Level, 1983-2025"
 type: dataset
 authors:
   - family-names: Schallmeiner
-    given-names: Alexander
+    given-names: A.
     email: schallmeiner.a1@gmail.com
 version: "1.0"
-date-released: "2026-07-26"
+date-released: "2026-07-31"
 abstract: >-
   Party-level results of national parliamentary (lower-chamber) elections
   for 32 European countries, 254 elections, 1983-2025, harmonised to NUTS
   territorial units in three NUTS vintages (2016, 2021, 2024) with
-  party-family classification and time-aware PopuList flags.
+  party-family classification and time-aware PopuList flags in both a
+  borderline-inclusive and a strict variant.
 references:
   - type: article
     authors:
@@ -42,10 +43,30 @@ references:
         given-names: David
     title: "Constituency-Level Elections Archive (CLEA), release 2025-10-15"
     year: 2025
-  - type: data
+  - type: article
     authors:
       - family-names: Rooduijn
         given-names: Matthijs
-    title: "The PopuList 3.0"
-    year: 2023
+      - family-names: Pirro
+        given-names: Andrea L. P.
+      - family-names: Halikiopoulou
+        given-names: Daphne
+      - family-names: Froio
+        given-names: Caterina
+      - family-names: van Kessel
+        given-names: Stijn
+      - family-names: de Lange
+        given-names: Sarah L.
+      - family-names: Mudde
+        given-names: Cas
+      - family-names: Taggart
+        given-names: Paul
+    title: "The PopuList: A Database of Populist, Far-Left, and Far-Right Parties Using Expert-Informed Qualitative Comparative Classification (EiQCC)"
+    journal: "British Journal of Political Science"
+    volume: 54
+    issue: 3
+    start: 969
+    end: 978
+    year: 2024
+    notes: "Flags built from The PopuList 4.0 (released May 2026)."
     url: "https://popu-list.org"

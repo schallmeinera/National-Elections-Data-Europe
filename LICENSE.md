@@ -37,8 +37,9 @@ By using this dataset you agree to honour them:
 - **CLEA** (Constituency-Level Elections Archive) — cite CLEA in any work
   using rows with `source = "CLEA 2025-10"`. CLEA data are free of charge;
   users are asked to register/cite at electiondataarchive.org.
-- **The PopuList 3.0** — cite Rooduijn et al. for any use of the
-  `populist` / `farright` / `farleft` / `eurosceptic` flags.
+- **The PopuList 4.0** — cite Rooduijn et al. for any use of the
+  `populist` / `farright` / `farleft` / `eurosceptic` flags and their
+  `_strict` counterparts.
 - **CHES** (Chapel Hill Expert Survey) — cite for uses relying on the
   party-family taxonomy.
 - **Partyfacts** — CC BY 4.0; cite for uses of the partyfacts ids.
