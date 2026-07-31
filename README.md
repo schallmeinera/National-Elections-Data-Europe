@@ -12,16 +12,16 @@ in both a borderline-inclusive and a strict variant, and a Partyfacts id where
 recoverable. 99.1 % of all votes are family-classified, with no country below
 97.9 %.
 
-Two conventions worth knowing before you write any code against this file:
+Two conventions govern the party columns:
 
-- **`party_abbreviation` is the column to group by, and it is never empty.**
+- `party_abbreviation` is populated on every row and is the party identifier.
   Outside the EU-NED backbone it holds the source's own party string, which is
-  a full name in the CLEA-sourced countries (`Rassemblement National`) and a
-  genuine abbreviation elsewhere (`AfD`). `party_label_source` records which.
-- **The far-right share you report depends on which flag you pick.**
-  `farright` follows PopuList's borderline-inclusive window, `farright_strict`
-  its strict one. Norway 2021 is 12.7 % far right inclusive and 1.1 % strict.
-  See § Borderline flags below.
+  a full name in the CLEA-sourced countries (`Rassemblement National`) and an
+  abbreviation elsewhere (`AfD`). `party_label_source` records which.
+- The PopuList flags come in two variants. `farright` follows PopuList's
+  borderline-inclusive window, `farright_strict` its strict one, and the two
+  can differ substantially: Norway 2021 is 12.7 % far right inclusive and
+  1.1 % strict. See § Borderline flags below.
 
 The database extends **EU-NED v1.1** (Schraff, Vergioglou & Demirci 2022),
 which ends in 2020, with 25 post-2020 elections parsed from official
@@ -84,17 +84,16 @@ and BG BSP. Both series are shipped: `farright` is the inclusive one,
 `farright_strict` the strict one, likewise for `populist`, `farleft` and
 `eurosceptic`.
 
-The choice is consequential and it is yours to make. Norway 2021 is 12.7 %
-far right on the inclusive flag and 1.1 % on the strict one; Belgium 2024 is
-30.5 % against 13.8 %; Poland 2005 is 36.5 % against 9.5 %. Report which
-variant you used. Hand-coded radical-right and radical-left families get
-identical inclusive and strict windows, because a hand assignment carries no
-borderline qualifier.
+The two variants diverge widely in some country-elections: Norway 2021 is
+12.7 % far right on the inclusive flag and 1.1 % on the strict one, Belgium
+2024 is 30.5 % against 13.8 %, and Poland 2005 is 36.5 % against 9.5 %.
+Hand-coded radical-right and radical-left families carry identical inclusive
+and strict windows, since a hand assignment has no borderline qualifier.
 
-This also explains most rows where `farright = 1` sits beside a `party_family`
-other than "Radical right". The residual disagreements are genuine conflicts
-between the two upstream sources rather than errors, chiefly HU Fidesz, which
-CHES places as Conservative and PopuList codes far right from 2010.
+The borderline cases also account for most rows where `farright = 1` sits
+beside a `party_family` other than "Radical right". The remaining such rows
+reflect disagreement between the two upstream sources, chiefly HU Fidesz,
+which CHES places as Conservative and PopuList codes far right from 2010.
 
 ## Coverage
 
@@ -191,13 +190,15 @@ Run order: `04_build_crosswalks.py` → `06_export_clea.R` → `07_map_clea.py` 
 `32_apply_classification.py` → `39_fill_party_labels.py` → `38_build_nuts3.py`
 → `10_coverage.py` → `33_consolidate.py` → `30_validate.py`.
 
-`39` must run **after** `32`, because the classification merges on the four
-name columns and would stop matching the extension rows once their empty
-labels are filled, and **before** `38` and `33`, which copy the finest tables
-forward. It is idempotent (it re-reads its own `party_label_source` column to
-recover which rows were originally empty) and strictly additive: on the
-2026-07-30 run every numeric and classification column came out byte-identical,
-no existing abbreviation was overwritten, and row counts were unchanged.
+Ordering constraint: `39` runs after `32`, because the classification merges on
+the four name columns and stops matching the extension rows once their labels
+are filled, and before `38` and `33`, which copy the finest tables forward. It
+is idempotent, re-reading its own `party_label_source` column to identify the
+rows it filled, and it writes no column other than `party_abbreviation`,
+`party_label_source`, `pf_name_short` and `pf_name_english`.
+
+Classification (`31`, `32`, `39`) runs on the finished territorial panel, so no
+classification step alters vote counts, regional boundaries or table structure.
 
 ## Citation
 
@@ -217,21 +218,11 @@ sources (see [CITATION.cff](CITATION.cff)):
   Political Science*, 54(3), 969–978. (For the populist / far-right /
   far-left / eurosceptic flags and their `_strict` counterparts.)
 
-  The flags here are built from **The PopuList 4.0** (released May 2026),
-  https://popu-list.org. Note that popu-list.org's own recommended dataset
-  citation still names version 3.0 (2023).
+  The flags are built from **The PopuList 4.0** (released May 2026),
+  https://popu-list.org, whose own recommended dataset citation still names
+  version 3.0 (2023).
 
 ## Licence
 
 See [LICENSE.md](LICENSE.md): code MIT; compiled dataset CC BY 4.0, subject
 to the attribution requirements of the upstream sources listed there.
-
-## Build provenance
-
-The database was assembled in July 2026. The EU-NED backbone was combined with
-CLEA and 25 official-source extensions, Germany was placed on a Kreis
-(NUTS-3) base and the Netherlands on a municipality-to-COROP (NUTS-3) base for
-the full 1994–2025 series, and Iceland was added. Party-family and PopuList
-classification was built on top of the finished territorial panel, so no
-classification step touches vote counts or regional boundaries. Both
-validation layers described above were run against the released files.

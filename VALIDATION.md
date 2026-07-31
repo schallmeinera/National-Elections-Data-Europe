@@ -48,19 +48,19 @@ build validator. Sections 10 and 11 target the party layer specifically.
 | 8 party-identity checks on labels known to be ambiguous or collision-prone (BE N-VA/CD&V, BE 2024 far-right share, DK ballot letter A, SI Združena levica, IT Lega, NL SP, DE BSW) | 8/8 pass |
 
 Four of the 20 spot checks use a reference value adjusted to this database's
-representation conventions rather than the headline official percentage. They
-are described below, because the reasoning matters for anyone comparing these
-tables against official national figures.
+representation conventions rather than the headline official percentage. The
+adjustments are listed below, since the same conventions apply to any
+comparison against official national figures.
 
-### The documented upstream exception
+### Upstream exception
 
 The strict PopuList flags are a subset of the inclusive ones everywhere except
 Lithuania's *Tvarka ir teisingumas*, for which PopuList publishes an empty
 inclusive eurosceptic window (2100–2100) alongside an open strict one
 (1900–2100). 48 rows (LT 2008) therefore carry `eurosceptic = 0` beside
 `eurosceptic_strict = 1`. The values are left as PopuList delivers them,
-consistent with how this database handles other source-inherited anomalies,
-and the audit fails if any *other* such case appears.
+consistent with how this database handles other source-inherited anomalies.
+The audit fails if any other such case appears.
 
 ### The four adjusted reference values
 

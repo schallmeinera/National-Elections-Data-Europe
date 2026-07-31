@@ -24,9 +24,9 @@ national partition** at the levels indicated by `nuts_level`.
 | `nuts_level` | int | 1, 2 or 3 (= `len(nuts_code) − 2`). Mixed within a country-election only in `finest`. |
 | `nuts_vintage` | int | 2016, 2021 or 2024 — the NUTS classification the codes refer to. |
 | `regionname` | str | Region name. |
-| `party_abbreviation` | str | **Never empty; this is the column to group by.** On EU-NED-backbone rows and the AT/SI/GB/LU/NO/DK/IS parsers it is the abbreviation the source supplied. On the remaining extension rows it is the source's own party string copied verbatim from `party_native`, which in the CLEA-sourced countries is a full name (`Rassemblement National`, `NEA DIMOKRATIA`). It is therefore an identifier, not a guaranteed abbreviation. |
+| `party_abbreviation` | str | Party identifier, populated on every row. On EU-NED-backbone rows and the AT/SI/GB/LU/NO/DK/IS parsers it is the abbreviation the source supplied. On the remaining extension rows it is the source's own party string copied verbatim from `party_native`, which in the CLEA-sourced countries is a full name (`Rassemblement National`, `NEA DIMOKRATIA`). It is an identifier, not a guaranteed abbreviation. |
 | `party_label_source` | str | `source` = the ingester supplied `party_abbreviation`; `native` = it was copied from `party_native` by `code/39_fill_party_labels.py`. 64 / 36 % in `finest_2016`. |
-| `party_english` | str | English party name as the sources gave it (47.6 % populated, all EU-NED). **Not a key**: do not group by it. |
+| `party_english` | str | English party name as the sources gave it (47.6 % populated, all EU-NED). Incomplete, and therefore not usable as a key. |
 | `party_native` | str | Native-language name as reported by the source (extension rows always have this; Greek CLEA names are transliterated, e.g. SYRIZA = "SYNASPISMOS RIZOSPASTIKIS ARISTERAS…"). Verbatim source text, never modified. For matching, search all three name columns. |
 | `partyfacts_id` | float | Partyfacts id as delivered by EU-NED (missing on CLEA rows). |
 | `partyfacts_id_matched` | float | Partyfacts id after the classification build's name-matching (81 % of rows). Prefer this over `partyfacts_id`. |
@@ -40,7 +40,7 @@ national partition** at the levels indicated by `nuts_level`.
 | `party_family` | str | CHES 11-family taxonomy: Radical right, Conservative, Liberal, Christian democratic, Social democratic, Radical left, Green, Regionalist, Agrarian/center, Confessional/agrarian/other, No family. Missing = unclassified (small local lists; 0.9 % of votes, none reaching 1 % in any single election). |
 | `family_source` | str | Where the family came from, in priority order: `ep_panel` > `ess_build` > `ches_link` > `populist_implied` > `manual` / `manual_override` > `generic` / `variant_harmonized`. |
 | `populist`, `farright`, `farleft`, `eurosceptic` | float | **Time-aware PopuList dummies evaluated at the election year**, using PopuList's borderline-**inclusive** window (e.g. Fidesz counts as far right from 2010). 1 = flagged, 0 = identified party not flagged, NaN = party not identified. PopuList does not cover Turkey; Turkish flags are family-implied via manual coding. |
-| `populist_strict`, `farright_strict`, `farleft_strict`, `eurosceptic_strict` | float | The same flags on PopuList's **strict** window, which excludes parties it marks as borderline. Same NaN pattern as the inclusive flags. 22 party identities differ on `farright`, 37 on `populist`, 16 on `farleft`, 9 on `eurosceptic`. Report which variant you used; see README § Borderline flags. |
+| `populist_strict`, `farright_strict`, `farleft_strict`, `eurosceptic_strict` | float | The same flags on PopuList's **strict** window, which excludes parties it marks as borderline. Same NaN pattern as the inclusive flags. 22 party identities differ on `farright`, 37 on `populist`, 16 on `farleft`, 9 on `eurosceptic`. See README § Borderline flags. |
 
 ### Pseudo-party rows
 
